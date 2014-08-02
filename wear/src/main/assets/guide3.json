@@ -1,0 +1,25 @@
+{
+	"id": "guide2",
+	"title": "Guide 3",
+	"photo": "http://lorempixel.com/280/280/abstract/",
+	"steps": [
+	    {
+		    "text": "Step 1",
+		    "countdown": 0,
+		    "countup": false,
+		    "photo" : "http://lorempixel.com/280/280/abstract/"
+	    },
+	    {
+		    "text": "Step 2",
+		    "countdown": 10,
+		    "countup": false,
+		    "photo" : ""
+	    },
+	    {
+        	"text": "Step 3",
+        	"countdown": 0,
+        	"countup": true,
+        	"photo" : "http://lorempixel.com/280/280/abstract/"
+        }
+	]
+}

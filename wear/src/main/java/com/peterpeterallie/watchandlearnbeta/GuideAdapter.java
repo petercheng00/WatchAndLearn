@@ -7,29 +7,39 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.peterpeterallie.watchandlearnbeta.model.Guide;
+
+import java.util.List;
+
 public class GuideAdapter extends GridPagerAdapter {
 
     private Context context;
+    private List<Guide> guides;
 
-    public GuideAdapter(Context context) {
+    public GuideAdapter(Context context, List<Guide> guides) {
         this.context = context;
+        this.guides = guides;
     }
 
     @Override
     public int getRowCount() {
-        return 5;
+        return Math.max(guides.size(), 1);
     }
 
     @Override
     public int getColumnCount(int i) {
-        return 5;
+        return 1;
     }
 
     @Override
     protected Object instantiateItem(ViewGroup container, int row, int col) {
         final View view = LayoutInflater.from(context).inflate(R.layout.guide_item, container, false);
         final TextView textView = (TextView) view.findViewById(R.id.textView);
-        textView.setText(String.format("Page:\n%1$s, %2$s", row, col));
+
+        if (guides.size() > 0) {
+            textView.setText(guides.get(row).getTitle());
+        }
+
         container.addView(view);
         return view;
     }

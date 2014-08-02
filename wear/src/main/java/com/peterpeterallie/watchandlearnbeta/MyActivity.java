@@ -9,6 +9,13 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.peterpeterallie.watchandlearnbeta.model.Guide;
+import com.peterpeterallie.watchandlearnbeta.parser.JsonDeserializer;
+import com.peterpeterallie.watchandlearnbeta.util.AssetsProvider;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class MyActivity extends Activity {
 
     private static final String TAG = MyActivity.class.getSimpleName();
@@ -25,9 +32,10 @@ public class MyActivity extends Activity {
             @Override
             public void onLayoutInflated(WatchViewStub stub) {
                 gridViewPager = (GridViewPager) stub.findViewById(R.id.gridViewPager);
-                guideAdapter = new GuideAdapter(MyActivity.this);
-                gridViewPager.setAdapter(guideAdapter);
                 gridViewPager.setClickable(true);
+
+                guideAdapter = new GuideAdapter(MyActivity.this, getGuides());
+                gridViewPager.setAdapter(guideAdapter);
                 gridViewPager.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
@@ -37,5 +45,31 @@ public class MyActivity extends Activity {
                 });
             }
         });
+    }
+
+    private List<Guide> getGuides() {
+        List<Guide> guides = new ArrayList<Guide>();
+        String jsonGuide = AssetsProvider.openFileAsString(this, "guide1.json");
+        try {
+            guides.add(JsonDeserializer.getGuide(jsonGuide));
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+
+        jsonGuide = AssetsProvider.openFileAsString(this, "guide2.json");
+        try {
+            guides.add(JsonDeserializer.getGuide(jsonGuide));
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+
+        jsonGuide = AssetsProvider.openFileAsString(this, "guide3.json");
+        try {
+            guides.add(JsonDeserializer.getGuide(jsonGuide));
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+
+        return guides;
     }
 }
