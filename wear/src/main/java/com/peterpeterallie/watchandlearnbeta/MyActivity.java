@@ -2,12 +2,15 @@ package com.peterpeterallie.watchandlearnbeta;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.wearable.view.GridViewPager;
 import android.support.wearable.view.WatchViewStub;
 import android.widget.TextView;
 
 public class MyActivity extends Activity {
 
     private TextView mTextView;
+    private GridViewPager gridViewPager;
+    private GuideAdapter guideAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +21,10 @@ public class MyActivity extends Activity {
             @Override
             public void onLayoutInflated(WatchViewStub stub) {
                 mTextView = (TextView) stub.findViewById(R.id.text);
+                mTextView.setText("Hi!");
+                gridViewPager = (GridViewPager) stub.findViewById(R.id.gridViewPager);
+                guideAdapter = new GuideAdapter(MyActivity.this);
+                gridViewPager.setAdapter(guideAdapter);
             }
         });
     }
