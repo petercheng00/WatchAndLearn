@@ -16,23 +16,27 @@
         android:textSize="20sp"
         android:text="Editing Step X/Y"/>
     <EditText
+        android:id="@+id/step_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:hint="Enter step description here"/>
-    <TextView
+    <Button
+        android:id="@+id/btn_photo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Click to add photo"/>
+        android:textSize="20sp"
+        android:text="Add a photo"/>
     <CheckBox
+        android:id="@+id/step_stopwatch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Add a stopwatch to this step?"/>
-    <NumberPicker
+    <TextView
+        android:id="@+id/step_timer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
-
+        android:text="something something timer"/>
 </LinearLayout>

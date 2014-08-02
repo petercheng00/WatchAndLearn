@@ -19,6 +19,14 @@ public class Guide {
         steps = new LinkedList<Step>();
     }
 
+    public String getId(){
+        return this.id;
+    }
+
+    public void setTitle(String title){
+        this.title = title;
+    }
+
     public Step getStep(int index) {
         return steps.get(index);
     }

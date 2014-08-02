@@ -1,0 +1,21 @@
+{
+    "guide": {
+	"id": "uuid",
+	"title": "example routine",
+	"photo": "url of cover photo",
+	"steps": [
+	    {
+		"text": "step1",
+		"countdown": "10",
+		"countup": true
+		"photo": "url of step photo"
+	    },
+	    {
+		"text": "step2",
+		"countdown": "60",
+		"countup": false
+		"photo": "url of step photo"
+	    }
+	]
+    }
+}

@@ -10,6 +10,7 @@
         android:textSize="50sp"
         android:text="Create a Guide"/>
     <EditText
+        android:id="@+id/guide_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -37,4 +38,11 @@
             android:textSize="20sp"
             android:text="Next"/>
     </LinearLayout>
+    <Button
+        android:id="@+id/btn_saveguide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="Save Guide"/>
 </LinearLayout>
