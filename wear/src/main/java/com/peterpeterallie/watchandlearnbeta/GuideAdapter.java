@@ -17,12 +17,12 @@ public class GuideAdapter extends GridPagerAdapter {
 
     @Override
     public int getRowCount() {
-        return 2;
+        return 5;
     }
 
     @Override
     public int getColumnCount(int i) {
-        return 2;
+        return 5;
     }
 
     @Override
