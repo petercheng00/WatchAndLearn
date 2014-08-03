@@ -16,6 +16,8 @@ import com.peterpeterallie.watchandlearnbeta.model.Guide;
 import com.peterpeterallie.watchandlearnbeta.model.Step;
 
 import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by chepeter on 8/2/14.
@@ -35,10 +37,14 @@ public class ShowGuideActivity extends Activity {
 
     private int currentStepIndex = 0;
 
+    private Map<String, Bitmap> cachedBitmaps;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show);
+
+        cachedBitmaps = new HashMap<String, Bitmap>();
 
         guideTitle = (TextView) this.findViewById(R.id.guide_title);
         stepIndex = (TextView) this.findViewById(R.id.step_index);
@@ -88,7 +94,13 @@ public class ShowGuideActivity extends Activity {
         stepText.setText(step.getText());
 
         if (step.getPhoto() != null && step.getPhoto().contains("http")) {
-            new DownloadImageTask(stepImage, this.findViewById(R.id.loading_icon)).execute(step.getPhoto());
+            Bitmap bitmap = cachedBitmaps.get(step.getPhoto());
+            if (bitmap == null) {
+                new DownloadImageTask(stepImage, this.findViewById(R.id.loading_icon), cachedBitmaps).execute(step.getPhoto());
+            }
+            else {
+                stepImage.setImageBitmap(bitmap);
+            }
         }
         else if (step.getPhoto() != null && new File(step.getPhoto()).isFile()) {
             Bitmap bitmap = PhotoUtils.decodeSampledBitmapFromFile(step.getPhoto(), 100, 100);
