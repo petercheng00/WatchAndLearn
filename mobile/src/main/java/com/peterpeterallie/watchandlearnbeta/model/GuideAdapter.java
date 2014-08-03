@@ -3,17 +3,23 @@ package com.peterpeterallie.watchandlearnbeta.model;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.AsyncTask;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.peterpeterallie.watchandlearnbeta.DownloadImageTask;
 import com.peterpeterallie.watchandlearnbeta.PhotoUtils;
 import com.peterpeterallie.watchandlearnbeta.R;
 
 import java.io.File;
+import java.io.InputStream;
 import java.util.List;
 
 /**
@@ -37,11 +43,12 @@ public class GuideAdapter extends ArrayAdapter<Guide> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View row = convertView;
-        GuideHolder holder = null;
+        View row;
+        GuideHolder holder;
 
-        if(row == null)
-        {
+        //TODO: threading is making funny things happen with image loading and view reuse
+        //if(row == null)
+        //{
             LayoutInflater inflater = ((Activity)context).getLayoutInflater();
             row = inflater.inflate(layoutResourceId, parent, false);
 
@@ -51,21 +58,27 @@ public class GuideAdapter extends ArrayAdapter<Guide> {
             holder.subTitle = (TextView)row.findViewById(R.id.guide_subtitle);
 
             row.setTag(holder);
-        }
-        else
-        {
-            holder = (GuideHolder)row.getTag();
-        }
+        //}
+//        else
+//        {
+//            holder = (GuideHolder)row.getTag();
+//        }
 
         Guide guide = guides.get(position);
         holder.title.setText(guide.getTitle());
-        holder.subTitle.setText("date created should go here");
+        holder.subTitle.setText("Unknown Creator");
         String photoFileName = guide.getPhoto();
-        if (photoFileName == null || photoFileName.isEmpty()) {
-            photoFileName = guide.getStep(0).getPhoto();
+        int index = 0;
+        while ((photoFileName == null || photoFileName.isEmpty()) && index < guide.getNumSteps()) {
+            photoFileName = guide.getStep(index++).getPhoto();
         }
-        Bitmap bitmap = PhotoUtils.decodeSampledBitmapFromFile(photoFileName, 100, 100);
-        holder.icon.setImageBitmap(bitmap);
+        if (photoFileName != null && photoFileName.contains("http")) {
+            new DownloadImageTask(holder.icon).execute(photoFileName);
+        }
+        else if (photoFileName != null && new File(photoFileName).isFile()) {
+            Bitmap bitmap = PhotoUtils.decodeSampledBitmapFromFile(photoFileName, 100, 100);
+            holder.icon.setImageBitmap(bitmap);
+        }
         return row;
     }
 

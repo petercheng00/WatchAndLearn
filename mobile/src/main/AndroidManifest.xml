@@ -5,6 +5,7 @@
     <uses-feature android:name="android.hardware.camera"
         android:required="true" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -26,6 +27,10 @@
         </activity>
         <activity
             android:name=".SavedActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ShowGuideActivity"
             android:label="@string/app_name" >
         </activity>
     </application>

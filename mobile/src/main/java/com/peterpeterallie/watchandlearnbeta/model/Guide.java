@@ -1,5 +1,7 @@
 package com.peterpeterallie.watchandlearnbeta.model;
 
+import com.google.gson.Gson;
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.UUID;
@@ -31,6 +33,10 @@ public class Guide {
         return this.photo;
     }
 
+    public void setPhoto(String photo) {
+        this.photo = photo;
+    }
+
     public void setTitle(String title){
         this.title = title;
     }
@@ -53,6 +59,16 @@ public class Guide {
 
     public int getNumSteps() {
         return steps.size();
+    }
+
+    public String toJson() {
+        Gson gson = new Gson();
+        return gson.toJson(this);
+    }
+
+    public static Guide fromJson(String string) {
+        Gson gson = new Gson();
+        return gson.fromJson(string, Guide.class);
     }
 
 }

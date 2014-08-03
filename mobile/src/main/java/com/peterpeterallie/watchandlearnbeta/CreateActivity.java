@@ -188,8 +188,7 @@ public class CreateActivity extends Activity {
         saveCurrentStep();
         TextView guideTitleView = (TextView) this.findViewById(R.id.guide_title);
         guide.setTitle(guideTitleView.getText().toString());
-        Gson gson = new Gson();
-        String json = gson.toJson(guide);
+        String json = guide.toJson();
         String filename = "guide_" + guide.getId();
         FileOutputStream outputStream;
 

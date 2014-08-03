@@ -6,11 +6,17 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Environment;
 import android.provider.MediaStore;
+import android.util.Log;
+import android.widget.ImageView;
 
+import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -71,6 +77,9 @@ public class PhotoUtils {
     }
 
     public static Bitmap decodeSampledBitmapFromFile(String file, int reqWidth, int reqHeight) {
+        if (!new File(file).isFile()) {
+            return null;
+        }
 
         // First decode with inJustDecodeBounds=true to check dimensions
         final BitmapFactory.Options options = new BitmapFactory.Options();
@@ -85,4 +94,31 @@ public class PhotoUtils {
         return BitmapFactory.decodeFile(file, options);
     }
 
+    public static Bitmap decodeSampledBitmapFromURL(String urlString, int reqWidth, int reqHeight) {
+        BufferedInputStream is = null;
+        try {
+            URL url = new URL(urlString);
+            is = new BufferedInputStream(url.openConnection().getInputStream());
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+
+        // First decode with inJustDecodeBounds=true to check dimensions
+        final BitmapFactory.Options options = new BitmapFactory.Options();
+        options.inJustDecodeBounds = true;
+        BitmapFactory.decodeStream(is, null, options);
+        try {
+            is.reset();
+        } catch (IOException e) {
+            return null;
+        }
+
+        // Calculate inSampleSize
+        options.inSampleSize = calculateInSampleSize(options, reqWidth, reqHeight);
+
+        // Decode bitmap with inSampleSize set
+        options.inJustDecodeBounds = false;
+        return BitmapFactory.decodeStream(is, null, options);
+    }
 }
