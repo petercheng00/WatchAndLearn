@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.peterpeterallie.watchandlearnbeta.model.Guide;
 import com.peterpeterallie.watchandlearnbeta.model.Step;
+import com.peterpeterallie.watchandlearnbeta.service.DataLayerListenerService;
 import com.peterpeterallie.watchandlearnbeta.util.BitmapUtil;
 import com.peterpeterallie.watchandlearnbeta.util.FileUtil;
 
@@ -58,16 +59,18 @@ public class StepsAdapter extends GridPagerAdapter {
                 imageView.setVisibility(View.VISIBLE);
                 String filename = FileUtil.getPhotoFileName(guide.getId(), String.valueOf(step.getText().hashCode()));
                 Log.e(TAG, "opening image file for step: " + filename);
-                String fullFilePath = context.getFilesDir().getPath() + "/" + filename;
 
-                Log.e(TAG, "fullFilePath: " + fullFilePath);
-                Log.e(TAG, "exists? " + new File(fullFilePath).exists());
-
+                Bitmap bitmap = null;
                 for (File file : context.getFilesDir().listFiles()) {
                     Log.e(TAG, "file in files dir: " + file.getAbsolutePath());
+                    if (file.getName().contains(FileUtil.IMAGE_PREFIX)) {
+                        String fullFilePath = context.getFilesDir().getPath() + "/" + file.getName();
+
+                        bitmap = BitmapUtil.openFileAsBitmap(fullFilePath);
+                    }
                 }
 
-                Bitmap bitmap = BitmapUtil.openFileAsBitmap(fullFilePath);
+                //Bitmap bitmap = BitmapUtil.openFileAsBitmap(fullFilePath);
                 imageView.setImageBitmap(bitmap);
             } else {
                 imageView.setVisibility(View.GONE);

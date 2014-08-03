@@ -149,13 +149,13 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
         for (File file : guideFiles) {
             if (file.isFile()) {
                 String guideJson = fileToString(file);
-                Guide g = Guide.fromJson(guideJson);
-                if (g.getNumSteps() > 0) {
-                    guides.add(g);
-                    sendGuide(FileUtil.getGuideFilename(g), guideJson);
-                    for (Step step : g.getSteps()) {
+                Guide guide = Guide.fromJson(guideJson);
+                if (guide.getNumSteps() > 0) {
+                    guides.add(guide);
+                    sendGuide(FileUtil.getGuideFilename(guide), guideJson);
+                    for (Step step : guide.getSteps()) {
                         if (!TextUtils.isEmpty(step.getPhoto())) {
-                            new loadPhotoTask(g, step).execute();
+                            new loadPhotoTask(guide, step).execute();
                         }
                     }
                 }
