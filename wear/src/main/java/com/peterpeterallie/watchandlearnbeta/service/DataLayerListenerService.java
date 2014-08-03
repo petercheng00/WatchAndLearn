@@ -49,6 +49,11 @@ public class DataLayerListenerService extends WearableListenerService {
     public static final String IMAGE_KEY = "photo";
     private static final String COUNT_KEY = "count";
     private static final int MAX_LOG_TAG_LENGTH = 23;
+
+    public static final String FILENAME_KEY = "filename";
+    public static final String JSON_GUIDE_KEY = "jsonGuide";
+    public static final String GUIDE_PATH = "/guide";
+
     GoogleApiClient mGoogleApiClient;
 
     @Override

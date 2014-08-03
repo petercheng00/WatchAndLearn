@@ -138,6 +138,14 @@ public class MyActivity extends Activity implements WearableListView.ClickListen
 
                 } else if (DataLayerListenerService.COUNT_PATH.equals(path)) {
                     Log.e(TAG, "Data Changed for COUNT_PATH");
+                } else if (DataLayerListenerService.GUIDE_PATH.equals(path)) {
+                    Log.e(TAG, "Data Changed for GUIDE_PATH");
+                    DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
+
+                    String filename = dataMapItem.getDataMap().getString(DataLayerListenerService.FILENAME_KEY);
+                    String jsonGuide = dataMapItem.getDataMap().getString(DataLayerListenerService.JSON_GUIDE_KEY);
+
+                    Log.e(TAG, "jsonGuide Received: " + filename + " : " + jsonGuide);
                 } else {
                     Log.e(TAG, "Unrecognized path: " + path);
                 }

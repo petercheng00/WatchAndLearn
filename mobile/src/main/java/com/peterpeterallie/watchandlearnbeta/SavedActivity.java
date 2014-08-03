@@ -5,6 +5,7 @@ import android.content.IntentSender;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
@@ -38,9 +39,7 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
 
 /**
  * Created by chepeter on 8/2/14.
@@ -53,10 +52,12 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
     private static final int REQUEST_RESOLVE_ERROR = 1000;
 
     private static final String START_ACTIVITY_PATH = "/start-activity";
-    private static final String COUNT_PATH = "/count";
     private static final String IMAGE_PATH = "/image";
     private static final String IMAGE_KEY = "photo";
     private static final String COUNT_KEY = "count";
+    private static final String FILENAME_KEY = "filename";
+    private static final String JSON_GUIDE_KEY = "jsonGuide";
+    private static final String GUIDE_PATH = "/guide";
 
     private GoogleApiClient mGoogleApiClient;
 
@@ -64,9 +65,10 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
 
     private Handler mHandler;
     private ScheduledExecutorService mGeneratorExecutor;
-    private ScheduledFuture<?> mDataItemGeneratorFuture;
 
     private ListView savedList;
+    private GuideAdapter guideAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -85,6 +87,7 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
                 .addConnectionCallbacks(this)
                 .addOnConnectionFailedListener(this)
                 .build();
+        startWearableActivity();
     }
 
     @Override
@@ -106,18 +109,18 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
         super.onStop();
     }
 
-    @Override
-    public void onPause() {
-        super.onPause();
-        mDataItemGeneratorFuture.cancel(true /* mayInterruptIfRunning */);
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        mDataItemGeneratorFuture = mGeneratorExecutor.scheduleWithFixedDelay(
-                new DataItemGenerator(), 1, 5, TimeUnit.SECONDS);
-    }
+//    @Override
+//    public void onPause() {
+//        super.onPause();
+//        mDataItemGeneratorFuture.cancel(true /* mayInterruptIfRunning */);
+//    }
+//
+//    @Override
+//    public void onResume() {
+//        super.onResume();
+//        mDataItemGeneratorFuture = mGeneratorExecutor.scheduleWithFixedDelay(
+//                new DataItemGenerator(), 1, 5, TimeUnit.SECONDS);
+//    }
 
     private List<Guide> loadSavedGuides() {
         List<File> guideFiles = Arrays.asList(this.getFilesDir().listFiles());
@@ -134,15 +137,14 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
         return guides;
     }
 
-    public String fileToString (File file) {
+    public String fileToString(File file) {
         try {
             FileInputStream fis = openFileInput(file.getName());
             StringBuffer fileContent = new StringBuffer("");
 
             byte[] buffer = new byte[1024];
             int n;
-            while ((n = fis.read(buffer)) != -1)
-            {
+            while ((n = fis.read(buffer)) != -1) {
                 fileContent.append(new String(buffer, 0, n));
             }
             return fileContent.toString();
@@ -155,8 +157,30 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
     }
 
     private void displayGuides(List<Guide> guides) {
-        GuideAdapter ga = new GuideAdapter(this, R.layout.saved_guide, guides);
-        this.savedList.setAdapter(ga);
+        this.guideAdapter = new GuideAdapter(this, R.layout.saved_guide, guides);
+        this.savedList.setAdapter(guideAdapter);
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        //Push this guide to watch!
+        Guide guide = guideAdapter.getItem(position);
+        List<File> guideFiles = Arrays.asList(this.getFilesDir().listFiles());
+        String jsonString = "";
+        String filename = "";
+        for (File file : guideFiles) {
+            if (file.isFile()) {
+                if (file.getName().contains(guide.getId())) {
+                    filename = file.getName();
+                    jsonString = fileToString(file);
+                    Log.e(TAG, "file found: " + file.getName() + " : " + jsonString);
+                }
+            }
+        }
+
+        if (!TextUtils.isEmpty(jsonString) && mGoogleApiClient.isConnected()) {
+            sendGuide(filename, jsonString);
+        }
     }
 
     @Override
@@ -250,11 +274,6 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
         }
     }
 
-    @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        //Push this guide to watch!
-    }
-
     private class StartWearableActivityTask extends AsyncTask<Void, Void, Void> {
 
         @Override
@@ -294,8 +313,10 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
         return results;
     }
 
-    /** Sends an RPC to start a fullscreen Activity on the wearable. */
-    public void onStartWearableActivityClick(View view) {
+    /**
+     * Sends an RPC to start a fullscreen Activity on the wearable.
+     */
+    public void startWearableActivity() {
         Log.e(TAG, "Generating RPC");
 
         // Trigger an AsyncTask that will query for a list of connected nodes and send a
@@ -303,30 +324,26 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
         new StartWearableActivityTask().execute();
     }
 
-    private class DataItemGenerator implements Runnable {
+    private void sendGuide(String filename, String jsonGuide) {
+        PutDataMapRequest putDataMapRequest = PutDataMapRequest.create(GUIDE_PATH);
+        putDataMapRequest.getDataMap().putString(FILENAME_KEY, filename);
+        putDataMapRequest.getDataMap().putString(JSON_GUIDE_KEY, jsonGuide);
+        PutDataRequest request = putDataMapRequest.asPutDataRequest();
 
-        private int count = 0;
-
-        @Override
-        public void run() {
-            PutDataMapRequest putDataMapRequest = PutDataMapRequest.create(COUNT_PATH);
-            putDataMapRequest.getDataMap().putInt(COUNT_KEY, count++);
-            PutDataRequest request = putDataMapRequest.asPutDataRequest();
-
-            Log.e(TAG, "Generating DataItem: " + request);
-            if (!mGoogleApiClient.isConnected()) {
-                return;
-            }
-            Wearable.DataApi.putDataItem(mGoogleApiClient, request)
-                    .setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
-                        @Override
-                        public void onResult(DataApi.DataItemResult dataItemResult) {
-                            if (!dataItemResult.getStatus().isSuccess()) {
-                                Log.e(TAG, "ERROR: failed to putDataItem, status code: "
-                                        + dataItemResult.getStatus().getStatusCode());
-                            }
-                        }
-                    });
+        Log.e(TAG, "Generating DataItem: " + request);
+        if (!mGoogleApiClient.isConnected()) {
+            Log.e(TAG, "Not connected to Google Api Client");
+            return;
         }
+
+        Wearable.DataApi.putDataItem(mGoogleApiClient, request)
+                .setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
+                    @Override
+                    public void onResult(DataApi.DataItemResult dataItemResult) {
+                        dataItemResult.getStatus();
+                        Log.e(TAG, "putDataItem, status code: "
+                                + dataItemResult.getStatus().getStatusCode());
+                    }
+                });
     }
 }
