@@ -3,15 +3,16 @@ package com.peterpeterallie.watchandlearnbeta;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.wearable.view.WatchViewStub;
 import android.support.wearable.view.WearableListView;
 import android.text.TextUtils;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.wearable.Asset;
 import com.google.android.gms.wearable.DataApi;
 import com.google.android.gms.wearable.DataEvent;
 import com.google.android.gms.wearable.DataEventBuffer;
@@ -20,6 +21,7 @@ import com.google.android.gms.wearable.Wearable;
 import com.peterpeterallie.watchandlearnbeta.model.Guide;
 import com.peterpeterallie.watchandlearnbeta.parser.JsonDeserializer;
 import com.peterpeterallie.watchandlearnbeta.service.DataLayerListenerService;
+import com.peterpeterallie.watchandlearnbeta.util.BitmapUtil;
 import com.peterpeterallie.watchandlearnbeta.util.FileUtil;
 
 import org.json.JSONException;
@@ -123,6 +125,13 @@ public class MyActivity extends Activity implements WearableListView.ClickListen
                             refresh();
                         }
                     });
+                } else if (!TextUtils.isEmpty(path) && path.startsWith(DataLayerListenerService.IMAGE_PATH)) {
+                    DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
+                    Asset photo = dataMapItem.getDataMap()
+                            .getAsset(DataLayerListenerService.IMAGE_KEY);
+                    final Bitmap bitmap = BitmapUtil.loadBitmapFromAsset(mGoogleApiClient, photo);
+
+
                 }
             }
         }
