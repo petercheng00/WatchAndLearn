@@ -126,12 +126,12 @@ public class MyActivity extends Activity implements WearableListView.ClickListen
                         }
                     });
                 } else if (!TextUtils.isEmpty(path) && path.startsWith(DataLayerListenerService.IMAGE_PATH)) {
+                    Log.e(TAG, "Image received!: " + path);
                     DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
                     Asset photo = dataMapItem.getDataMap()
                             .getAsset(DataLayerListenerService.IMAGE_KEY);
                     final Bitmap bitmap = BitmapUtil.loadBitmapFromAsset(mGoogleApiClient, photo);
-
-
+                    FileUtil.saveBitmapToFile(bitmap, path, this);
                 }
             }
         }
@@ -167,7 +167,7 @@ public class MyActivity extends Activity implements WearableListView.ClickListen
         List<File> guideFiles = Arrays.asList(this.getFilesDir().listFiles());
         List<Guide> guides = new ArrayList<Guide>(guideFiles.size());
         for (File file : guideFiles) {
-            if (file.isFile()) {
+            if (file.isFile() && file.getName().startsWith("guide_")) {
                 try {
                     Guide guide = JsonDeserializer.getGuide(FileUtil.fileToString(file, this));
                     if (guide.getSteps().size() > 0) {

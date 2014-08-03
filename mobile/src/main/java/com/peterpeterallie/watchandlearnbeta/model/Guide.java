@@ -45,6 +45,10 @@ public class Guide {
         return steps.get(index);
     }
 
+    public List<Step> getSteps() {
+        return steps;
+    }
+
     public void setStep(int index, Step step) {
         if (index < steps.size()) {
             steps.set(index, step);

@@ -76,6 +76,14 @@ public class PhotoUtils {
         return inSampleSize;
     }
 
+    public static Bitmap decodeSampledBitmap(String fileOrUrl, int reqWidth, int reqHeight) {
+        if (fileOrUrl.contains("http")) {
+            return decodeSampledBitmapFromURL(fileOrUrl, reqWidth, reqHeight);
+        } else {
+            return decodeSampledBitmapFromFile(fileOrUrl, reqWidth, reqWidth);
+        }
+    }
+
     public static Bitmap decodeSampledBitmapFromFile(String file, int reqWidth, int reqHeight) {
         if (!new File(file).isFile()) {
             return null;

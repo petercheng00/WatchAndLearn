@@ -6,6 +6,7 @@ import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.TextUtils;
 import android.util.Log;
 import android.content.Intent;
 import android.view.View;
@@ -34,6 +35,7 @@ import com.google.gson.Gson;
 import com.peterpeterallie.watchandlearnbeta.model.Guide;
 import com.peterpeterallie.watchandlearnbeta.model.GuideAdapter;
 import com.peterpeterallie.watchandlearnbeta.model.GuideInstructables;
+import com.peterpeterallie.watchandlearnbeta.model.Step;
 import com.peterpeterallie.watchandlearnbeta.util.BitmapUtil;
 
 import java.io.File;
@@ -151,6 +153,11 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
                 if (g.getNumSteps() > 0) {
                     guides.add(g);
                     sendGuide(FileUtil.getGuideFilename(g), guideJson);
+                    for (Step step : g.getSteps()) {
+                        if (!TextUtils.isEmpty(step.getPhoto())) {
+                            new loadPhotoTask(g, step).execute();
+                        }
+                    }
                 }
             }
         }
@@ -336,9 +343,13 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
                 });
     }
 
-    private void sendPhoto(Bitmap bitmap) {
+    private String getPhotoPath(Guide guide, Step step) {
+        return IMAGE_PATH + "/" + guide.getId() + "/" + step.getText().hashCode();
+    }
+
+    private void sendPhoto(Bitmap bitmap, Guide guide, Step step) {
         Asset asset = BitmapUtil.toAsset(bitmap);
-        PutDataMapRequest dataMap = PutDataMapRequest.create(IMAGE_PATH);
+        PutDataMapRequest dataMap = PutDataMapRequest.create(getPhotoPath(guide, step));
         dataMap.getDataMap().putAsset(IMAGE_KEY, asset);
         dataMap.getDataMap().putLong("time", new Date().getTime());
         PutDataRequest request = dataMap.asPutDataRequest();
@@ -351,5 +362,24 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
                     }
                 });
 
+    }
+
+    private class loadPhotoTask extends AsyncTask<Void, Void, Void> {
+
+        Guide guide;
+        Step step;
+
+        public loadPhotoTask(Guide guide, Step step) {
+            this.guide = guide;
+            this.step = step;
+        }
+        @Override
+        protected Void doInBackground(Void... params) {
+            Log.e(TAG, "Loading bitmap for guide: " + guide.getTitle());
+            Bitmap bitmap = PhotoUtils.decodeSampledBitmap(step.getPhoto(), 100, 100);
+            Log.e(TAG, "Sending photo to watch for guide: " + guide.getTitle());
+            sendPhoto(bitmap, guide, step);
+            return null;
+        }
     }
 }

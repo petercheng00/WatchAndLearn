@@ -8,6 +8,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.wearable.Asset;
 import com.google.android.gms.wearable.Wearable;
 
+import java.io.File;
 import java.io.InputStream;
 
 public class BitmapUtil {
@@ -27,5 +28,9 @@ public class BitmapUtil {
             return null;
         }
         return BitmapFactory.decodeStream(assetInputStream);
+    }
+
+    public static Bitmap openFileAsBitmap(String filename) {
+        return BitmapFactory.decodeFile(filename);
     }
 }
