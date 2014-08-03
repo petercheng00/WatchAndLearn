@@ -24,12 +24,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"/>
-        <ImageView
-            android:id="@+id/step_image"
-            android:layout_height="400dp"
-            android:layout_width="500dp"
-            android:scaleType="fitCenter"
-            android:adjustViewBounds="true"
-            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:id="@+id/loadingPanel"
+            android:layout_height="300dp"
+            android:layout_width="300dp"
+            android:gravity="center">
+
+                <ProgressBar
+                    android:id="@+id/loading_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:indeterminate="true"
+                    android:visibility="invisible"/>
+                <ImageView
+                    android:id="@+id/step_image"
+                    android:layout_height="300dp"
+                    android:layout_width="300dp"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center"/>
+        </RelativeLayout>
     </LinearLayout>
 </ScrollView>
