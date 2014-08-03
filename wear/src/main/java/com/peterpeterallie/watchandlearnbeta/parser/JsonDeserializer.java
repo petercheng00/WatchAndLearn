@@ -33,7 +33,7 @@ public class JsonDeserializer {
                 steps.add(getStep(jsonStep));
             }
 
-            guide.setStepList(steps);
+            guide.setSteps(steps);
         }
 
         return guide;

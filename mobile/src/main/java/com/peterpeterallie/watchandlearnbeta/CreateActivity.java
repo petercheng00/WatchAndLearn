@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -45,6 +47,9 @@ public class CreateActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_create);
 
         prevButton = (Button) this.findViewById(R.id.btn_prevstep);
@@ -186,10 +191,11 @@ public class CreateActivity extends Activity {
      */
     private void saveGuideAndExit() {
         saveCurrentStep();
+        guide.setStep(currentStepIndex, currentStep);
         TextView guideTitleView = (TextView) this.findViewById(R.id.guide_title);
         guide.setTitle(guideTitleView.getText().toString());
+        String filename = FileUtil.getGuideFilename(guide);
         String json = guide.toJson();
-        String filename = "guide_" + guide.getId();
         FileOutputStream outputStream;
 
         try {
