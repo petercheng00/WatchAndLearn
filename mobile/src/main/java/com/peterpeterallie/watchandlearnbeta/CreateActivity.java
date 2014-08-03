@@ -27,8 +27,6 @@ import java.io.IOException;
  */
 public class CreateActivity extends Activity {
 
-    public static final String GUIDE_FILENAME_PREFIX = "guide_";
-
     private Guide guide;
 
     private Step currentStep;
@@ -190,9 +188,8 @@ public class CreateActivity extends Activity {
         saveCurrentStep();
         TextView guideTitleView = (TextView) this.findViewById(R.id.guide_title);
         guide.setTitle(guideTitleView.getText().toString());
-        Gson gson = new Gson();
-        String json = gson.toJson(guide);
-        String filename = GUIDE_FILENAME_PREFIX + guide.getId();
+        String filename = FileUtil.getGuideFilename(guide);
+        String json = guide.toJson();
         FileOutputStream outputStream;
 
         try {

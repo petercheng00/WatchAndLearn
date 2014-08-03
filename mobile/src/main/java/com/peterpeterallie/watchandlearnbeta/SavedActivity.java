@@ -5,8 +5,8 @@ import android.content.IntentSender;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
-import android.text.TextUtils;
 import android.util.Log;
+import android.content.Intent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -19,7 +19,6 @@ import com.google.android.gms.common.data.FreezableUtils;
 import com.google.android.gms.wearable.DataApi;
 import com.google.android.gms.wearable.DataEvent;
 import com.google.android.gms.wearable.DataEventBuffer;
-import com.google.android.gms.wearable.DataItem;
 import com.google.android.gms.wearable.MessageApi;
 import com.google.android.gms.wearable.MessageEvent;
 import com.google.android.gms.wearable.Node;
@@ -30,6 +29,7 @@ import com.google.android.gms.wearable.Wearable;
 import com.google.gson.Gson;
 import com.peterpeterallie.watchandlearnbeta.model.Guide;
 import com.peterpeterallie.watchandlearnbeta.model.GuideAdapter;
+import com.peterpeterallie.watchandlearnbeta.model.GuideInstructables;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -38,18 +38,15 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.ScheduledThreadPoolExecutor;
 
 /**
  * Created by chepeter on 8/2/14.
  */
 public class SavedActivity extends Activity implements DataApi.DataListener,
         MessageApi.MessageListener, NodeApi.NodeListener, GoogleApiClient.ConnectionCallbacks,
-        GoogleApiClient.OnConnectionFailedListener, AdapterView.OnItemClickListener {
+        GoogleApiClient.OnConnectionFailedListener {
 
     private static final String TAG = "SavedActivity";
     private static final int REQUEST_RESOLVE_ERROR = 1000;
@@ -67,7 +64,6 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
     private boolean mResolvingError = false;
 
     private Handler mHandler;
-    //private ScheduledExecutorService mGeneratorExecutor;
 
     private ListView savedList;
     private GuideAdapter guideAdapter;
@@ -78,19 +74,40 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
         setContentView(R.layout.activity_saved);
 
         savedList = (ListView) this.findViewById(R.id.saved_list);
-        savedList.setOnItemClickListener(this);
-
-        List<Guide> savedGuides = this.loadSavedGuides();
-        displayGuides(savedGuides);
+        savedList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Guide guide = guideAdapter.getItem(position);
+                openGuide(guide);
+            }
+        });
+        savedList.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                File[] localFiles = getFilesDir().listFiles();
+                if (position >= localFiles.length) {
+                    return true;
+                }
+                File toDelete = localFiles[position];
+                toDelete.delete();
+                guideAdapter.remove(guideAdapter.getItem(position));
+                guideAdapter.notifyDataSetChanged();
+                return true;
+            }
+        });
 
         mHandler = new Handler();
-        //mGeneratorExecutor = new ScheduledThreadPoolExecutor(1);
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .addApi(Wearable.API)
                 .addConnectionCallbacks(this)
                 .addOnConnectionFailedListener(this)
                 .build();
         startWearableActivity();
+
+        List<Guide> savedGuides = this.loadSavedGuides();
+        savedGuides.addAll(GuideInstructables.parseInstructablesGuides(this));
+        displayGuides(savedGuides);
+
     }
 
     @Override
@@ -112,28 +129,23 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
         super.onStop();
     }
 
-//    @Override
-//    public void onPause() {
-//        super.onPause();
-//        mDataItemGeneratorFuture.cancel(true /* mayInterruptIfRunning */);
-//    }
-//
-//    @Override
-//    public void onResume() {
-//        super.onResume();
-//        mDataItemGeneratorFuture = mGeneratorExecutor.scheduleWithFixedDelay(
-//                new DataItemGenerator(), 1, 5, TimeUnit.SECONDS);
-//    }
+    private void openGuide(Guide guide){
+        Intent intent = new Intent(this, ShowGuideActivity.class);
+        Gson gson = new Gson();
+        intent.putExtra("guide", gson.toJson(guide));
+        startActivity(intent);
+    }
 
     private List<Guide> loadSavedGuides() {
         List<File> guideFiles = Arrays.asList(this.getFilesDir().listFiles());
         List<Guide> guides = new ArrayList<Guide>(guideFiles.size());
-        Gson gson = new Gson();
         for (File file : guideFiles) {
             if (file.isFile()) {
-                Guide g = gson.fromJson(fileToString(file), Guide.class);
+                String guideJson = fileToString(file);
+                Guide g = Guide.fromJson(guideJson);
                 if (g.getNumSteps() > 0) {
                     guides.add(g);
+                    sendGuide(FileUtil.getGuideFilename(g), guideJson);
                 }
             }
         }
@@ -162,28 +174,6 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
     private void displayGuides(List<Guide> guides) {
         this.guideAdapter = new GuideAdapter(this, R.layout.saved_guide, guides);
         this.savedList.setAdapter(guideAdapter);
-    }
-
-    @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        //Push this guide to watch!
-        Guide guide = guideAdapter.getItem(position);
-        List<File> guideFiles = Arrays.asList(this.getFilesDir().listFiles());
-        String jsonString = "";
-        String filename = "";
-        for (File file : guideFiles) {
-            if (file.isFile()) {
-                if (file.getName().contains(guide.getId())) {
-                    filename = file.getName();
-                    jsonString = fileToString(file);
-                    Log.e(TAG, "file found: " + file.getName() + " : " + jsonString);
-                }
-            }
-        }
-
-        if (!TextUtils.isEmpty(jsonString) && mGoogleApiClient.isConnected()) {
-            sendGuide(filename, jsonString);
-        }
     }
 
     @Override
@@ -269,8 +259,6 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
         } else {
             Log.e(TAG, "Connection to Google API client has failed");
             mResolvingError = false;
-            //mStartActivityBtn.setEnabled(false);
-            //mSendPhotoBtn.setEnabled(false);
             Wearable.DataApi.removeListener(mGoogleApiClient, this);
             Wearable.MessageApi.removeListener(mGoogleApiClient, this);
             Wearable.NodeApi.removeListener(mGoogleApiClient, this);
