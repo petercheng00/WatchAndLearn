@@ -2,6 +2,7 @@ package com.peterpeterallie.watchandlearnbeta;
 
 import android.app.Activity;
 import android.content.IntentSender;
+import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
@@ -18,6 +19,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.PendingResult;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.data.FreezableUtils;
+import com.google.android.gms.wearable.Asset;
 import com.google.android.gms.wearable.DataApi;
 import com.google.android.gms.wearable.DataEvent;
 import com.google.android.gms.wearable.DataEventBuffer;
@@ -32,6 +34,7 @@ import com.google.gson.Gson;
 import com.peterpeterallie.watchandlearnbeta.model.Guide;
 import com.peterpeterallie.watchandlearnbeta.model.GuideAdapter;
 import com.peterpeterallie.watchandlearnbeta.model.GuideInstructables;
+import com.peterpeterallie.watchandlearnbeta.util.BitmapUtil;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -40,6 +43,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 
@@ -333,5 +337,22 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
                                 .isSuccess());
                     }
                 });
+    }
+
+    private void sendPhoto(Bitmap bitmap) {
+        Asset asset = BitmapUtil.toAsset(bitmap);
+        PutDataMapRequest dataMap = PutDataMapRequest.create(IMAGE_PATH);
+        dataMap.getDataMap().putAsset(IMAGE_KEY, asset);
+        dataMap.getDataMap().putLong("time", new Date().getTime());
+        PutDataRequest request = dataMap.asPutDataRequest();
+        Wearable.DataApi.putDataItem(mGoogleApiClient, request)
+                .setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
+                    @Override
+                    public void onResult(DataApi.DataItemResult dataItemResult) {
+                        Log.e(TAG, "Sending image was successful: " + dataItemResult.getStatus()
+                                .isSuccess());
+                    }
+                });
+
     }
 }

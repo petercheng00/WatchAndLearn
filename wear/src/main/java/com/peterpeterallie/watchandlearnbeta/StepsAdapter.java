@@ -2,9 +2,12 @@ package com.peterpeterallie.watchandlearnbeta;
 
 import android.content.Context;
 import android.support.wearable.view.GridPagerAdapter;
+import android.text.TextUtils;
+import android.text.method.ScrollingMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.peterpeterallie.watchandlearnbeta.model.Guide;
@@ -39,6 +42,14 @@ public class StepsAdapter extends GridPagerAdapter {
 
         if (guide.getSteps().size() > 0) {
             textView.setText(guide.getSteps().get(col).getText());
+        }
+
+        final ImageView imageView = (ImageView) view.findViewById(R.id.imageView);
+
+        if (!TextUtils.isEmpty(guide.getPhoto())) {
+            imageView.setVisibility(View.VISIBLE);
+        } else {
+            imageView.setVisibility(View.GONE);
         }
 
         container.addView(view);
