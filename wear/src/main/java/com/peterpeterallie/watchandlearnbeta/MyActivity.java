@@ -67,11 +67,12 @@ public class MyActivity extends Activity implements WearableListView.ClickListen
     @Override
     public void onClick(WearableListView.ViewHolder viewHolder) {
         Guide guide = guideAdapter.getItem(viewHolder.getPosition());
-        Toast.makeText(MyActivity.this, "You selected " + guide.getTitle(), Toast.LENGTH_SHORT).show();
 
-        Intent intent = new Intent(this, GuideActivity.class);
-        intent.putExtra(GuideActivity.FILENAME, FILENAME_PREFIX + guide.getId());
-        startActivity(intent);
+        if (guide != null) {
+            Intent intent = new Intent(this, GuideActivity.class);
+            intent.putExtra(GuideActivity.FILENAME, FILENAME_PREFIX + guide.getId());
+            startActivity(intent);
+        }
     }
 
     @Override

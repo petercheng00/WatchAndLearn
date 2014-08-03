@@ -34,7 +34,7 @@ public class StepsAdapter extends GridPagerAdapter {
 
     @Override
     protected Object instantiateItem(ViewGroup container, int row, int col) {
-        final View view = LayoutInflater.from(context).inflate(R.layout.guide_item, container, false);
+        final View view = LayoutInflater.from(context).inflate(R.layout.step_item, container, false);
         final TextView textView = (TextView) view.findViewById(R.id.textView);
 
         if (guide.getSteps().size() > 0) {

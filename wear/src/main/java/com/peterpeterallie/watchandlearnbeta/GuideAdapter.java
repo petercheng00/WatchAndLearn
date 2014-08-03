@@ -42,6 +42,9 @@ public class GuideAdapter extends WearableListView.Adapter {
     }
 
     public Guide getItem(int position) {
+        if (guides.size() == 0) {
+            return null;
+        }
         return guides.get(position);
     }
 
