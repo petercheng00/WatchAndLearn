@@ -22,7 +22,7 @@ public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
 
     @Override
     protected void onPreExecute() {
-        bmImage.setImageResource(R.drawable.abc_spinner_ab_default_holo_dark);
+        loading.setVisibility(View.VISIBLE);
     }
 
     protected Bitmap doInBackground(String... urls) {
