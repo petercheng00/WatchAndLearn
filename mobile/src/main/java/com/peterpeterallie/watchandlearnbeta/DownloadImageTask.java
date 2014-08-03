@@ -15,6 +15,11 @@ public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
         this.bmImage = bmImage;
     }
 
+    @Override
+    protected void onPreExecute() {
+        bmImage.setImageResource(R.drawable.abc_spinner_ab_default_holo_dark);
+    }
+
     protected Bitmap doInBackground(String... urls) {
         String urldisplay = urls[0];
         Bitmap mIcon11 = null;

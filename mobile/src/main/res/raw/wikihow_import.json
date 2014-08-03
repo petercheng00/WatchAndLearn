@@ -1,0 +1,1556 @@
+{  
+   "generated":{  
+      "timestamp":1407089599000,
+      "human":"August 3rd 2014, 11:13:19am",
+      "by":{  
+         "guid":"1076f069-ef99-4f16-b4b7-9fabf1889321",
+         "username":"petercheng00",
+         "email":"petercheng00@gmail.com",
+         "roles":[  
+            "USER"
+         ],
+         "orgGuid":"00000000-0000-0000-0000-000000000000"
+      }
+   },
+   "columns":[  
+      {  
+         "id":"_input",
+         "name":"Input",
+         "special":true
+      },
+      {  
+         "id":"_num",
+         "name":"Result Number",
+         "special":true
+      },
+      {  
+         "id":"_widgetName",
+         "name":"Widget",
+         "special":true
+      },
+      {  
+         "id":"_source",
+         "name":"Data Origin",
+         "special":true
+      },
+      {  
+         "id":"_resultNumber",
+         "name":"Result Row",
+         "special":true
+      },
+      {  
+         "id":"_pageUrl",
+         "name":"Source Page URL",
+         "special":true
+      },
+      {  
+         "id":"title",
+         "name":"Title",
+         "special":false
+      },
+      {  
+         "id":"photo",
+         "name":"Photo",
+         "special":false
+      },
+      {  
+         "id":"text",
+         "name":"Text",
+         "special":false
+      }
+   ],
+   "data":[  
+      {  
+         "text":[  
+            "1 Understand the selection criteria that existing administrators will be looking for in each nominee. Trust - This is the most important criterion. Do the existing administrators trust you to exercise control responsibly on one of the most popular sites on the Internet? Trust is earned over time by continually displaying good, level-headed, mature judgment. Empathy and kindness - Administrators exist to serve the broader community of editors and readers. A demonstrated history of treating others with kindness and mutual respect is a necessity. Mission focus - Demonstrated ability to put wikiHow's mission before competing concerns. Civility - Can you remain civil when criticized for the decisions you make as an administrator? Can you wield administrator powers while still being kind, polite and welcoming? Track record - While there are no hard and fast rules, generally a contributor should have at least four months of experience and at least 500 - 1000 article namespace edits on wikiHow before being considered as a possible administrator candidate. Existing administrators have a hard time evaluating candidates they have yet to observe and interact with personally. Ad",
+            "2 Know the deletion policy well. Since one of the abilities you gain as an administrator is the ability to delete articles, it's important that you're very familiar with the deletion policy. Apply NFD tags with care. Nominating articles for deletion carelessly and repeatedly is a red flag as it will only hurt your chances of getting elected. Vote on NFD discussion pages. Most administrators review articles that have been nominated for deletion and check the discussion pages for consensus. Go to and show your knowledge of the deletion policy by voting on the discussion pages. Explain why you think the article does or does not violate the deletion policy. Any registered contributor can vote for or against deletion. Administrators often look after a particular NFD reason, so vote on a variety of NFD articles so that more administrators see your comments. Save articles from deletion. If you see that an article someone started can be rewritten or edited so that the NFD reason is no longer valid, fix it! Administrators and new article boosters are allowed to remove the NFD tag, but let them know that the article is fixed by posting a comment on the discussion page! Once an administrator or a booster sees it, they will remove the tag for you. This will help people remember you, as well as demonstrates that you have good knowledge of the deletion policy and a genuine interest in improving articles.",
+            "3 Participate in the forums, especially the Village Pump. Offer feedback, ask questions, and answer questions. The forums are a great place to learn about wikiHow's policies and interact with the community, including active administrators. If you like chat rooms, you can also spend some time in wikiHow's IRC channel. Some administrators are in there often.",
+            "4 Avoid and mediate conflict. Many people don't understand how wikiHow works, and some people are just plain annoying. An important thing that administrators look for when voting is patience. It's good to show that you don't let people get under your skin, no matter how angry or insulting they get. It's good if you can show that you're immune to trolls, too. If people see that you get easily irritated by people, whether on talk pages, the forums, and IRC, administrators will question whether your temperament will negatively affect the way you use administrator options.",
+            "5 Patrol recent changes. Report any of the following on the administrator notice board: Username policy violations Anyone who writes that they are under 13 years old (that doesn't mean, however, that it's acceptable to judge by grade level, or to ask someone how old they are) Vandals Spammers (people who place the same links everywhere) Pages needing protection (any page that you notice is getting a lot of vandalism in a short period of time; common with controversial featured articles) Anyone who is uploading a lot of images in short period of time without adding them to articles Anyone who is uploading a lot of videos in a short period of time, and the videos don't seem to comply with our video guidelines Anyone who is directly and repeatedly attacking other contributors on wikiHow",
+            "6 Get to know active administrators. But since administrators aren't glorified on wikiHow it can be hard to know who they are! There are also many administrators who aren't active right now. The best way to see which administrators are active right now is to look at the block log and deletion log. The best way to make an impression on administrators is to ask them questions, especially about situations you come across while following the steps below.",
+            "7 Don't be discouraged if no one offers to mentor you/nominate. You can still be a valued member of the community. Many great wikiHow editors have never become administrators."
+         ],
+         "title":[  
+            "How to Become a wikiHow Admin"
+         ],
+         "photo/_alt":[  
+            "Become a wikiHow Admin Step 1.jpg",
+            "Become a wikiHow Admin Step 2.jpg",
+            "Become a wikiHow Admin Step 3.jpg",
+            "Become a wikiHow Admin Step 5.jpg",
+            "Become a wikiHow Admin Step 6.jpg"
+         ],
+         "photo":[  
+            "http://pad1.whstatic.com/images/6/67/Become-a-wikiHow-Admin-Step-1.jpg",
+            "http://pad1.whstatic.com/images/thumb/9/95/Become-a-wikiHow-Admin-Step-2.jpg/670px-Become-a-wikiHow-Admin-Step-2.jpg",
+            "http://pad3.whstatic.com/images/thumb/4/4c/Become-a-wikiHow-Admin-Step-3.jpg/670px-Become-a-wikiHow-Admin-Step-3.jpg",
+            "http://pad3.whstatic.com/images/thumb/2/2c/Become-a-wikiHow-Admin-Step-5.jpg/670px-Become-a-wikiHow-Admin-Step-5.jpg",
+            "http://pad3.whstatic.com/images/thumb/8/81/Become-a-wikiHow-Admin-Step-6.jpg/670px-Become-a-wikiHow-Admin-Step-6.jpg"
+         ],
+         "_resultNumber":7,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Become-a-wikiHow-Admin",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":7
+      },
+      {  
+         "text":[  
+            "1 Make the first move. Boldness is the opposite of hesitation. Whenever you're feeling hesitant in interactions with others, or in making a decision for yourself, learn to swallow your pride and make the first move. Ask your acquaintance if they'd like to go to the bar down the street for drinks after work. Tell the person you're interested in that you've got two tickets to a concert and you'd like them to come with you. Give your significant other a big hug and apologize for that time you overreacted a few months ago. Smile and wink at the attractive cashier. \"Over-thinking\" is often the cause of hesitation. If you can say, \"I want this,\" you've said enough to make your decision. Go for it! Ad",
+            "2 Do something unpredictable. What could you do that would completely surprise the people who know you? Wear high heels? Skydive? Take a dance class? Bold people aren't afraid of trying new things, and one of the reasons they're so exciting to be around is that they keep you guessing. Start small, maybe by wearing a color or style of clothing that you don't normally wear, or visiting a bar or restaurant you normally wouldn't visit. Book that trip abroad you've always wanted to make. Eventually, work your way up to things that'll shake up people's version of you. Go white-water rafting or enter a new business venture.",
+            "3 Rediscover who you are. Ultimately, boldness has to do with coming from your center, enacting what you believe. It is not about what you do, it is about who you are. Start really appreciating your uniqueness. Avoid \"mid-life crisis\" style boldness, which involves doing seemingly random, uncharacteristic things in the name of surprising people. If you don't want platinum bleached hair and a nose ring, don't do it just to shock people. Be honest with yourself. What you want is to act on the decisions that you've already made for yourself, not get sucked into things you have no desire to do or interest in. Create opportunities, not surprises.",
+            "4 Pretend you're already bold. If you were to switch places with somebody you admire for their assertiveness and boldness, what would they do in your shoes? If you already know someone who's bold, imagine how they'd act. Also think of a character from a movie or book who's daring and brave and imagine their boldness in your life. What would James Bond do when your boss asks you to come in on a day you specifically requested off? What would Erin Brockovich do if she saw the friendly barista get bullied by a businessman with a Bluetooth?",
+            "5 Be willing to say no. You're not anyone's doormat. If someone asks you to do something you don't want to do, refuse. Saying \"No\" is often the earliest assertion of individuality that a child makes, often refusing to eat food. For a child, opening your mouth is one of the only things you can control, so refusing to eat is an assertion of boldness and individuality. Saying \"No\" will reinvigorate your individuality and help you to feel bold, ensuring that you're ready and willing to go out and get what you want. Sometimes, we feel as if we can't refuse if the only reason is \"...because I don't want to.\" If your friend calls on Friday and asks you to come over and drink beer, but you'd rather hang out and read a book, don't come up with an elaborate reason why you don't want to: \"Oh, well I have to get to bed early tonight because my brother's going to be in town.\" Just say no: \"I think I'm going to stay in and read.\" People will have to learn to respect your honesty and boldness, and you'll be getting what you want. [1]",
+            "6 Follow up talk with action. Making bold claims and promises you can't follow up on won't make people think of you as bold, it will make people think of you as a flake. It's always more bold to be completely honest. When your word is good, people will trust you and look upon you as a bold, reliable, complicated person. [2] If you agreed to attend a conference at work you have no desire to attend, just because you thought it would please your boss, it's too late to get out of it. Next time, remember to say no and assert yourself.",
+            "1 Ask for what you want. Rather than waiting to be recognized for your efforts, or expecting someone to consider your needs, step up to the plate and ask. Hesitation comes from a feeling that asking for things you want is greedy, rude, and selfish. That if we truly deserve that promotion, or that date, we'll receive it. But if someone is withholding something that you've rightfully earned, they're the ones being greedy, selfish, and rude. The worst that could happen is that they say no, and you're in no worse of a position than before.",
+            "2 Negotiate. The phrase \"What can you do for me?\" is an easy and powerful way to throw the onus of responsibility back on the person you're negotiating with. Even if the initial answer is \"no,\" keep the window of opportunity open as long as possible to give them an opportunity to change their mind. Plan out counter-offers before you start negotiating. If you think your boss will reject your request for time off because there's no one to fill your place, say you'll double-up a shift when you get back, or that you'll complete tasks remotely when you have free time.",
+            "3 Give someone two choices. One of the best ways to get what you want is to simplify the number of solutions to a given problem to ensure you'll get what you want. If you're selling a car, you want to get the most money you possibly can from the sale for as little hassle as possible. The first guy that comes to look at the car offers you half of what you want and asks if you can deliver it to his house on a day you have to work. So you give two choices: \"The best I can do is ____. No deliveries. I've got five people waiting to come look at this car. Take it or leave it.\" Even if there are an unlimited number of possibilities for a given problem, limit them to the solutions that work for you. This will cut down on the amount of hassle that goes into the solving and ensure that the outcome is what you want.",
+            "4 Take risks. There's a difference between being reckless and accepting risks. Reckless people don't accept risks because they don't even think about them. A bold person, on the other hand, is well aware of the risks, and has decided to go through with the decision anyway, ready and willing to accept the consequences if things don't work out. Think of an athlete who takes risks every day, but measured, practiced, prepared risks. You might make a mistake, but for the bold, taking risks and falling flat is far more fulfilling than having done nothing at all. Inaction or hesitation is often a kind of risk, because you're risking missing an opportunity. This is a risk to avoid, however. Your goal is to create your best chance of success, not whittle away at your window of opportunity. When you've made the choice to act, do it without fear."
+         ],
+         "title":[  
+            "How to Be Bold"
+         ],
+         "photo/_alt":[  
+            "Be Bold Step 2.jpg",
+            "Be Bold Step 3.jpg",
+            "Be Bold Step 6.jpg",
+            "Be Bold Step 1.jpg",
+            "Be Bold Step 4.jpg",
+            "Be Bold Step 5.jpg"
+         ],
+         "photo":[  
+            "http://pad1.whstatic.com/images/thumb/1/13/Be-Bold-Step-2.jpg/630px-Be-Bold-Step-2.jpg",
+            "http://pad3.whstatic.com/images/thumb/7/71/Be-Bold-Step-3.jpg/630px-Be-Bold-Step-3.jpg",
+            "http://pad3.whstatic.com/images/thumb/a/ad/Be-Bold-Step-6.jpg/630px-Be-Bold-Step-6.jpg",
+            "http://pad2.whstatic.com/images/thumb/c/cd/Be-Bold-Step-1.jpg/630px-Be-Bold-Step-1.jpg",
+            "http://pad2.whstatic.com/images/thumb/9/95/Be-Bold-Step-4.jpg/630px-Be-Bold-Step-4.jpg",
+            "http://pad1.whstatic.com/images/thumb/9/90/Be-Bold-Step-5.jpg/630px-Be-Bold-Step-5.jpg"
+         ],
+         "_resultNumber":24,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Be-Bold",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":24
+      },
+      {  
+         "text":[  
+            "1 Remove accessories on the top of the handlebar. This includes the lights, bell, etc. If your bike has V brakes, release the brake [cables]. [Starting with the front brake], push the two brake calipers into the rim of the wheel to release the tension from the cable. Then lift the brake cable up out of the retaining clip and repeat with the rear brake cable. Ad",
+            "2 Turn the bike upside-down. To protect your grips and saddle, lay out an old towel or something similar on the ground (or fork out the hundred bucks or so for a repair stand). Standing beside your bike, lean over it and grip the frame with your hands - one hand on the down tube at the front and the other hand on the seat post at the rear of the frame. Then lift up the bike and turn it over. Alternate method: Hang the bike from the saddle. To protect the underside of your saddle, pad the tree branch, rafter, etc. Hanging the bike right-side-up is a better method as the chain sits in a specific location due to gravity pulling it down. Another Alternate Method: String it up. Hang the bike from a balcony by stringing rope around the handle bars, up to the balcony, and down around the seat stay.",
+            "3 Remove the wheels. Open the quick release lever on the front wheel axle and lift the wheel out. Remove the rear wheel - open the quick release and, as you lift up the wheel, ease the rear cassette housing out of the dérailleur mechanism (the part with the two cogs).",
+            "4 Clean the drive system. Using the brush and some soapy water, start by cleaning the rear derailleur, working the brush into all the moving parts. Turn the pedals to move the chain round and, holding a wet soapy rag around the chain on the rear derailleur, give it a good wash down. Use the brush with plenty of water to clean the chain ring (the front cog where the pedals attach). Then give it a wipe down with a dry cloth. Taking a wet rag, wash the pedals and then wash the cranks (the bars that hold the pedals on). Finally, clean the front gear mechanism, working the rag into all the moving parts to clean them thoroughly.",
+            "5 Wash the underside. Start by washing the front forks with a rag and soapy water, wiping them dry with a cloth as you go. In the same way, clean the centre and rear of the frame. Wash the handlebars with a soapy rag, paying particular attention to the brake lever and gear assembly. Using a damp rag, wash the top tube or crossbar, making sure to clean under the brake and gear cables that run down its length. Finally, clean the underside of the seat.",
+            "6 Wash and remount the wheels. Take a wet rag and start by cleaning the rims of the front wheel. Give the spokes a wash-down and clean the axle. If you have a disk brake system, use a degreaser, such as muck off or white lightning to clean the disc's. Drop the front wheel back into the forks and tighten the quick release - not too tight, not too loose. When you have tightened the lever to the correct pressure, the quick release will leave a mark on your palm for a few seconds. If you need to adjust the tension of the quick release, turn the nut on the far side of the axle clockwise to tighten it, or anticlockwise for less tension. Take the rear wheel and clean the rims, spokes, axle and rear disk rotor if you have one, as you did with the front wheel. Clean the gear cassette on the rear wheel carefully. Use the lever end of the bike brush to remove any stones between the teeth, then work the brush into the cogs, using plenty of soapy water. This will remove any build-up of lubricant or dirt. Drop the rear wheel back into the frame, easing the gear cassette back into the derailleur assembly. Tighten the quick release.",
+            "7 Check the wheels. Spin each wheel, making sure it turns freely and that you can see that it's straight (true). As the wheel rotates, hold your fingers against the rims, to feel if there are any dents or knocks on either side. If you have disc brakes, also check both sides of the rotors on each wheel for true. Make sure it looks smooth and straight. Do not touch the rotor. If you have V brakes, watch the wheel while it's spinning, to make sure that the brake blocks do not make contact with the rims. Check the spokes by turning the front wheel slowly and letting your hand fall over each spoke as the wheel rotates. Every spoke should feel taut but if one feels sloppy, it will need tightening. While the bike is still upside down, check the tire pressure and that both tires are in good condition. If you find any major damage, replace the tire before your next ride.",
+            "8 Check the drive system. Check both pedals by spinning them, making sure that they turn freely and that there is no noise or grinding from worn bearings. If there is, you'll need to replace the bottom bracket. Turn a pedal to rotate the crank and listen out for any noise or signs of wear from the bottom bracket (the assembly that holds the cranks and chain ring in place). If you find any, it will need further maintenance. Check the front gear mechanism. Turn the pedal and move the chain up and down the gears using the gear lever. You're looking and listening for signs of snagging, which happen when the mechanism is misaligned and needs adjusting. Do a similar check with the rear derailleur and gear cogs.",
+            "9 Wash the topside of bike. Stand by your bike and grab the frame with both hands as you did before to turn your bike back up the right way. Then lean the bike against a wall. Using a clean rag and soapy water, wash the handlebars and the headset (the part where the handlebars meet the frame). Take care to clean well around the brake and gear levers. Wash the tops of the forks on the front wheel and, if you have front shocks, give the seals a good wipe down. Moving to the centre of the bike, clean the down tube and the top tube or crossbar. Open the quick release to remove the saddle. Wash the saddle tube and the seat post on the frame, then remount the saddle, tighten the quick release and give the saddle a wipe over. Finally, clean the seat stays (the two tubes that join the seat post to the rear axle) and wash around the bottom bracket.",
+            "10 Check the brakes. Test your brakes by standing in front of your bike, holding the handlebars. Apply the front brake and pull the bike towards you. The front wheel should not move at all and if you continue to pull, the rear wheel should lift up off the ground; otherwise, the brake will need adjusting. Do the same test with the back brake. When the brake is applied, the rear wheel shouldn't turn round and if you keep pulling, it should skid. If not, the rear brake will need adjusting. Also, look at the brake levers - the brakes should start to grip at about 1/3 pull. The levers should not touch the handlebars. If they do, your brakes need adjusting. If you have disc brakes, check that they are in good condition by standing in front of the bike and looking down inside the disk brake caliper (the bit that fits around the brake rotor). Apply the front brake and you should see both brake pads move across equally to clamp the rotor. If they don't, this indicates a problem. Repeat the above test with the rear disk brake, standing where you can see down into the rear caliper. If you have V brakes, check the brake blocks for signs of wear. They should be free of graphite build-up, and the grooves in the pad should be deep; otherwise, they'll need replacing. With V brakes, also check both brake cables for signs of wear or fraying. Start at the brake levers on the handlebars. Follow the cables along the top tube, then check the other end of both cables where they meet the brake calipers. If you find any signs of wear or fraying in your brake cables, they will need replacing.",
+            "11 Check the headset. Stand beside your bike, and holding the headset with your left hand, apply the front brake with your right hand and rock the bike back and forth. Make sure you cannot feel any slack or hear any knocking in the headset. If you can, your headset will need adjusting.",
+            "12 Lubricate the drive system. Place some rags over the rear wheel rims underneath the derailleur, to catch any oil drips. Rotate the pedal anticlockwise to move the chain around. Holding the spray lubricant vertically, spray the chain for a few seconds as it passes over the rear gear cogs. Moving the chain with the pedal, spray the teeth on the inside of the chain ring near the cranks. Rotate the pedal again and finally, lube the outside of the chain ring in the same way."
+         ],
+         "title":[  
+            "How to Maintain a Mountain Bike"
+         ],
+         "photo/_alt":[  
+            "Maintain a Mountain Bike Step 1.jpg",
+            "Maintain a Mountain Bike Step 2.jpg",
+            "Maintain a Mountain Bike Step 4.jpg",
+            "Maintain a Mountain Bike Step 5.jpg",
+            "Maintain a Mountain Bike Step 6.jpg",
+            "Maintain a Mountain Bike Step 7.jpg",
+            "Maintain a Mountain Bike Step 8.jpg",
+            "Maintain a Mountain Bike Step 9.jpg",
+            "Maintain a Mountain Bike Step 10.jpg",
+            "Maintain a Mountain Bike Step 11.jpg",
+            "Maintain a Mountain Bike Step 12.jpg"
+         ],
+         "photo":[  
+            "http://pad1.whstatic.com/images/thumb/5/54/Maintain-a-Mountain-Bike-Step-1.jpg/670px-Maintain-a-Mountain-Bike-Step-1.jpg",
+            "http://pad2.whstatic.com/images/thumb/4/44/Maintain-a-Mountain-Bike-Step-2.jpg/670px-Maintain-a-Mountain-Bike-Step-2.jpg",
+            "http://pad3.whstatic.com/images/thumb/e/e3/Maintain-a-Mountain-Bike-Step-4.jpg/670px-Maintain-a-Mountain-Bike-Step-4.jpg",
+            "http://pad2.whstatic.com/images/thumb/0/02/Maintain-a-Mountain-Bike-Step-5.jpg/670px-Maintain-a-Mountain-Bike-Step-5.jpg",
+            "http://pad3.whstatic.com/images/thumb/b/bf/Maintain-a-Mountain-Bike-Step-6.jpg/670px-Maintain-a-Mountain-Bike-Step-6.jpg",
+            "http://pad2.whstatic.com/images/thumb/c/ca/Maintain-a-Mountain-Bike-Step-7.jpg/670px-Maintain-a-Mountain-Bike-Step-7.jpg",
+            "http://pad3.whstatic.com/images/thumb/4/45/Maintain-a-Mountain-Bike-Step-8.jpg/670px-Maintain-a-Mountain-Bike-Step-8.jpg",
+            "http://pad1.whstatic.com/images/thumb/c/cd/Maintain-a-Mountain-Bike-Step-9.jpg/670px-Maintain-a-Mountain-Bike-Step-9.jpg",
+            "http://pad3.whstatic.com/images/thumb/b/b5/Maintain-a-Mountain-Bike-Step-10.jpg/670px-Maintain-a-Mountain-Bike-Step-10.jpg",
+            "http://pad2.whstatic.com/images/thumb/5/55/Maintain-a-Mountain-Bike-Step-11.jpg/670px-Maintain-a-Mountain-Bike-Step-11.jpg",
+            "http://pad2.whstatic.com/images/thumb/2/2d/Maintain-a-Mountain-Bike-Step-12.jpg/670px-Maintain-a-Mountain-Bike-Step-12.jpg"
+         ],
+         "_resultNumber":1,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Maintain-a-Mountain-Bike",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":1
+      },
+      {  
+         "text":[  
+            "1 Open your Add/Remove Programs and Task Manager and look for any applications you do not remember installing. Add/Remove Programs can be found by clicking Start->Settings->Control Panel The Task Manager is accessed by right-clicking on the Task Bar (at the bottom of the screen) and selecting Task Manager. Ad",
+            "2 Using your favorite search engine, search for any programs you do not immediately recognize.",
+            "3 Press Winkey and R at the same time, type in regedit, click HKEY_CURRENT_USER, Software, Microsoft, Windows, CurrentVersion, Run. Check for the names of any programs you do not know what they are and use Google to find what they are. This shows all programs that automatically start when you turn on the computer. Then HKEY_LOCAL_MACHINE, Software, Microsoft Windows, CurrentVersion, Run, and check for and delete the entry for any unwanted programs.",
+            "4 Look for security or technology websites in the results which may provide information if the application is malicious.",
+            "5 Use the same search engine to search for the specific name of any Trojan Horses you find and look for removal instructions.",
+            "6 If the removal instructions for your Trojan Horse don't work scan your PC with your anti-virus and anti-spyware applications.",
+            "7 If you do not have a Virus Scanner or Spyware Scanner look for a free online virus or spyware tools such as AVG."
+         ],
+         "title":[  
+            "How to Tell if Your Computer Is Infected by a Trojan Horse"
+         ],
+         "photo/_alt":[  
+            "Tell if Your Computer Is Infected by a Trojan Horse Step 1.jpg",
+            "Tell if Your Computer Is Infected by a Trojan Horse Step 2.jpg",
+            "Tell if Your Computer Is Infected by a Trojan Horse Step 3.jpg",
+            "Tell if Your Computer Is Infected by a Trojan Horse Step 4.jpg",
+            "Tell if Your Computer Is Infected by a Trojan Horse Step 5.jpg",
+            "Tell if Your Computer Is Infected by a Trojan Horse Step 6.jpg",
+            "Tell if Your Computer Is Infected by a Trojan Horse Step 7.jpg"
+         ],
+         "photo":[  
+            "http://pad1.whstatic.com/images/thumb/a/a3/Tell-if-Your-Computer-Is-Infected-by-a-Trojan-Horse-Step-1.jpg/670px-Tell-if-Your-Computer-Is-Infected-by-a-Trojan-Horse-Step-1.jpg",
+            "http://pad3.whstatic.com/images/thumb/8/84/Tell-if-Your-Computer-Is-Infected-by-a-Trojan-Horse-Step-2.jpg/670px-Tell-if-Your-Computer-Is-Infected-by-a-Trojan-Horse-Step-2.jpg",
+            "http://pad3.whstatic.com/images/f/f5/Tell-if-Your-Computer-Is-Infected-by-a-Trojan-Horse-Step-3.jpg",
+            "http://pad2.whstatic.com/images/thumb/9/9a/Tell-if-Your-Computer-Is-Infected-by-a-Trojan-Horse-Step-4.jpg/670px-Tell-if-Your-Computer-Is-Infected-by-a-Trojan-Horse-Step-4.jpg",
+            "http://pad1.whstatic.com/images/thumb/a/a4/Tell-if-Your-Computer-Is-Infected-by-a-Trojan-Horse-Step-5.jpg/670px-Tell-if-Your-Computer-Is-Infected-by-a-Trojan-Horse-Step-5.jpg",
+            "http://pad1.whstatic.com/images/thumb/e/e4/Tell-if-Your-Computer-Is-Infected-by-a-Trojan-Horse-Step-6.jpg/670px-Tell-if-Your-Computer-Is-Infected-by-a-Trojan-Horse-Step-6.jpg",
+            "http://pad2.whstatic.com/images/thumb/d/d2/Tell-if-Your-Computer-Is-Infected-by-a-Trojan-Horse-Step-7.jpg/670px-Tell-if-Your-Computer-Is-Infected-by-a-Trojan-Horse-Step-7.jpg"
+         ],
+         "_resultNumber":26,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Tell-if-Your-Computer-Is-Infected-by-a-Trojan-Horse",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":26
+      },
+      {  
+         "text":[  
+            "1 Wash and dry the ingredients. Rinse the lettuce and other vegetables in cool water and dry them off. The ingredients of your salad must be completely dry before you put the salad together. Most vegetables, like tomatoes and cucumbers can be rinsed under running water and dried with clean paper towels. Some, like carrots, may need to be scrubbed with a vegetable brush or peeled with a vegetable peeler to remove any dirt caked into the outer crevices of the skin. The hardest vegetables to work with in this case will be your lettuce and other leafy greens. To thoroughly clean and dry leafy greens, you should separate the leaves and let them sit in a sink or bowl of cool water for five to ten minutes. After that, you should rinse the leaves gently under running water and place them into a salad spinner. Spin the leaves thoroughly to remove all traces of moisture. It is absolutely crucial that you send the lettuce through a salad spinner and that you dry off all the other vegetables. When trying to keep the lettuce portion of the salad fresh, you need the container it sits in to be as dry as possible. If moisture builds up inside the container, it will cling to the lettuce leaves and cause them to become soggy. Ad",
+            "2 Assemble the salad. You can mix the lettuce and other ingredients as desired before you store the salad. Combine the ingredients in a single large bowl or in individual serving bowls. Note that there are some ingredients that you should only add when you are ready to serve the salad. Hard boiled eggs can spoil fast and should not be stored with the rest of the salad. Most fruits have too much water content and can cause the lettuce to wilt too quickly even if you take precautions against moisture.",
+            "3 Place a paper towel in the bowl. [1] Take a clean, dry paper towel and fold it so that it can rest at the top of the salad bowl. If you have a large bowl of salad, you might need to use two or three paper towels. The paper towels are another crucial element because they help keep moisture off the lettuce. Vegetables naturally contain a little water, so even if you dry everything off thoroughly before you place it into the bowl, some moisture will inevitably build up. By placing paper towels on top of the salad, you can protect the lettuce from getting soggy. The water will be absorbed by the paper towels instead of sitting on the lettuce leaves. If your salad contains a lot of vegetables with a high water content, like tomatoes and cucumbers, you might want to consider adding more protection by layering paper towels in between layers of salad. Lay a little of your salad on the bottom of the bowl and place a paper towel over it. Spread out more salad on top of that and lay another sheet of paper towel over that. You can repeat this for two to four sets of alternating layers, but make sure that a paper towel rests on top.",
+            "4 Seal the container. If the container has a lid, place the lid on top. Otherwise, tightly cover the container with plastic wrap. If you want to ensure freshness, cover the bowl with a tight sheet of plastic wrap and place a tight lid on top of that. Like moisture, air is another element that can quickly cause your lettuce to wilt. It can also cause the other vegetables to become less fresh and to spoil faster, so keeping air out of your container is an essential step.",
+            "5 Store the dressing separately. [2] Any dressing you plan to use for the salad should be stored in a separate airtight container. Do not combine the dressing and the salad before you store the salad. If you add the dressing beforehand, you will introduce too much moisture to the salad and pretty much guarantee that the lettuce will become soggy and wilted.",
+            "6 Refrigerate the salad. Place the container of salad and the container of dressing in the refrigerator. Keep the salad there until you are ready to serve it. Every time you open the container, you should stir the salad some and replace the paper towel with a fresh one. You should also replace the paper towel if it begins to look soggy. When stored in this manner, salad can stay fresh and crisp for a week or more.",
+            "1 Prepare your fruits. Wash, dry, and cut the fruit for your salad. Many types of fruit are difficult to keep fresh once cut, but there are methods you can use to help prolong freshness. Consider whether you want to prepare these fruits in advance using these techniques or if you want to add these fruits to the salad just before serving it.",
+            "2 Coat cut fruits in an antioxidant fruit juice. [3] If you are using fruits in your salad that are likely to brown when exposed to air, you should protect them by tossing the cut pieces in a little lemon juice. Apples, pears, and bananas oxidize when the flesh of the fruit is exposed to air. This oxidation process is what causes these fruits to quickly turn brown after you cut them. While lemon juice is the most common juice used to protect sensitive fruits from oxidation, most citrus juices would work. That includes lime juice, pineapple juice, and orange juice.",
+            "3 Submerge the fruit in cold water. [4] Another way to preserve the freshness of cut fruit for a longer period of time is to place the fruit pieces into a plastic container and cover them with fresh, cold water. Cover the container with a lid. The water needs to be as cold as you can get it to be without adding ice. You also need to fill the container to the brim with water. The pieces of fruit should be completely submerged and should not be able to come into contact with any air. You can store the fruit separately in this manner or you can mix the salad and keep the entire thing, minus the dressing, submerged in water. Note that this is only necessary if you have fruit that will oxidize, like apples or pears. It is not necessary if your fruit salad only consists of citrus fruits or whole berries.",
+            "4 Refrigerate the fruit salad. Place the container of fruit salad in the refrigerator and chill until you are ready to serve it. Many types of fruit need to be refrigerated in order to stay fresh, including most berries. All cut fruit should also be stored in the refrigerator. As such, virtually any prepared fruit salad will need to be chilled, even if there are no fruits in it that can oxidize. Even in the refrigerator, you should only store fruit salad for three to five days at maximum. Even if you can preserve it past that point, much of the fruit will lose a good portion of its freshness.",
+            "5 Drain the water when ready to serve. Immediately before you intend to serve the fruit salad, take it out of the refrigerator and drain the water from it. Drain as much of the water away as possible. You could also scoop the fruit out of the container with a slotted spoon.",
+            "6 Save the dressing until the end. Do not refrigerate the fruit salad with the dressing mixed in. Instead, prepare the dressing just before you plan to serve the fruit salad and toss the prepared fruit into it before dishing it out.",
+            "1 Store in an airtight container. For the most part, other types of salads can be prepared ahead of time. Place the prepared ingredients into an airtight plastic container and seal it well. You will not need to make any other special storage preparations to keep various other salad types fresh. Other types of salad you may consider saving include egg salad, potato salad, pasta salad, chicken salad, and tuna salad. Food tends to spoil faster when exposed to air, so an airtight seal is essential if you really want to keep your salads both fresh and safe to eat.",
+            "2 Refrigerate the salad. All pre-cooked ingredients will need to be refrigerated in their airtight containers. Since most other salad types include pre-cooked ingredient, most will also need to be refrigerated. Bacteria is more likely to grow in food that sits out at room temperature. As such, refrigeration preserves the freshness of your food while also keeping it sanitary.",
+            "3 Add the dressing immediately before serving. You can usually preserve most types of salads longer if you add any dressing before you serve the salad instead of adding it before you store it. This is especially true of mayonnaise-based dressings."
+         ],
+         "title":[  
+            "How to Keep Salad Fresh"
+         ],
+         "photo/_alt":[  
+            "Keep Salad Fresh Step 1.jpg",
+            "Keep Salad Fresh Step 2.jpg",
+            "Keep Salad Fresh Step 3.jpg",
+            "Keep Salad Fresh Step 4.jpg",
+            "Keep Salad Fresh Step 5.jpg",
+            "Keep Salad Fresh Step 6.jpg",
+            "Keep Salad Fresh Step 7.jpg",
+            "Keep Salad Fresh Step 8.jpg",
+            "Keep Salad Fresh Step 9.jpg",
+            "Keep Salad Fresh Step 10.jpg",
+            "Keep Salad Fresh Step 11.jpg",
+            "Keep Salad Fresh Step 12.jpg",
+            "Keep Salad Fresh Step 13.jpg",
+            "Keep Salad Fresh Step 14.jpg",
+            "Keep Salad Fresh Step 15.jpg"
+         ],
+         "photo":[  
+            "http://pad1.whstatic.com/images/thumb/b/b3/Keep-Salad-Fresh-Step-1.jpg/670px-Keep-Salad-Fresh-Step-1.jpg",
+            "http://pad1.whstatic.com/images/thumb/7/73/Keep-Salad-Fresh-Step-2.jpg/670px-Keep-Salad-Fresh-Step-2.jpg",
+            "http://pad3.whstatic.com/images/thumb/5/54/Keep-Salad-Fresh-Step-3.jpg/670px-Keep-Salad-Fresh-Step-3.jpg",
+            "http://pad2.whstatic.com/images/thumb/1/1a/Keep-Salad-Fresh-Step-4.jpg/670px-Keep-Salad-Fresh-Step-4.jpg",
+            "http://pad1.whstatic.com/images/thumb/6/67/Keep-Salad-Fresh-Step-5.jpg/670px-Keep-Salad-Fresh-Step-5.jpg",
+            "http://pad3.whstatic.com/images/thumb/8/8f/Keep-Salad-Fresh-Step-6.jpg/670px-Keep-Salad-Fresh-Step-6.jpg",
+            "http://pad3.whstatic.com/images/thumb/f/f5/Keep-Salad-Fresh-Step-7.jpg/670px-Keep-Salad-Fresh-Step-7.jpg",
+            "http://pad2.whstatic.com/images/thumb/a/a5/Keep-Salad-Fresh-Step-8.jpg/670px-Keep-Salad-Fresh-Step-8.jpg",
+            "http://pad3.whstatic.com/images/thumb/7/78/Keep-Salad-Fresh-Step-9.jpg/670px-Keep-Salad-Fresh-Step-9.jpg",
+            "http://pad1.whstatic.com/images/thumb/7/74/Keep-Salad-Fresh-Step-10.jpg/670px-Keep-Salad-Fresh-Step-10.jpg",
+            "http://pad1.whstatic.com/images/thumb/6/66/Keep-Salad-Fresh-Step-11.jpg/670px-Keep-Salad-Fresh-Step-11.jpg",
+            "http://pad1.whstatic.com/images/thumb/a/a0/Keep-Salad-Fresh-Step-12.jpg/670px-Keep-Salad-Fresh-Step-12.jpg",
+            "http://pad2.whstatic.com/images/thumb/7/7b/Keep-Salad-Fresh-Step-13.jpg/670px-Keep-Salad-Fresh-Step-13.jpg",
+            "http://pad1.whstatic.com/images/thumb/f/f2/Keep-Salad-Fresh-Step-14.jpg/670px-Keep-Salad-Fresh-Step-14.jpg",
+            "http://pad2.whstatic.com/images/thumb/a/ad/Keep-Salad-Fresh-Step-15.jpg/670px-Keep-Salad-Fresh-Step-15.jpg"
+         ],
+         "_resultNumber":13,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Keep-Salad-Fresh",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":13
+      },
+      {  
+         "text":[  
+            "1 Decide if you want to spend some extra money and pay for your antivirus software or use a free antivirus application. If you decide to pay for your antivirus software you can buy it directly from the antivirus company or head out to your local store with a electronic section and buy it there. If you decide to download a free antivirus application you can download it from directly from the antivirus company's website. If you have dial-up internet it may take hours to download. Ad",
+            "2 Run the installer for your antivirus application. Follow all steps exactly as the installer says too. About all antivirus installers setup the antivirus application for maximum protection.",
+            "3 Once installed, it is a good idea to check for updates if the installer did not do it during the installation."
+         ],
+         "title":[  
+            "How to Protect Your Computer With Antivirus Software"
+         ],
+         "photo/_alt":[  
+            "Decide to pay for your antivirus   1.1.JPG",
+            "Run the installer   2.jpg",
+            "Check for updates   3.jpg"
+         ],
+         "photo":[  
+            "http://pad1.whstatic.com/images/thumb/d/df/Decide-to-pay-for-your-antivirus---1.1.JPG/670px-Decide-to-pay-for-your-antivirus---1.1.JPG",
+            "http://pad1.whstatic.com/images/thumb/a/a2/Run-the-installer---2.jpg/670px-Run-the-installer---2.jpg",
+            "http://pad2.whstatic.com/images/thumb/f/f6/Check-for-updates---3.jpg/622px-Check-for-updates---3.jpg"
+         ],
+         "_resultNumber":3,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Protect-Your-Computer-With-Antivirus-Software",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":3
+      },
+      {  
+         "text":[  
+            "1 Build the main body. Use 4 pieces of 1 X 2 lumber. Make a ladder type frame by using 90 degree brackets and screw everything in. Ad",
+            "2 Find 16\" wheels (preferably recycled ones). Attach them to the frame using electric box cover plates bent into shape as shown. You can use bigger wheels if you want to get the trailer even height with the bike so nothing falls off.",
+            "3 Attach a trailer arm. Use a malleable metal bar (e.g. from a used, cheap car bicycle rack). Bend and cut the piece into shape. Flatten and drill holes at each end. Bolt the finished arm to the frame tightly.",
+            "4 Construct the hitch. Fold an electrical cover plate in half. Make a hole and bolt it onto the wheel and frame of the bike. Then bolt an eye bolt on that bracket. (Put some electrical tape over the eye bolt to soften or remove the clanking noise that is inevitable with this set-up.) Use a U-clamp (also called a shackle) to connect the trailer arm to the eye bolt.",
+            "5 Screw a piece of appropriately sized and precut plywood to the top of the frame. Add some eye screws along the edges for bungee cords to hold your cargo in place, if need be."
+         ],
+         "title":[  
+            "How to Build a Bicycle Cargo Trailer"
+         ],
+         "photo/_alt":[  
+            "Build a Bicycle Cargo Trailer Step 1.jpg",
+            "Build a Bicycle Cargo Trailer Step 2.jpg",
+            "Build a Bicycle Cargo Trailer Step 3.jpg",
+            "Build a Bicycle Cargo Trailer Step 4.jpg",
+            "Build a Bicycle Cargo Trailer Step 5.jpg"
+         ],
+         "photo":[  
+            "http://pad1.whstatic.com/images/thumb/f/ff/Build-a-Bicycle-Cargo-Trailer-Step-1.jpg/670px-Build-a-Bicycle-Cargo-Trailer-Step-1.jpg",
+            "http://pad2.whstatic.com/images/thumb/5/55/Build-a-Bicycle-Cargo-Trailer-Step-2.jpg/670px-Build-a-Bicycle-Cargo-Trailer-Step-2.jpg",
+            "http://pad1.whstatic.com/images/thumb/6/68/Build-a-Bicycle-Cargo-Trailer-Step-3.jpg/670px-Build-a-Bicycle-Cargo-Trailer-Step-3.jpg",
+            "http://pad2.whstatic.com/images/thumb/c/cc/Build-a-Bicycle-Cargo-Trailer-Step-4.jpg/670px-Build-a-Bicycle-Cargo-Trailer-Step-4.jpg",
+            "http://pad2.whstatic.com/images/thumb/e/ea/Build-a-Bicycle-Cargo-Trailer-Step-5.jpg/670px-Build-a-Bicycle-Cargo-Trailer-Step-5.jpg"
+         ],
+         "_resultNumber":8,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Build-a-Bicycle-Cargo-Trailer",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":8
+      },
+      {  
+         "text":[  
+            "1 Read the Writer's Guide. This is the all important first step of any wikiHow contributor. If you don't understand how wikiHow works, you are unlikely to contribute in a positive manner. Ad",
+            "2 Read the suggested ways you can contribute to wikiHow. There are many different ways to contribute to wikiHow and you can earn a Barnstar through each way. Find one that suits you best and that you enjoy doing. If you pursue in an activity that is truly rewarding to you, other users will recognize that.",
+            "3 Ask questions. If you don't understand something or you are not sure if you are doing the correct thing, ask someone. This is true whether you are a new user or even an admin. There are several ways you may ask questions: Post your question on the forums. Post on the discussion page of an article if your question is article-specific. Try the IRC chat room. Contact an admin directly on their talk page.",
+            "4 Contribute on a regular basis and in good faith. The more you make helpful and good faith contributions, the better your chances of earning a barnstar. Remember to have fun and don't be afraid to take breaks.",
+            "5 Be patient. Eventually someone on wikiHow will notice your good work. You'll start to receive compliments or even constructive criticism if you are doing something wrong. Sometimes you may even feel ignored and wonder if anyone notices. Don't give up, keep contributing, and with enough persistence and hard work, someone will award you the coveted Barnstar."
+         ],
+         "title":[  
+            "How to Earn a Barnstar on wikiHow"
+         ],
+         "photo/_alt":[  
+            "Earn a Barnstar on wikiHow Step 1.png",
+            "Earn a Barnstar on wikiHow Step 2.png"
+         ],
+         "photo":[  
+            "http://pad2.whstatic.com/images/thumb/4/4b/Earn-a-Barnstar-on-wikiHow-Step-1.png/670px-Earn-a-Barnstar-on-wikiHow-Step-1.png",
+            "http://pad1.whstatic.com/images/thumb/a/aa/Earn-a-Barnstar-on-wikiHow-Step-2.png/631px-Earn-a-Barnstar-on-wikiHow-Step-2.png"
+         ],
+         "_resultNumber":15,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Earn-a-Barnstar-on-wikiHow",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":15
+      },
+      {  
+         "text":[  
+            "1 Choose an envelope. It's important to find an envelope of the right type for your letter. If you choose an envelope that's too light, for example, your heavy stationary might break through the envelope while it's in transit. Take the following factors into consideration as you decide what kind of envelope you need for your letter: The weight of the paper. The weight of the envelope should match the weight of the paper and any other contents you may be mailing with it. If your letter is written on heavy cardstock, or you're including something else like photos inside, choose a sturdy envelope that can handle the contents. The size of the paper. The size of the envelope should be appropriate for the size of the paper. Letters written on standard sized 8 1/2 by 11-inch paper are typically folded into thirds, then mailed in a business-sized envelope. Letters written on notecards may be mailed in smaller envelopes. The intent of the letter. If you're mailing a cover letter, you'll want to choose a professional-looking business-sized envelope. A personal note may be sent in a decorative, colorful envelope if you wish. The letter's destination. If you're mailing the letter overseas, you may want to use a sturdy envelope, since there is a greater chance it could get damaged along the way. Ad",
+            "2 Enclose the letter and seal the envelope. Once you've chosen the right envelope for your letter, place the letter inside and lick the edge of the envelope to moisten the glue, then press it shut to seal the letter. You can wet a sponge with a little water to moisten the envelope glue if you don't want to lick it. Place a bit of clear tape along the edge of the seal if you are afraid the letter might open on its journey.",
+            "3 Address the envelope. Write the address of the recipient in the middle of the front of the envelope. Include the recipient's name, apartment or house number, street name, city, state or province, and zip or postal code. Use clear, printed letters written in dark ink so that the post office knows just where to send it. If you are writing to someone outside your country, make sure you include the country name as well. Some people have their mail sent to a post office box, rather than a street address. If this is the case for your recipient, write the correct post office box number followed by the city, state and country if applicable. Write each part of the address on a different line to make it more legible. For example: Skyler White 2004 Rosethorn Court, Apt. 4 Albuquerque, New Mexico 87041 United States",
+            "4 Write your return address. In the top left corner of the envelope, write your name and address. You may also choose to write it on the back of the sealed envelope or use a printed return address label. Including your address will ensure that the letter comes back to you if for some reason it doesn't make it to the recipient.",
+            "1 Use a first class letter stamp. If you're mailing a letter of standard size and weight within the same country, place a first class letter stamp in the top right corner of the letter. Stamps are available for purchase at the post office, online at usps.gov, and at some convenience stores. Stamps come with either standard or special designs. If you want to purchase a decorative stamp, go to the post office and ask to see their selection. Stamps rise in price every few years. If you have old postage stamps, check usps.gov to make sure they're still valuable enough to use. You may have to use two.",
+            "2 Buy extra postage. Letters that are heavy or oversized and letters that are being mailed overseas require extra postage to reach their destination. If you have a scale at home, you can weigh and measure your letter to determine how much postage you'll need to pay. Record the measurements, then check usps.gov for rates. Affix as many stamps as you need to the top right corner of your letter. If you don't have a scale, take your letter to the post office to have it weighed. The postal worker will be able to calculate exactly how much postage you'll need to buy.",
+            "1 Place the letter in a blue mailbox. If you live in the United States, you'll notice blue USPS mailboxes bolted to the sidewalk in cities and suburbs. Walk to one of the boxes, open it with the handle, place your letter in the slot, and close it. A postal worker will collect your letter and start the delivery process. Every mailbox has a notice detailing when the mail gets picked up. If you place your letter in the box after the scheduled pick up time, your letter will get picked up the next day instead. Be careful not to place your letter in a brown mailbox. Brown mailboxes are for residential or commercial use.",
+            "2 Place the letter in your own mailbox. If you have a mailbox on your house, you can place your letter there and alert your mail carrier of its presence by lifting the red metal flag affixed to the side of the box. When the flag is raised, the mail carrier knows that there's a letter that needs to be mailed.",
+            "3 Take the letter to the post office. If you need to buy postage at the post office, you can leave your letter with the post office worker and he or she will mail it for you. Even if you don't need to buy postage, you can still take your letter to the post office to be mailed. The post office is a good place to mail your letter if you want to make sure it gets to its destination as quickly as possible. Taking your letter directly to the post office can cut down on the transit time by a day or so. See www.usps.com for information on where to find the closest post office."
+         ],
+         "title":[  
+            "How to Mail a Letter"
+         ],
+         "photo/_alt":[  
+            "Fold the letter Step 2.jpg",
+            "Put stamp & address Step 3.jpg",
+            "Letter sent Step 4.jpg"
+         ],
+         "photo":[  
+            "http://pad2.whstatic.com/images/thumb/5/5b/Fold-the-letter-Step-2.jpg/605px-Fold-the-letter-Step-2.jpg",
+            "http://pad1.whstatic.com/images/thumb/2/27/Put-stamp-%26-address-Step-3.jpg/670px-Put-stamp-%26-address-Step-3.jpg",
+            "http://pad1.whstatic.com/images/thumb/8/83/Letter-sent-Step-4.jpg/670px-Letter-sent-Step-4.jpg"
+         ],
+         "_resultNumber":17,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Mail-a-Letter",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":17
+      },
+      {  
+         "text":[  
+            "1 Gather the supplies you will need: a screwdriver and lemon furniture polish. Never use oil. Ad",
+            "2 Spray the furniture polish onto the screwdriver. Then insert the lubricated screwdriver between the grip and handlebar. Push it all the way in.",
+            "3 Move the old grip around and around until the grip is loosened from the handlebar. Twist it with your other hand until you feel it sliding."
+         ],
+         "title":[  
+            "How to Remove Bicycle Handlebar Grips"
+         ],
+         "photo/_alt":[  
+            "Remove Bicycle Handlebar Grips Step 1.jpg",
+            "Remove Bicycle Handlebar Grips Step 2.jpg",
+            "Remove Bicycle Handlebar Grips Step 3.jpg"
+         ],
+         "photo":[  
+            "http://pad2.whstatic.com/images/thumb/6/65/Remove-Bicycle-Handlebar-Grips-Step-1.jpg/670px-Remove-Bicycle-Handlebar-Grips-Step-1.jpg",
+            "http://pad2.whstatic.com/images/thumb/1/1c/Remove-Bicycle-Handlebar-Grips-Step-2.jpg/670px-Remove-Bicycle-Handlebar-Grips-Step-2.jpg",
+            "http://pad2.whstatic.com/images/thumb/3/3c/Remove-Bicycle-Handlebar-Grips-Step-3.jpg/670px-Remove-Bicycle-Handlebar-Grips-Step-3.jpg"
+         ],
+         "_resultNumber":11,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Remove-Bicycle-Handlebar-Grips",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":11
+      },
+      {  
+         "text":[  
+            "1 Stand in front of the mirror. Your collar should be up, your shirt buttoned all the way to the top, and the tie around your neck. The wide end of the tie should be on the side of your dominant hand. So if you're right-handed, the wider end should be hanging on your right side. If you're left-handed,the wider end should be hanging on your left side. Ad",
+            "2 Look for a seam on the front of the narrow end of the tie.",
+            "3 Move the wide end over the narrow end so they cross each other on the seam.",
+            "4 Pull the wide end behind the narrow end.",
+            "5 Bring the wide end around. It should be facing off to your left.",
+            "6 Bring the wide end under the narrow end again.",
+            "7 Pull the wide end of the tie under the loop around your neck.",
+            "8 Pull the wide end down through the knot at the front of the tie.",
+            "9 Tighten the knot by sliding it up the narrow end. Make sure your tie is straight and the length is appropriate. The four-in-hand knot is a little asymmetrical at the neck. Don't worry about this; it is normal. Many men with shorter necks prefer the four-in-hand, because the knot at top is very narrow and has a slimming effect on the rest of the neck.",
+            "1 Choose the Half Windsor as an alternative to the Four-in-Hand method of tying a tie. The knot is bigger, resembles a triangle, and is considered to be more distinguished than the four-in-hand (but not as distinguished as the full Windsor). Most men tend to prefer the half Windsor because it isn't as bulky to wear. [1]",
+            "2 Place the tie around your neck with the wide side on the right side of your body. Adjust the tie so that the length of the wide side is about three times the length of the narrow side. You may need to experiment with this step to achieve the right length for the sides of the ties. Some people prefer having the wide side about 12 inches below the narrow side.",
+            "3 Cross the wide side of the tie over the narrow side.",
+            "4 Bring the wide side around and under the narrow side.",
+            "5 Take the wide side over the loop around the neck. Tighten a bit.",
+            "6 Bring the wide side over the narrow side, out front, moving from right to left.",
+            "7 Slide the wide side up through the loop around your neck.",
+            "8 Bring the wide side through the knot in the front.",
+            "9 Tighten a bit and shape the knot into a triangle shape. You want your knot to look a bit wider than the Four-in-Hand knot.",
+            "10 Tighten the tie around your collar by pulling on the narrow side of the tie (which should now be hidden underneath the wide side of the tie). If your tie has a loop underneath the wide side of the tie, you may slide the narrow side through that loop to prevent it from \"peeking\" from behind the wide side of the tie.",
+            "1 Choose the traditional Windsor knot as a more formal alternative to the Half Windsor. The Duke of Windsor started the trend for this knot back in the 1930s. It has remained popular to this day because it projects a statement that suggests the wearer is elegant and has confidence. It's more dignified than the Four-in-Hand knot, but a little harder to tie. This knot should be worn with a spread collar. [2]",
+            "2 Put the tie around your neck. One end should be considerably wider than the other. Make sure the wider end is on the right, and about a foot (30cm) lower than the thinner side on the left.",
+            "3 Cross the wide end over the narrow end.",
+            "4 Bring your tie up through the loop.",
+            "5 Bring your tie back down. The wide end should be resting to the left of the narrow end.",
+            "6 Pull the wide end underneath the narrow end and to the right.",
+            "7 Pull the wide end through the loop, this time on the right side. The wide end should now be inside out.",
+            "8 Cross the wide end over the thin end again, from right to left.",
+            "9 Bring the wide end under the loop.",
+            "10 Fold the wide end through the loop and into the knot at the front of the tie.",
+            "11 Tighten the knot into a triangle using both hands. Slowly tighten the narrow end to bring the tie closer to the neck. For a more modern, fashionable and casual look, make the knot a good few inches or centimeters down below the collar. For all formal occasions, however, keep the knot at the traditional distance away from the collar.",
+            "1 Start with the tie inside out. The wide end of the tie should be hanging on the right, and the narrow end on the left.",
+            "2 Cross the wide end under the narrow end.",
+            "3 Bring the wide end over the loop around the neck.",
+            "4 Pull the wide end under to complete the loop around the neck. Tighten.",
+            "5 Bring the wide end over the narrow end, from left to right.",
+            "6 Pull the wide end up through the loop.",
+            "7 Bring the wide end down all the way through the knot in the front."
+         ],
+         "title":[  
+            "How to Tie a Tie"
+         ],
+         "photo/_alt":[  
+            "Tie a Tie Step 1.jpg",
+            "Tie a Tie Step 2.jpg",
+            "Tie a Tie Step 3.jpg",
+            "Tie a Tie Step 4.jpg",
+            "Tie a Tie Step 5.jpg",
+            "Tie a Tie Step 6.jpg",
+            "Tie a Tie Step 7.jpg",
+            "Tie a Tie Step 8.jpg",
+            "Tie a Tie Step 9.jpg",
+            "Tie a Tie Step 10.jpg",
+            "Tie a Tie Step 11.jpg",
+            "Tie a Tie Step 12.jpg",
+            "Tie a Tie Step 13.jpg",
+            "Tie a Tie Step 14.jpg",
+            "Tie a Tie Step 15.jpg",
+            "Tie a Tie Step 16.jpg",
+            "Tie a Tie Step 17.jpg",
+            "Tie a Tie Step 18.jpg",
+            "Tie a Tie Step 19.jpg",
+            "4831 20.jpg",
+            "Tie a Tie Step 21.jpg",
+            "Tie a Tie Step 22.jpg",
+            "Tie a Tie Step 23.jpg",
+            "Tie a Tie Step 24.jpg",
+            "Tie a Tie Step 25.jpg",
+            "Tie a Tie Step 26.jpg",
+            "Tie a Tie Step 27.jpg",
+            "Tie a Tie Step 28.jpg",
+            "Tie a Tie Step 29.jpg",
+            "4831 30.jpg",
+            "Tie a Tie Step 31.jpg",
+            "Tie a Tie Step 32.jpg",
+            "Tie a Tie Step 33.jpg",
+            "Tie a Tie Step 34.jpg",
+            "Tie a Tie Step 35.jpg",
+            "Tie a Tie Step 36.jpg",
+            "Tie a Tie Step 37.jpg"
+         ],
+         "photo":[  
+            "http://pad2.whstatic.com/images/thumb/8/8f/Tie-a-Tie-Step-1.jpg/670px-Tie-a-Tie-Step-1.jpg",
+            "http://pad3.whstatic.com/images/thumb/d/d2/Tie-a-Tie-Step-2.jpg/670px-Tie-a-Tie-Step-2.jpg",
+            "http://pad1.whstatic.com/images/thumb/d/df/Tie-a-Tie-Step-3.jpg/670px-Tie-a-Tie-Step-3.jpg",
+            "http://pad1.whstatic.com/images/thumb/b/bb/Tie-a-Tie-Step-4.jpg/670px-Tie-a-Tie-Step-4.jpg",
+            "http://pad2.whstatic.com/images/thumb/3/34/Tie-a-Tie-Step-5.jpg/670px-Tie-a-Tie-Step-5.jpg",
+            "http://pad2.whstatic.com/images/thumb/0/0e/Tie-a-Tie-Step-6.jpg/670px-Tie-a-Tie-Step-6.jpg",
+            "http://pad3.whstatic.com/images/thumb/0/08/Tie-a-Tie-Step-7.jpg/670px-Tie-a-Tie-Step-7.jpg",
+            "http://pad2.whstatic.com/images/thumb/5/5d/Tie-a-Tie-Step-8.jpg/670px-Tie-a-Tie-Step-8.jpg",
+            "http://pad3.whstatic.com/images/thumb/1/19/Tie-a-Tie-Step-9.jpg/670px-Tie-a-Tie-Step-9.jpg",
+            "http://pad1.whstatic.com/images/thumb/d/db/Tie-a-Tie-Step-10.jpg/670px-Tie-a-Tie-Step-10.jpg",
+            "http://pad2.whstatic.com/images/thumb/a/a7/Tie-a-Tie-Step-11.jpg/670px-Tie-a-Tie-Step-11.jpg",
+            "http://pad2.whstatic.com/images/thumb/6/6c/Tie-a-Tie-Step-12.jpg/670px-Tie-a-Tie-Step-12.jpg",
+            "http://pad2.whstatic.com/images/thumb/6/6c/Tie-a-Tie-Step-13.jpg/670px-Tie-a-Tie-Step-13.jpg",
+            "http://pad3.whstatic.com/images/thumb/9/97/Tie-a-Tie-Step-14.jpg/670px-Tie-a-Tie-Step-14.jpg",
+            "http://pad2.whstatic.com/images/thumb/6/6b/Tie-a-Tie-Step-15.jpg/670px-Tie-a-Tie-Step-15.jpg",
+            "http://pad3.whstatic.com/images/thumb/6/64/Tie-a-Tie-Step-16.jpg/670px-Tie-a-Tie-Step-16.jpg",
+            "http://pad2.whstatic.com/images/thumb/e/ec/Tie-a-Tie-Step-17.jpg/670px-Tie-a-Tie-Step-17.jpg",
+            "http://pad1.whstatic.com/images/thumb/b/b4/Tie-a-Tie-Step-18.jpg/670px-Tie-a-Tie-Step-18.jpg",
+            "http://pad3.whstatic.com/images/thumb/f/f0/Tie-a-Tie-Step-19.jpg/670px-Tie-a-Tie-Step-19.jpg",
+            "http://pad3.whstatic.com/images/thumb/b/b0/4831-20.jpg/670px-4831-20.jpg",
+            "http://pad2.whstatic.com/images/thumb/4/48/Tie-a-Tie-Step-21.jpg/670px-Tie-a-Tie-Step-21.jpg",
+            "http://pad2.whstatic.com/images/thumb/f/f4/Tie-a-Tie-Step-22.jpg/670px-Tie-a-Tie-Step-22.jpg",
+            "http://pad2.whstatic.com/images/thumb/7/74/Tie-a-Tie-Step-23.jpg/670px-Tie-a-Tie-Step-23.jpg",
+            "http://pad2.whstatic.com/images/thumb/5/58/Tie-a-Tie-Step-24.jpg/670px-Tie-a-Tie-Step-24.jpg",
+            "http://pad3.whstatic.com/images/thumb/3/3b/Tie-a-Tie-Step-25.jpg/670px-Tie-a-Tie-Step-25.jpg",
+            "http://pad3.whstatic.com/images/thumb/1/1b/Tie-a-Tie-Step-26.jpg/670px-Tie-a-Tie-Step-26.jpg",
+            "http://pad1.whstatic.com/images/thumb/c/cd/Tie-a-Tie-Step-27.jpg/670px-Tie-a-Tie-Step-27.jpg",
+            "http://pad2.whstatic.com/images/thumb/3/36/Tie-a-Tie-Step-28.jpg/670px-Tie-a-Tie-Step-28.jpg",
+            "http://pad3.whstatic.com/images/thumb/b/ba/Tie-a-Tie-Step-29.jpg/670px-Tie-a-Tie-Step-29.jpg",
+            "http://pad3.whstatic.com/images/thumb/3/36/4831-30.jpg/670px-4831-30.jpg",
+            "http://pad3.whstatic.com/images/thumb/4/43/Tie-a-Tie-Step-31.jpg/670px-Tie-a-Tie-Step-31.jpg",
+            "http://pad3.whstatic.com/images/thumb/8/8f/Tie-a-Tie-Step-32.jpg/670px-Tie-a-Tie-Step-32.jpg",
+            "http://pad1.whstatic.com/images/thumb/3/36/Tie-a-Tie-Step-33.jpg/670px-Tie-a-Tie-Step-33.jpg",
+            "http://pad3.whstatic.com/images/thumb/4/49/Tie-a-Tie-Step-34.jpg/670px-Tie-a-Tie-Step-34.jpg",
+            "http://pad2.whstatic.com/images/thumb/f/f5/Tie-a-Tie-Step-35.jpg/670px-Tie-a-Tie-Step-35.jpg",
+            "http://pad1.whstatic.com/images/thumb/6/65/Tie-a-Tie-Step-36.jpg/670px-Tie-a-Tie-Step-36.jpg",
+            "http://pad1.whstatic.com/images/thumb/7/73/Tie-a-Tie-Step-37.jpg/670px-Tie-a-Tie-Step-37.jpg"
+         ],
+         "_resultNumber":5,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Tie-a-Tie",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":5
+      },
+      {  
+         "text":[  
+            "1 Remove the hitch pin from the 1/2 inch (12.7mm) axle bolt. Ad",
+            "2 Remove the wheel from the trailer.",
+            "3 Setting the retaining ring pliers to \"external\", remove the snap ring.",
+            "4 Using a mallet or other heavy tool, tap out the axle bolt. If wheel is asymmetrical, note carefully which side the bolt head goes into. On this trailer, the bolt head goes on the flatter side of the wheel.",
+            "5 Remove washers and set them aside where they won't get lost.",
+            "6 Pry or push out the old bearing. See \"Tips\" for ideas on how to go about doing this.",
+            "7 Clean any goop out of the wheel using a small screwdriver, solvents, rags, or whatever you have.",
+            "8 Repeat the previous two steps on the other side, assuming there are bearing assemblies on each side of the wheel.",
+            "9 Buy new bearings. This model uses US standard 1/2\" (12.7mm) ID, 1-1/8\" (28.5mm) OD radial bearing assemblies.",
+            "10 Insert the new bearings into each side of the wheel. If you have a socket the same size as the outer diameter of the bearing, and a mallet, then position the socket onto the bearing and tap firmly with the mallet until it's seated. Otherwise use whatever you have.",
+            "11 Reinsert the axle bolt into the wheel assembly.",
+            "12 Replace the washers in the same order they were removed.",
+            "13 Seat the snap ring. You may need to push it firmly onto the shaft using a screwdriver or other tool until it snaps into the groove.",
+            "14 Lubricate it. Adding some lubricant will save you from having to do this again soon.",
+            "15 Put the wheel assembly back into the trailer."
+         ],
+         "title":[  
+            "How to Replace Bicycle Trailer Bearings"
+         ],
+         "photo/_alt":[  
+            "IMGP1636.JPG",
+            "IMGP1638.JPG",
+            "IMGP1639.JPG",
+            "IMGP1641.JPG",
+            "IMGP1642.JPG",
+            "IMGP1651.JPG",
+            "IMGP1652.JPG",
+            "IMGP1649.JPG",
+            "IMGP1653.JPG",
+            "IMGP1654.JPG",
+            "IMGP1657.JPG",
+            "IMGP1659.JPG",
+            "IMGP1660.JPG"
+         ],
+         "photo":[  
+            "http://pad2.whstatic.com/images/thumb/a/ab/IMGP1636.JPG/670px-IMGP1636.JPG",
+            "http://pad3.whstatic.com/images/thumb/a/a5/IMGP1638.JPG/670px-IMGP1638.JPG",
+            "http://pad3.whstatic.com/images/thumb/1/1f/IMGP1639.JPG/670px-IMGP1639.JPG",
+            "http://pad3.whstatic.com/images/thumb/1/15/IMGP1641.JPG/670px-IMGP1641.JPG",
+            "http://pad2.whstatic.com/images/thumb/a/a6/IMGP1642.JPG/670px-IMGP1642.JPG",
+            "http://pad1.whstatic.com/images/thumb/a/a5/IMGP1651.JPG/670px-IMGP1651.JPG",
+            "http://pad3.whstatic.com/images/thumb/4/41/IMGP1652.JPG/670px-IMGP1652.JPG",
+            "http://pad1.whstatic.com/images/thumb/f/fe/IMGP1649.JPG/670px-IMGP1649.JPG",
+            "http://pad1.whstatic.com/images/thumb/9/94/IMGP1653.JPG/670px-IMGP1653.JPG",
+            "http://pad1.whstatic.com/images/thumb/5/56/IMGP1654.JPG/670px-IMGP1654.JPG",
+            "http://pad2.whstatic.com/images/thumb/b/bf/IMGP1657.JPG/670px-IMGP1657.JPG",
+            "http://pad1.whstatic.com/images/thumb/f/fb/IMGP1659.JPG/670px-IMGP1659.JPG",
+            "http://pad3.whstatic.com/images/thumb/f/ff/IMGP1660.JPG/670px-IMGP1660.JPG"
+         ],
+         "_resultNumber":12,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Replace-Bicycle-Trailer-Bearings",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":12
+      },
+      {  
+         "text":[  
+            "1 Open up your email account. If you don't have one, get one! There are many email carriers, but almost all are the same for uploading photos. Ad",
+            "2 Compose a new email. Just click 'Create New' or 'Compose', or any button that really indicates a new email.",
+            "3 Find the Attachment button, which is usually signified by a paperclip. Click it.",
+            "4 It will open a new window and will show you the contents of your computer (My Documents, My Pictures...etc). Find the photo you want to attach. Click it.",
+            "5 Now your photo will load into the email. If you want to attach more photos..sometimes there is a Attach More Photos button. If not, just click the attachment button again."
+         ],
+         "title":[  
+            "How to Mail Photos"
+         ],
+         "photo/_alt":[  
+            "Mail Photos Step 1.jpg",
+            "Mail Photos Step 2.jpg",
+            "Mail Photos Step 3.jpg",
+            "Mail Photos Step 4.jpg",
+            "Mail Photos Step 5.jpg"
+         ],
+         "photo":[  
+            "http://pad2.whstatic.com/images/thumb/b/bb/Mail-Photos-Step-1.jpg/670px-Mail-Photos-Step-1.jpg",
+            "http://pad1.whstatic.com/images/thumb/8/8d/Mail-Photos-Step-2.jpg/670px-Mail-Photos-Step-2.jpg",
+            "http://pad1.whstatic.com/images/thumb/6/66/Mail-Photos-Step-3.jpg/670px-Mail-Photos-Step-3.jpg",
+            "http://pad3.whstatic.com/images/thumb/1/11/Mail-Photos-Step-4.jpg/670px-Mail-Photos-Step-4.jpg",
+            "http://pad1.whstatic.com/images/thumb/a/a0/Mail-Photos-Step-5.jpg/670px-Mail-Photos-Step-5.jpg"
+         ],
+         "_resultNumber":2,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Mail-Photos",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":2
+      },
+      {  
+         "text":[  
+            "1 Push the pin out by screwing the pin of your chain tool in just before the pin comes out. Be very careful to not push the pin all the way out, as it is extremely difficult to get back in. Ad",
+            "2 Snap the two pieces apart.",
+            "3 Click the two links back in place with the pin facing you. This will make things a lot easier in step 4.",
+            "4 Hold the pin facing you (which is a lot easier), and push it back into both links until it comes out evenly on both sides.",
+            "5 Grab the chain on each side of your newly connected links and move it from side to side to loosen up the new connection. It also helps to move the chain tool to the other side of the joint just made, and push the pin very slightly to free the two outside plates of the link from the central section."
+         ],
+         "title":[  
+            "How to Fix a Broken Bicycle Chain"
+         ],
+         "photo/_alt":[  
+            "Fix a Broken Bicycle Chain Step 1.jpg",
+            "Fix a Broken Bicycle Chain Step 2.jpg",
+            "Fix a Broken Bicycle Chain Step 3.jpg",
+            "Fix a Broken Bicycle Chain Step 4.jpg",
+            "Fix a Broken Bicycle Chain Step 5.jpg"
+         ],
+         "photo":[  
+            "http://pad3.whstatic.com/images/thumb/0/05/Fix-a-Broken-Bicycle-Chain-Step-1.jpg/670px-Fix-a-Broken-Bicycle-Chain-Step-1.jpg",
+            "http://pad3.whstatic.com/images/thumb/9/9f/Fix-a-Broken-Bicycle-Chain-Step-2.jpg/670px-Fix-a-Broken-Bicycle-Chain-Step-2.jpg",
+            "http://pad2.whstatic.com/images/thumb/7/7a/Fix-a-Broken-Bicycle-Chain-Step-3.jpg/670px-Fix-a-Broken-Bicycle-Chain-Step-3.jpg",
+            "http://pad1.whstatic.com/images/thumb/9/9f/Fix-a-Broken-Bicycle-Chain-Step-4.jpg/670px-Fix-a-Broken-Bicycle-Chain-Step-4.jpg",
+            "http://pad1.whstatic.com/images/thumb/b/b5/Fix-a-Broken-Bicycle-Chain-Step-5.jpg/670px-Fix-a-Broken-Bicycle-Chain-Step-5.jpg"
+         ],
+         "_resultNumber":19,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Fix-a-Broken-Bicycle-Chain",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":19
+      },
+      {  
+         "text":[  
+            "1 Understand how the disease is spread. Ebola HF can be spread in a number of ways, though primarily via direct contact with patients, specifically the blood and secretions of an infected patient. Contact with objects such as clothing, bedding, and needles have also been linked to the spread of the disease. [1] Because the symptoms of Ebola HF are non-specific and take a while to become severe, the spread of the disease to friends, family, and throughout hospitals is extremely common. In a healthcare setting, the reuse of unsterilized needles and the lack of proper hospital clothing has contributed to the spread of the disease near the source. Ad",
+            "2 Avoid areas in which infections have been reported and suspected. For now, the disease has only been confirmed in central and west Africa, and spread primarily around healthcare facilities where patients are being treated. For the most up-to-date travel warnings and information about potential outbreaks, visit the Centers for Disease control website here. In general, you should avoid areas in which the disease has been reported and suspected. If you're already there, try and avoid healthcare facilities, unless you yourself suspect you may be infected. Avoid direct contact with the infected, or anyone you suspect to be infected, displaying the symptoms of the illness. [2]",
+            "3 Avoid direct contact with infected people. Because the disease is spread primarily via direct contact with infected patients, the best way to avoid infection is to steer clear of people who are already sick. Blood and other bodily secretions from infected patients are linked closely with the spread of the disease. The remains of infected bodies are just as contagious, making it important to handle the deceased with extreme care. Avoid direct contact with bodies and with the bedding and clothing of the deceased.",
+            "4 Avoid eating wild-caught bush meat. Researchers have their suspicions that the disease came to humans via animals, probably through the consumption of the meat of primates. If you're in an area where the disease has been reported, avoid purchasing, eating, or handling wild game to stay on the safe side. [3]",
+            "1 Learn to recognize the symptoms of Ebola HF. The more you know about recognizing the symptoms of infection, the better protected you'll be. While the symptoms of infection are somewhat general, you can use your judgment to determine whether or not your proximity to the infection and the symptoms you note might signify the presence of the disease. Symptoms have appeared anywhere from 48 hours following exposure to three weeks after exposure, though most symptoms should appear in about a week. [4] Common symptoms of the disease include: Fever Headache Joint and muscle aches Weakness Diarrhea Vomiting Stomach pain Lack of appetite Less common symptoms include: Rash Redness in the eyes Hiccups Cough Sore throat Chest pain Difficulty breathing or swallowing Bleeding inside and outside of the body",
+            "2 Wear protective medical clothing if you're around infected patients. While it's best to avoid areas of infection entirely, if you're working in a healthcare or volunteer capacity around infected patients, the use of extreme caution is necessary. The CDC recommends that hospital workers use disposable masks, gloves, goggles, and gowns, which need to be worn at all times if you're around infected patients. It's also important to never reuse needles that were used to treat infected patients, and to discard bedding and clothing that came in direct contact with infected patients. Extreme caution is necessary.",
+            "3 Disinfect all medical hardware. Anything that comes into contact with infected patients, or with the bodily fluids of infected patients needs to be sterilized immediately following use. Disinfectant needs to be used liberally in patients' rooms, around sleeping areas specifically, to avoid the spread of the infection. To sterilize medical instruments following proper procedures, rinse them thoroughly immediately following use while wearing protective mask, gloves, and gown. Then, allow instruments to dry thoroughly before packing into a disinfectant pouch. Label and initial the instruments. Place sterilization pouches upside down in the sterilization tray, allowing enough space between them for steam to circulate, at least an inch. Operate the sterilizer according to proper procedures and then catalog the instruments and label them sterilized.",
+            "4 Practice barrier nursing and quarantine infected patients. If you're working with the infected, the highest level of security needs to be practiced. Plastic zipper barriers are being employed in some hospitals to minimize the contact that health care professionals have with infected patients, and in most hospitals patients are being quarantined, separated from the general population to minimize the risk of disease spreading. Direct contact with patients needs to be minimized as much as possible.",
+            "5 Wash your hands regularly. Washing your hands regularly and thoroughly with anti-bacterial soap is absolutely essential, especially if you're in an area of infection. You should wash your hands, up to the elbow, before removing your hospital gown and other protective wear, and again after removal is complete.",
+            "1 Get a diagnosis. Diagnosis via symptom is somewhat difficult, because the symptoms are general. If you're experiencing any of the symptoms described above, however, and you're in an area with reported infections, it's essential that you go to the hospital immediately and have a diagnostic test performed. [5] Depending on the facility and the amount of time since your symptoms appeared, any of the following diagnostic tests may be performed: Antigen-capture enzyme-linked immunosorbent assay (ELISA) testing IgM ELISA Polymerase chain reaction (PCR) Virus isolation",
+            "2 Contact the Centers for Disease Control (CDC) immediately. If you're in an area of infection and suspect that you may be infected, contact the CDC immediately to report your illness. Keeping the disease contained is essential, meaning that new infections need to be reported as quickly as possible to spread the resources and put into place efficient quarantines.",
+            "3 Maintain your electrolytes and stay hydrated. There is no vaccine for Ebola HF, so most of the treatment available involves addressing the specific symptoms and making the patient comfortable. One of the most uncomfortable symptoms of the disease is severe diarrhea and nausea, making it important that you stay hydrated and keep your electrolytes up. Sports drinks can be used for mild dehydration, but IV-drip should be used in serious cases.",
+            "4 Monitor your blood pressure and control it if necessary. Rising blood pressure can destabilize a patient, while dropping blood pressure may be a serious sign of infection, making it important to keep your blood pressure under control, monitored closely. Make sure the doctors are keeping a close watch on your blood pressure. [6]",
+            "5 Breathe an oxygen-rich environment. Difficulty breathing and chest pains are common in the infected, so oxygen is typically administered to make breathing as easy as possible. If you're struggling to get your breath, talk to a nurse immediately and have your levels checked.",
+            "6 Quickly address any symptoms of infection. It's important to communicate openly with the hospital staff and let them know of any discomfort or complications so that they may address your symptoms programmatically. Infections need to be treated locally with antibiotics and addressed swiftly, so be honest about when and where you're feeling pain.",
+            "7 Rest. There's unfortunately not much you can do but try to ride out the disease, if you're infected. Keep your strength up, stay hydrated, and try to get as much rest as possible. The disease is fatal in roughly 50% of the cases, but patients in good health with strong immune systems can pull through with swift care and safe recovery practices. For you, that means staying put and getting some rest."
+         ],
+         "title":[  
+            "How to Prevent Ebola"
+         ],
+         "photo/_alt":[  
+            "Prevent Ebola Step 1.jpg",
+            "Prevent Ebola Step 2.jpg",
+            "Prevent Ebola Step 3.jpg",
+            "Prevent Ebola Step 4.jpg",
+            "Prevent Ebola Step 5.jpg",
+            "Prevent Ebola Step 6.jpg",
+            "Prevent Ebola Step 7.jpg",
+            "Prevent Ebola Step 8.jpg",
+            "Prevent Ebola Step 9.jpg",
+            "Prevent Ebola Step 10.jpg",
+            "Prevent Ebola Step 11.jpg",
+            "Prevent Ebola Step 12.jpg",
+            "Prevent Ebola Step 13.jpg",
+            "Prevent Ebola Step 14.jpg",
+            "Prevent Ebola Step 15.jpg",
+            "Prevent Ebola Step 16.jpg"
+         ],
+         "photo":[  
+            "http://pad3.whstatic.com/images/thumb/1/1c/Prevent-Ebola-Step-1.jpg/670px-Prevent-Ebola-Step-1.jpg",
+            "http://pad3.whstatic.com/images/thumb/d/d5/Prevent-Ebola-Step-2.jpg/670px-Prevent-Ebola-Step-2.jpg",
+            "http://pad2.whstatic.com/images/thumb/f/fc/Prevent-Ebola-Step-3.jpg/670px-Prevent-Ebola-Step-3.jpg",
+            "http://pad3.whstatic.com/images/thumb/1/1e/Prevent-Ebola-Step-4.jpg/670px-Prevent-Ebola-Step-4.jpg",
+            "http://pad2.whstatic.com/images/thumb/d/d4/Prevent-Ebola-Step-5.jpg/670px-Prevent-Ebola-Step-5.jpg",
+            "http://pad3.whstatic.com/images/thumb/4/41/Prevent-Ebola-Step-6.jpg/670px-Prevent-Ebola-Step-6.jpg",
+            "http://pad3.whstatic.com/images/thumb/f/f8/Prevent-Ebola-Step-7.jpg/670px-Prevent-Ebola-Step-7.jpg",
+            "http://pad2.whstatic.com/images/thumb/3/3a/Prevent-Ebola-Step-8.jpg/670px-Prevent-Ebola-Step-8.jpg",
+            "http://pad3.whstatic.com/images/thumb/f/fb/Prevent-Ebola-Step-9.jpg/670px-Prevent-Ebola-Step-9.jpg",
+            "http://pad3.whstatic.com/images/thumb/4/41/Prevent-Ebola-Step-10.jpg/670px-Prevent-Ebola-Step-10.jpg",
+            "http://pad2.whstatic.com/images/thumb/a/ac/Prevent-Ebola-Step-11.jpg/670px-Prevent-Ebola-Step-11.jpg",
+            "http://pad3.whstatic.com/images/thumb/4/4a/Prevent-Ebola-Step-12.jpg/670px-Prevent-Ebola-Step-12.jpg",
+            "http://pad3.whstatic.com/images/thumb/c/cc/Prevent-Ebola-Step-13.jpg/670px-Prevent-Ebola-Step-13.jpg",
+            "http://pad1.whstatic.com/images/thumb/8/82/Prevent-Ebola-Step-14.jpg/670px-Prevent-Ebola-Step-14.jpg",
+            "http://pad1.whstatic.com/images/thumb/2/26/Prevent-Ebola-Step-15.jpg/670px-Prevent-Ebola-Step-15.jpg",
+            "http://pad2.whstatic.com/images/thumb/2/24/Prevent-Ebola-Step-16.jpg/670px-Prevent-Ebola-Step-16.jpg"
+         ],
+         "_resultNumber":28,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Prevent-Ebola",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":28
+      },
+      {  
+         "text":[  
+            "1 Send your photo as an MMS message. MMS (multimedia messaging service) allows you to send your photo to other cell phones or to email addresses. Each cell phone is different, but you should have an option to share your photo via message. Be aware that if you're on a plan that charges per text, an MMS will count as a text. Ad",
+            "2 Enter your email address. Instead of entering another cell phone number in the Send To field, though, input your email address.",
+            "3 Send the photo.",
+            "4 Login to your email and download the photo. When you open your email account, you should see a message sent from your phone, with the photo as an attachment. Download the attachment, and the photo will be on your computer.",
+            "1 Find or purchase a USB cable for your phone. Most phones you purchase now will come with a USB cable that allows it to be connected directly to your computer. If your phone didn't come with one, search online for a new or used one you can buy, or contact your phone's manufacturer.",
+            "2 Plug your phone into your computer. Make sure the phone is on.",
+            "3 Open up iTunes, or open the phone's files the same way you would open a flash drive. If you use iTunes to manage files on your phone, simply press the drop arrow next to your phone on the left-hand sidebar. Double-click photos, and drag what you want onto your desktop or into a new folder. If you don't use iTunes, open your phone like you would any detachable drive. Click My Computer or Finder to locate it. Drag and drop any photos you want to your desktop or a new folder.",
+            "1 Sync your phone. The photos you take should automatically be transferred to your computer when you do. On an iPhone, plugging in the device will prompt the computer to open iPhoto or a similar Photo application, which will display the pictures you took on your iPhone. Choose to upload the photos.",
+            "1 Insert a memory card into your phone. Before you take any pictures, check to see if you can insert a memory card into your phone. Many phones use a micro memory card that comes with the phone and can be inserted and removed at will.",
+            "2 Make sure your phone saves the pictures to the memory card rather than to the device.",
+            "3 Plug in your memory card into a memory card reader. In some cases, your memory card reader may be too big for a micro memory card. In this case, you can get an adapter in which you can insert your micro memory card. You can then insert the adapter into the memory card reader.",
+            "4 Plug the memory card reader into your computer. It connects via the USB port.",
+            "5 Transfer the pictures to your computer. You can look for the memory card reader as a removable disk in Finder or My Computer. If you're on a Mac, open iPhoto, go to File>Import to Library and select the photos you wish to import within the memory card.",
+            "1 Activate your phone's Bluetooth. If you're unsure about how to do this, look under Settings or Controls.",
+            "2 Purchase a Bluetooth adapter. If your computer does not have the hardware for a Bluetooth/Infrared this connection, then buy the adapter, sometimes called a 'dongle'. The common BT/I adapter plugs into a USB port. If you're on a budget, look for a used one online - they can be quite inexpensive. This adapter will have software for the connection process, which lets you transfer files from the computer to your phone, or vice versa. Some computers, such as MacBooks, are already outfitted with Bluetooth devices, and won't require one of these cables. If you're unsure about whether or not your computer has this capability, search for the information online.",
+            "3 Make sure Bluetooth is turned on on both your computer and your phone. If you have a Mac, you can make sure your Bluetooth is on by clicking on the Bluetooth symbol on the right side of the upper toolbar. The symbol should be to the left of the Date and Time and should look like some triangles. On a Vista, go to Control Panel -> Network and Internet Connection -> Bluetooth Devices.",
+            "4 Make sure you are standing within 30 feet of your computer. Bluetooth does not work more than 30 feet away.",
+            "5 On your phone, open up the picture.",
+            "6 Go to the menu, and select Copy or Send.",
+            "7 Choose the Bluetooth option.",
+            "8 Once you confirm that you want to enable Bluetooth, the Bluetooth menu in the phone will pop up automatically.",
+            "9 Select the \"Look for Devices\" option.",
+            "10 Select your device from the list that appears.",
+            "11 A request will be sent to your device asking for you to accept the sent picture.",
+            "12 Accept the request, and the picture will be sent.",
+            "1 Sync your phone with your computer using a p2p based (that means no cloud or 3rd party servers involved) application like Fylet or a similar Photo application. The application will automatically find photos on your smart phone and will send them directly to your computer.",
+            "2 Install application on your smart phone",
+            "3 Install application on your desktop"
+         ],
+         "title":[  
+            "How to Send Pictures from Your Cell Phone to Your Computer"
+         ],
+         "photo":[  
+            "http://pad3.whstatic.com/images/thumb/1/1c/SanDisk-memory-card-reader.jpg/375px-SanDisk-memory-card-reader.jpg"
+         ],
+         "_resultNumber":22,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Send-Pictures-from-Your-Cell-Phone-to-Your-Computer",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":22
+      },
+      {  
+         "text":[  
+            "1 Choose a website. Any well-written wiki is good, but TV Tropes is one of the best sites for this sort of thing. Wikipedia or Cracked.com can also be good sources. Ad",
+            "2 Click links. Put them in new tabs, and anytime you see an interesting link, put it in another tab."
+         ],
+         "title":[  
+            "How to Take a Wiki Walk"
+         ],
+         "photo/_alt":[  
+            "Take a Wiki Walk Step 1 Version 2.jpg",
+            "Take a Wiki Walk Step 2 Version 2.jpg"
+         ],
+         "photo":[  
+            "http://pad3.whstatic.com/images/thumb/1/1e/Take-a-Wiki-Walk-Step-1-Version-2.jpg/670px-Take-a-Wiki-Walk-Step-1-Version-2.jpg",
+            "http://pad3.whstatic.com/images/thumb/b/ba/Take-a-Wiki-Walk-Step-2-Version-2.jpg/670px-Take-a-Wiki-Walk-Step-2-Version-2.jpg"
+         ],
+         "_resultNumber":27,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Take-a-Wiki-Walk",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":27
+      },
+      {  
+         "text":[  
+            "1 Meet the mandatory and minimum requirements before taking the test. Please respect these requirements and only take the test if you meet the minimum requirements. If you do not possess all of the following, you will not be able to continue with the tests. Your account must be at least one month old. At least 300 contributions on your account. To see how many contributions you have, go to your user page and scroll to the bottom. It will say \"(Your Name) has made (number) contributions to wikiHow.\" A valid and working email address. Please use a valid and working email address for all test parts and verify that it is typed in correctly, as this is the only way to receive any tests and/or responses. Ad",
+            "2 Study the following policies carefully. You'll be asked a variety of questions, such as whether certain titles should be changed or merged and how an article should be edited based on these policies. You're free to revisit these policies while you're taking the test. Title policy Merge policy External links policy How to Handle Recipes on wikiHow",
+            "3 Sharpen your copyediting skills. Try cleaning some of the articles in Category:Cleanup and Category:Copyedit. In the test, you'll be asked to edit several articles so that you can demonstrate your copyediting and formatting abilities. You can also try patrolling and editing some new articles at Special:NewPages, or even at Special:NewHowToArticles. While you won't have all the NAB tools, you can still make various improvements to the articles and leave notes for the authors of articles.",
+            "4 Sharpen your communication skills. You will be asked to leave notes for authors after editing some new articles. How to Resist Criticizing New Contributors on wikiHow How to Coach Someone on wikiHow",
+            "5 Read up on how to Use the wikiHow New Article Boost App.",
+            "6 Take the first part of the NAB test. Go to this quiz page and answer the multiple-choice questions, which are based on the merge policy. You must pass this quiz in order to take the remainder of the NAB test. If you take it and do not pass, you won't receive confirmation and must wait two weeks before taking it again. If you take it and if you pass, you will receive an e-mail with the remainder of the NAB test, which is structured as follows: Title policy questions (approximately 10). Example: How to Apply for Us Citizenship. Should this title be changed? If so, to what? 5 editing questions. 5 examples of actual editing requested.",
+            "7 Wait for a response and have patience, as it can take up to a week to receive the next part of your NAB test."
+         ],
+         "title":[  
+            "How to Become a New Article Booster on wikiHow"
+         ],
+         "photo/_alt":[  
+            "Become a New Article Booster on wikiHow Step 3.jpg",
+            "Become a New Article Booster on wikiHow Step 5.jpg",
+            "Become a New Article Booster on wikiHow Step 6.jpg"
+         ],
+         "photo":[  
+            "http://pad3.whstatic.com/images/thumb/2/26/Become-a-New-Article-Booster-on-wikiHow-Step-3.jpg/670px-Become-a-New-Article-Booster-on-wikiHow-Step-3.jpg",
+            "http://pad3.whstatic.com/images/thumb/5/5c/Become-a-New-Article-Booster-on-wikiHow-Step-5.jpg/670px-Become-a-New-Article-Booster-on-wikiHow-Step-5.jpg",
+            "http://pad3.whstatic.com/images/thumb/d/d9/Become-a-New-Article-Booster-on-wikiHow-Step-6.jpg/670px-Become-a-New-Article-Booster-on-wikiHow-Step-6.jpg"
+         ],
+         "_resultNumber":18,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Become-a-New-Article-Booster-on-wikiHow",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":18
+      },
+      {  
+         "text":[  
+            "1 Show gratitude. Thank people for their assistance and their support on a regular basis. It's important to remember all the people who've helped you on your journey. Show respect by saying thanks. Even if there's not an obvious occasion for thanks, showing it regularly will mean a lot to people. Send letters, calls, emails and texts to people you've lost touch with. It doesn't need to take more than a few minutes to express yourself. Remember to thank your: parents siblings co-workers classmates friends teachers neighbors Ad",
+            "2 Remember to speak politely to everyone.",
+            "3 Compliment the achievements of others. When others are successful, draw attention to it and celebrate their ability and their achievement. Learn to recognize when other people put forth extra effort and achieve something and praise them for it with sincerity. Take them aside and do it in private, so your compliments will seem genuine. Instead of making your first reaction, \"Why didn't that happen to me?\" try saying \"That's so great for them!\" Keeping a positive attitude will focus attention away from yourself and spread goodwill. If someone you respect seems to be having a rough time, or seems to have less to compliment than others, make an extra effort to compliment their effort, their attitude, or other positive attributes.",
+            "4 Be sincere. While it's important to thank people and praise others, most people don't usually respect brown-nosing. Be genuine in your thanks and in showing your respect to other people's effort. Speak from the heart. Even something as simple as \"It's always good to see you\" can mean a lot and show lots of respect. It doesn't need to be complicated.",
+            "5 Do what you say you'll do. If you commit to an event or make plans with someone, come through on your end of the deal. Being reliable shows respect for people's time, and shows that you're making a special effort to be there for them. Respect other people's efforts by being on time, being prepared, and being enthusiastic. Always come to work, school, or sports practice ready to go. Have your materials in order and complete all the necessary work ahead of time. You'll show respect for others by not wasting their time. It can seem like telling someone \"No\" will be disrespectful, but you've also got to learn to be consistent and realistic with your abilities. It's hard to respect flakiness.",
+            "6 Offer your assistance. Go out of your way to help people when it seems like they need it, especially if it isn't required of you. Volunteer to help your friend move, or stay late to help clean up after school events. Go above and beyond. Even helping your little brother with his homework or helping your dad clean the yard without being asked shows a tremendous amount of respect. If it seems like one of your friends or neighbors is feeling down or going through a rough patch, give them the encouragement that they might need. Learning to say, \"You've got this\" can make all the difference in the world for someone that might be struggling.",
+            "7 Respect the abilities of others. Offering too much help can sometimes be disrespectful. Sometimes, it's also smart to take a step back and let other people prove themselves and take care of manageable situations or problems on their own. Try to recognize when someone is capable of doing something on their own and mind your own business to show them the respect they deserve. There's a big difference between offering to help someone emotionally when they're going through a bad break-up and insisting on helping someone make cereal.",
+            "1 Be a good listener. Practice active listening to show people that you have respect for their opinions and ideas. Watch and be quiet when someone else is talking and spend time thinking actively about what they're saying. Too often, we wait to talk instead of really listening to other people's ideas. Even if you think you disagree, try to consider the point of view and empathize with it before responding. You're showing respect to the person by hearing them out and letting them make their own case. You might be surprised.",
+            "2 Ask lots of questions. To show respect for other peoples' opinions, question them. Ask open-ended, leading questions that show you're fully engaged with their ideas and that you're listening closely. Questioning doesn't mean that you're trying to poke holes in their story, or that you don't believe them. Ask for more when it seems like they might have more to give. Instead of asking for more details, ask about how someone feels about a particular topic. If someone's telling a story, ask \"How'd you feel afterwards?\" Even if you think you know, let them tell you. Let them make their own case. Learn to spread the wealth. If it seems like someone isn't talking much in a group conversation, ask them a specific question to open the door for communication. You don't need to draw attention to it by saying something like, \"You're awfully quiet, Steve\" just say, \"Steve, what'd you think of the Super Bowl?\"",
+            "3 Learn about the perspectives of others. Learning to empathize with other people who have very different experiences and perspectives than your own will help you learn to show respect. Be proud of your own opinions and perspectives, but don't assume everyone feels the same way and avoid putting them in an awkward position. Temper your attitudes and learn where people are coming from before you share your opinions so you can know how to respond. While it might seem easy to make a casual comment about how \"dumb\" football is in a mixed group, you can never know if someone's recently-deceased grandfather made a living as a ref and loved the sport dearly.",
+            "4 Pick your battles. Sometimes it shows respect to speak up and voice your opinion, as a way of respecting the intelligence of others. On the other hand, sometimes it's better to hold back on your opinions and avoid unnecessary arguments that raise tempers. Showing respect Try softening your arguments the first time you bring something up. If you think college football is a vicious and disgusting money trench, package that message in a respectful way and voice it, even if others will disagree: \"It worries me that so much money is funneled into student athletes at the expense of other more important things. What do you think?\" Show respect for their opinion by sharing your own and listening to their argument. Perhaps there's little use in arguing with your great uncle about gay marriage for the umpteenth time. Will it be worth it to bring it up at the dinner table?",
+            "5 Respectfully disagree. When you have to dissent, do it calmly and by treating your conversation with tact. Respect the perspective of the other person. Don't insult their opinion or ideas, even if you disagree with them. Try and acknowledge common ground before adding your disagreement. Straight with praise and then move to your addition to the conversation. Even something as simple as \"That's a good point. I think I'm seeing it a little differently though...\" does the trick in lightening your disagreement. Be specific with your critique, avoiding simple or insulting language like \"You're wrong\" or \"That's dumb.\"",
+            "1 Don't judge people before you get to know them. Give people the benefit of the doubt, even people of whom you might have a bad first impression. Everyone is fighting a big fight. Assume they've got good reasons for being the way they are, doing what they do, and believing what they believe.",
+            "2 Decide to like people. It's too easy to come up with reasons to dislike someone, to disrespect someone, or to dismiss them. Instead, look for the spark and the warmth in people. Decide to like them, and it'll be much easier to show respect. Translate a person's quirks into strengths to help change your attitude. Instead of thinking, \"That person is mouthy and egotistical\" say \"That person really speaks her mind. I like that spark.\"",
+            "3 If you can't say anything nice...well, you know. Keep a lid on it sometimes. Learn to distinguish between confrontations that need to happen and silly arguments. You'll keep yourself sane and earn the respect of others by learning to keep quiet. Don't get dragged into the muck.",
+            "4 Worry about your own backyard. Don't get mixed up in other peoples' business and create unnecessary enemies. Busybodies make quick enemies, usually because there's not enough going on to keep them occupied. Stay busy and keep your life full of interesting and engaging activities so you don't have the time and energy to worry about what your neighbors are doing, or how your classmates are doing on their homework. Take up new hobbies and spend less time on Facebook. Getting your stalk on is a good time filler, but it can breed resentments and jealousies where none need be.",
+            "5 Reach out. Giving people you don't like the cold shoulder may be the easiest way to avoid confrontations, but it can also be cruel and rude, especially in school or at work where everyone likes to feel included. You don't have to be best friends, but respect people by including them. Aim for at least one friendly attempt with people you don't especially like. \"How're you today?\" will at least show that you're trying. You might even change the way you feel.",
+            "1 Take care of yourself. To show respect for yourself, try and give yourself the same consideration that you give everyone else. Don't short-change your own ideas and wants at the expense of others. You're worth it. Know when to ask for help. Have respect for your own abilities and skills, but learn to recognize when you're out of your element. Don't make it harder on yourself than you need to. Treat yourself to well-deserved trips and gifts every now and again. Spend time with your friends and do fun things in your free time.",
+            "2 Avoid self-destructive behaviors. Drinking to excess on a regular basis or habitually self-deprecating yourself will tear you down in mind and body. Try to work actively to build yourself up and surround yourself with encouraging, enlightening, helpful people. Are your friends the kind of people you want to be around? Do they ever criticize you or try and keep you down? Consider moving on. [1]",
+            "3 Stay healthy. Make regular visits to the doctor to make sure you're healthy and fit. Take care of health problems as soon as they arise and don't put off \"bad news.\" Avoiding the doctor's office because you don't like it isn't showing respect for yourself and your own well-being. Exercise regularly and eat well. Start developing easy routines, even walking a few miles a day or doing some light stretches to get in touch with your body and maintain it. Cut out junk foods and eat a variety of nourishing foods.",
+            "4 Stand up for yourself. When you want something, go out and get it. Don't let your fear about stepping on toes get in the way of making things happen that will better your life and achieve something positive for yourself. If you've got an opinion, share it. If you want to change jobs, start a band, or take up acting in your 40s, do it. Make a decision and follow through."
+         ],
+         "title":[  
+            "How to Show Respect"
+         ],
+         "photo/_alt":[  
+            "Show Respect Step 1 Version 3.jpg",
+            "Show Respect Step 2 Version 3.jpg",
+            "Show Respect Step 3 Version 3.jpg",
+            "Show Respect Step 4 Version 3.jpg",
+            "Show Respect Step 5 Version 3.jpg",
+            "Show Respect Step 6 Version 3.jpg",
+            "Show Respect Step 7 Version 2.jpg",
+            "Show Respect Step 8 Version 2.jpg",
+            "Show Respect Step 9 Version 2.jpg",
+            "Show Respect Step 10 Version 2.jpg",
+            "Show Respect Step 11 Version 2.jpg",
+            "Show Respect Step 12 Version 2.jpg",
+            "Show Respect Step 13 Version 2.jpg",
+            "Show Respect Step 14 Version 2.jpg",
+            "Show Respect Step 15 Version 2.jpg",
+            "Show Respect Step 16 Version 2.jpg",
+            "Show Respect Step 17 Version 2.jpg",
+            "Show Respect Step 18 Version 2.jpg",
+            "Show Respect Step 19 Version 2.jpg",
+            "Show Respect Step 20 Version 2.jpg"
+         ],
+         "photo":[  
+            "http://pad3.whstatic.com/images/thumb/6/64/Show-Respect-Step-1-Version-3.jpg/670px-Show-Respect-Step-1-Version-3.jpg",
+            "http://pad2.whstatic.com/images/thumb/d/d5/Show-Respect-Step-2-Version-3.jpg/670px-Show-Respect-Step-2-Version-3.jpg",
+            "http://pad2.whstatic.com/images/thumb/3/3a/Show-Respect-Step-3-Version-3.jpg/670px-Show-Respect-Step-3-Version-3.jpg",
+            "http://pad3.whstatic.com/images/thumb/6/6c/Show-Respect-Step-4-Version-3.jpg/670px-Show-Respect-Step-4-Version-3.jpg",
+            "http://pad1.whstatic.com/images/thumb/4/47/Show-Respect-Step-5-Version-3.jpg/670px-Show-Respect-Step-5-Version-3.jpg",
+            "http://pad3.whstatic.com/images/thumb/6/61/Show-Respect-Step-6-Version-3.jpg/670px-Show-Respect-Step-6-Version-3.jpg",
+            "http://pad1.whstatic.com/images/thumb/4/47/Show-Respect-Step-7-Version-2.jpg/670px-Show-Respect-Step-7-Version-2.jpg",
+            "http://pad3.whstatic.com/images/thumb/a/a5/Show-Respect-Step-8-Version-2.jpg/670px-Show-Respect-Step-8-Version-2.jpg",
+            "http://pad2.whstatic.com/images/thumb/a/a8/Show-Respect-Step-9-Version-2.jpg/670px-Show-Respect-Step-9-Version-2.jpg",
+            "http://pad2.whstatic.com/images/thumb/0/0a/Show-Respect-Step-10-Version-2.jpg/670px-Show-Respect-Step-10-Version-2.jpg",
+            "http://pad3.whstatic.com/images/thumb/7/7a/Show-Respect-Step-11-Version-2.jpg/670px-Show-Respect-Step-11-Version-2.jpg",
+            "http://pad3.whstatic.com/images/thumb/c/c9/Show-Respect-Step-12-Version-2.jpg/670px-Show-Respect-Step-12-Version-2.jpg",
+            "http://pad2.whstatic.com/images/thumb/6/61/Show-Respect-Step-13-Version-2.jpg/670px-Show-Respect-Step-13-Version-2.jpg",
+            "http://pad3.whstatic.com/images/thumb/6/60/Show-Respect-Step-14-Version-2.jpg/670px-Show-Respect-Step-14-Version-2.jpg",
+            "http://pad1.whstatic.com/images/thumb/f/f5/Show-Respect-Step-15-Version-2.jpg/670px-Show-Respect-Step-15-Version-2.jpg",
+            "http://pad1.whstatic.com/images/thumb/f/f8/Show-Respect-Step-16-Version-2.jpg/670px-Show-Respect-Step-16-Version-2.jpg",
+            "http://pad3.whstatic.com/images/thumb/e/ed/Show-Respect-Step-17-Version-2.jpg/670px-Show-Respect-Step-17-Version-2.jpg",
+            "http://pad1.whstatic.com/images/thumb/8/82/Show-Respect-Step-18-Version-2.jpg/670px-Show-Respect-Step-18-Version-2.jpg",
+            "http://pad1.whstatic.com/images/thumb/7/77/Show-Respect-Step-19-Version-2.jpg/670px-Show-Respect-Step-19-Version-2.jpg",
+            "http://pad3.whstatic.com/images/thumb/6/6d/Show-Respect-Step-20-Version-2.jpg/670px-Show-Respect-Step-20-Version-2.jpg"
+         ],
+         "_resultNumber":16,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Show-Respect",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":16
+      },
+      {  
+         "text":[  
+            "1 It must be newsworthy. No reporter, online or off, wants yet another advertisement about how great your company is. It may be great, but that's not news. Tell them something NEW about you. Do you have a new product? Are you about to host an event? Did you have record sales this year? Tell them something they'll want to talk about. Ad",
+            "2 Try to keep it all on one page. Reporters are bombarded with press releases all day long. Trust me, I know, I was one. They are too busy trying to get the story to read through all the stuff they get all day.",
+            "3 Give it all up front. Don't hide your news in the middle or give your release a \"surprise\" ending. It doesn't work. I'll be honest, if I didn't see a good story in the first paragraph the release went in the trash.",
+            "4 Make the title snappy, eye-catching. Something like \"Man bites dog\". Don't mislead the reader. It's got to be a title that actually matches the story. But, it's got to grab attention. Make sure, while you are at it, to put something in the title people will likely search for when looking up your product. If you sell vitamins, make sure your title includes the word vitamins so it comes up in their search.",
+            "5 Include facts and figures. Reporters (and people in general) love to get their hands on the latest poll or a study with a surprising outcome. If you can link this with your product it makes their job easier and lends you more credibility.",
+            "6 Quote the experts. Nothing says legitimate news source like an expert who agrees with your story. See if you can get permission to include that expert's contact info while you're at it. This will make the reporter's job a lot easier if they do decide to cover the story."
+         ],
+         "title":[  
+            "How to Write an Online Press Release"
+         ],
+         "photo/_alt":[  
+            "Write an Online Press Release Step 1.jpg",
+            "Write an Online Press Release Step 2.jpg",
+            "Write an Online Press Release Step 3.jpg",
+            "Write an Online Press Release Step 4.jpg",
+            "Write an Online Press Release Step 5.jpg",
+            "Write an Online Press Release Step 6.jpg"
+         ],
+         "photo":[  
+            "http://pad3.whstatic.com/images/thumb/a/a3/Write-an-Online-Press-Release-Step-1.jpg/670px-Write-an-Online-Press-Release-Step-1.jpg",
+            "http://pad1.whstatic.com/images/thumb/4/4e/Write-an-Online-Press-Release-Step-2.jpg/670px-Write-an-Online-Press-Release-Step-2.jpg",
+            "http://pad2.whstatic.com/images/thumb/3/3c/Write-an-Online-Press-Release-Step-3.jpg/670px-Write-an-Online-Press-Release-Step-3.jpg",
+            "http://pad1.whstatic.com/images/thumb/e/ef/Write-an-Online-Press-Release-Step-4.jpg/670px-Write-an-Online-Press-Release-Step-4.jpg",
+            "http://pad1.whstatic.com/images/thumb/b/b4/Write-an-Online-Press-Release-Step-5.jpg/670px-Write-an-Online-Press-Release-Step-5.jpg",
+            "http://pad1.whstatic.com/images/thumb/a/a8/Write-an-Online-Press-Release-Step-6.jpg/670px-Write-an-Online-Press-Release-Step-6.jpg"
+         ],
+         "_resultNumber":4,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Write-an-Online-Press-Release",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":4
+      },
+      {  
+         "text":[  
+            "1 Get the inside scoop. Not only does a featured article need to be comprehensive and informative, but it also helps tremendously if it's insightful. Look for tips and facts that might make someone say \"Wow, I didn't know that!\" If you're knowledgeable about the topic, you probably have plenty of \"insider\" tips; but even if you're not an expert, you can find them and reference them on wikiHow. Ad",
+            "2 Fact check. Take the time to make sure the information being presented is accurate. If you can imagine someone questioning the validity of the advice, find a reputable source to back it up and use a reference to indicate the source.",
+            "3 Review the instructions carefully. Does the article stick to the wikiHow format as described in the Writer's Guide? Are the steps clear, giving the reader just enough information to get the job done, but not so much that the reader gets distracted or bogged down by background information? Are spelling and grammar in good shape?",
+            "4 Provide additional information in the appropriate sections: Tips - Offer any additional background information or tidbits of advice that are optional and that don't fit as a \"step\" in the given procedure. Warnings - Describe any possible dangers and risks relating to the steps involved, and explain how they can be prevented. Related wikiHows - Choose wikiHow articles that are of at least decent quality (nothing marked as a stub, in need of copyediting or formatting, etc.). If you discover a past featured article that is related to the topic, by all means, include it! Things You'll Need - Use this section only for necessary supplies. It is also possible to list ingredients. This section is optional and is not always useful. Do list physical objects; don't list concepts, qualities, or ideas (a sense of humor, a good attitude). If a positive attitude does matter, that information might fit better in a step or a tip. Ingredients - Use this section only for food ingredients, and give exact quantities and any necessary descriptions: one cup of celery, chopped finely. If it is not food but equipment (a wooden spoon, duct tape, goggles), put it in Things You'll Need, instead. Sources and Citations - Link to websites, books, journal articles, etc. you used while researching this page. To ensure that the link doesn't accidentally get deleted as spam, write \"Research source\" after the URL. Also use the section for copyright permission attribution if you legally imported any content. See the external link guidelines for details.",
+            "5 Add pictures! Images make an article shine. Most instructions will benefit from being supplemented by photos, illustrations, or diagrams, and some are difficult to visualize without some type of visual aid, but don't add images that are irrelevant just to have them there. Remember to use only photos you took yourself or photos from freely licensed sources, which you can find through wikiHow. If you didn't take the photo yourself, be sure to attribute it correctly.",
+            "6 Add a video. Most articles will benefit from including a video that demonstrates the how-to. Ideally, the video should illustrate the method explained in the article, but if you can't find that, an alternate method is acceptable. That being said, if you can't find a suitable video, don't embed one. No video is better than a bad video.",
+            "7 Weave links. Go through the article and link to other wikiHow articles that are relevant. If you've never woven links before, read the policy first. It's important to include links that readers will find relevant to the context of the article. Don't go overboard!",
+            "8 Invite other wikiHow community members to help improve your page by leaving them messages on their talk pages or asking for volunteer editors at the forums. As you're improving the quality of the instructions, you may wish to consult with other editors on wikiHow and ask for their input. If you know that an active contributor on wikiHow might know a lot about the topic at hand, ask them nicely if they'd fact check the article and let you know if it's missing something. Likewise, if you know of a contributor with a particular talent, like a knack for grammar or formatting, ask them to help, too. While collaboration is not a requirement for the selection of a Featured Article, the general wikiHow belief is that every contribution creates a more complete and informative article.",
+            "9 Nominate the article to be featured. Write {{fac}} on the discussion page (not anywhere in the article). \"F.A.C\" stands for Featured Article Candidate. This notice will automatically add the article to the list of others being considered.",
+            "10 Read comments on discussion pages written by other wikiHow community members. Some will comment about the merits of featured article while some will criticize it. Respond to their praise and criticisms in a civil manner. Keep in mind that not all pages can be selected as a featured article and all criticism on wikiHow is meant to improve the quality of the article and is not a criticism of your abilities. Try to use the feedback to improve the quality of the article.",
+            "11 Wait. If the community decides to approve the page as a featured page, it can take several weeks or even months for the page to make it to the top of the featured page list. If the article doesn't get featured within 3 months, any editor may then remove the F.A.C template. Don't feel like you did a bad job though. Sometimes, certain topics just don't have wide enough appeal, or may be too controversial to be appropriate as an FA. Take pride in knowing that you've helped create a high-quality, complete and helpful how-to that excels as an example of what wikiHow contributors can accomplish together.",
+            "12 Always get help from someone else you may have experience but they might see in your article what you are incapable to have seen and that is a major problem now isn't it.",
+            "13 Go look at someone else's article with many views and see how they did it, if theirs was really long, should yours be longer? If they have step by step photographs, should you maybe get step by step photographs?",
+            "14 Start writing much information and the rest might just come then too! Use good grammar, and proper spelling, have commas, and use spell check, along with proof reading it."
+         ],
+         "title":[  
+            "How to Write a Featured Article on wikiHow"
+         ],
+         "photo/_alt":[  
+            "Answer the Phone at Work Step 4.jpg",
+            "Develop a Questionnaire for Research Step 2.jpg",
+            "Write a Featured Article on wikiHow Step 3.jpg",
+            "Keep Vocabulary Records Step 6.jpg",
+            "Be an Instagram Hipster Step 2.jpg",
+            "Be an Instagram Hipster Step 4.jpg",
+            "Write a Featured Article on wikiHow Step 7.jpg",
+            "Attract Readers to a wikiHow Article Step 6.jpg",
+            "Attract Readers to a wikiHow Article Step 13.jpg",
+            "Write a Featured Article on wikiHow Step 10.jpg",
+            "Understand Time Travel Step 2.jpg",
+            "Buy a Washer and Dryer Step 5.jpg",
+            "Write a Featured Article on wikiHow Step 13.jpg",
+            "Buy a Washer and Dryer Step 7.jpg"
+         ],
+         "photo":[  
+            "http://pad3.whstatic.com/images/thumb/a/ab/Answer-the-Phone-at-Work-Step-4.jpg/670px-Answer-the-Phone-at-Work-Step-4.jpg",
+            "http://pad1.whstatic.com/images/thumb/6/62/Develop-a-Questionnaire-for-Research-Step-2.jpg/670px-Develop-a-Questionnaire-for-Research-Step-2.jpg",
+            "http://pad1.whstatic.com/images/thumb/9/91/Write-a-Featured-Article-on-wikiHow-Step-3.jpg/670px-Write-a-Featured-Article-on-wikiHow-Step-3.jpg",
+            "http://pad1.whstatic.com/images/thumb/3/39/Keep-Vocabulary-Records-Step-6.jpg/670px-Keep-Vocabulary-Records-Step-6.jpg",
+            "http://pad2.whstatic.com/images/thumb/8/86/Be-an-Instagram-Hipster-Step-2.jpg/670px-Be-an-Instagram-Hipster-Step-2.jpg",
+            "http://pad2.whstatic.com/images/thumb/2/22/Be-an-Instagram-Hipster-Step-4.jpg/670px-Be-an-Instagram-Hipster-Step-4.jpg",
+            "http://pad3.whstatic.com/images/thumb/9/9b/Write-a-Featured-Article-on-wikiHow-Step-7.jpg/670px-Write-a-Featured-Article-on-wikiHow-Step-7.jpg",
+            "http://pad1.whstatic.com/images/thumb/c/c3/Attract-Readers-to-a-wikiHow-Article-Step-6.jpg/670px-Attract-Readers-to-a-wikiHow-Article-Step-6.jpg",
+            "http://pad2.whstatic.com/images/thumb/7/7c/Attract-Readers-to-a-wikiHow-Article-Step-13.jpg/670px-Attract-Readers-to-a-wikiHow-Article-Step-13.jpg",
+            "http://pad2.whstatic.com/images/thumb/a/a0/Write-a-Featured-Article-on-wikiHow-Step-10.jpg/670px-Write-a-Featured-Article-on-wikiHow-Step-10.jpg",
+            "http://pad1.whstatic.com/images/thumb/e/e1/Understand-Time-Travel-Step-2.jpg/670px-Understand-Time-Travel-Step-2.jpg",
+            "http://pad2.whstatic.com/images/thumb/e/e5/Buy-a-Washer-and-Dryer-Step-5.jpg/670px-Buy-a-Washer-and-Dryer-Step-5.jpg",
+            "http://pad2.whstatic.com/images/thumb/7/7b/Write-a-Featured-Article-on-wikiHow-Step-13.jpg/670px-Write-a-Featured-Article-on-wikiHow-Step-13.jpg",
+            "http://pad1.whstatic.com/images/thumb/5/53/Buy-a-Washer-and-Dryer-Step-7.jpg/670px-Buy-a-Washer-and-Dryer-Step-7.jpg"
+         ],
+         "_resultNumber":14,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Write-a-Featured-Article-on-wikiHow",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":14
+      },
+      {  
+         "text":[  
+            "1 Connect your iPod to your computer. Open iTunes. Ad",
+            "2 Organize your music playlist first. When you go through your iPod, you usually look at your music before anything else. A cluttered playlist is unpleasant to the eye and can be frustrating if you're in a hurry to get the music started, such as before taking a walk or when getting on a crowded bus. Make sure all songs are under the same artist. Place the featuring artist in brackets in front of the song name, not with the artist. This groups the song with other songs by that artist; otherwise, it would be considered a separate artist. For example, it should be \"Airplanes (feat. Hayley Williams)\" by B.o.B, not \"Airplanes\" by B.o.B feat. Hayley Williams. Find the correct album and album artwork that goes along with it. Wikipedia is a helpful website to use for finding the correct artwork. Get the correct song information, such as year and genre. Again, Wikipedia can help. If you buy music from iTunes, they will usually provide everything, including the album artwork.",
+            "3 Organize your apps. This can be done both on iTunes, while your iPod is connected, by going to the Apps screen under your device. You can drag the apps to rearrange them. Alternately, you can do it directly on your device by tapping and holding an app until they start shaking and have a circled X on the top left-hand corner (Wiggle mode). Drag an app over another to create a folder within those two apps. This can only be done if your iPod is using iOS 4.2 or higher. The folder name depends on the type of app inside (for example, two social networking apps will make the folder name \"Social Networking\"), but the name can be manually changed to something else. Each folder can hold up to twelve apps. Group similar apps with folders. A common method is to place all games into folders and then arrange them into alphabetical order. For example, since one folder holds twelve apps, one could name the first folder \"Games A-G\" and put games starting with A-G into it, and so forth. Arrange your apps into alphabetical order. Install any app updates as soon as you check the App Store. A small update can fix a crashing issue and save you from further irritation. Buy one of those 90-in-1 apps. These apps have several apps bundled into one. Most contain unit converters, document viewers, battery monitor, among others. After you install the app, you can delete any individual app of the same purpose. They are usually $0.99 or $1.99, but it's a small price to pay for keeping both your iPod and personal life organized. Arrange your four most used apps onto the dock. This can be done by dragging the apps already on it onto a home screen and replacing them with other apps.",
+            "4 Delete anything you don't need anymore. Remove anything you don't need, use or like anymore, whether it's apps, songs, videos or photos, etc. This helps to maintain good organization and will also free up disk space for things you do want. Delete e-mail you've read already. If you need to keep a specific e-mail, create a folder and move that e-mail into it. Delete notes you don't need anymore. The Notes app comes pre-installed with the iPod and is great for taking short notes, but it can quickly become cluttered if you have too many notes. Make it a rule to immediately delete lists once the tasks are completed or items purchased. Save photos onto your computer and delete them off your iPod."
+         ],
+         "title":[  
+            "How to Organize an iPod Touch"
+         ],
+         "photo/_alt":[  
+            "Organize an iPod Touch Step 1.jpg",
+            "Organize an iPod Touch Step 2.jpg",
+            "Organize an iPod Touch Step 3.jpg",
+            "Organize an iPod Touch Step 4.jpg"
+         ],
+         "photo":[  
+            "http://pad3.whstatic.com/images/thumb/b/b5/Organize-an-iPod-Touch-Step-1.jpg/670px-Organize-an-iPod-Touch-Step-1.jpg",
+            "http://pad1.whstatic.com/images/thumb/4/4a/Organize-an-iPod-Touch-Step-2.jpg/670px-Organize-an-iPod-Touch-Step-2.jpg",
+            "http://pad2.whstatic.com/images/thumb/b/b2/Organize-an-iPod-Touch-Step-3.jpg/670px-Organize-an-iPod-Touch-Step-3.jpg",
+            "http://pad3.whstatic.com/images/thumb/d/d2/Organize-an-iPod-Touch-Step-4.jpg/670px-Organize-an-iPod-Touch-Step-4.jpg"
+         ],
+         "_resultNumber":23,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Organize-an-iPod-Touch",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":23
+      },
+      {  
+         "text":[  
+            "1 Sign into the Google Drive website with your Google account. If you don’t have a Google account, you can create one for free. Google Drive will allow you to store your files in the cloud, as well as create documents and forms through the Google Drive web interface. Ad",
+            "2 Add files to your drive. There are two ways to add files to your drive. You can create Google Drive documents, or you can upload files from your computer. To create a new file, click the CREATE button. To upload a file, click the “Up Arrow” button next to the CREATE button.",
+            "3 Change the way your files are displayed. You can choose to display files by large icons (Grid) or as a list (List). The List mode will show you at a glance the owner of the document and when it was last modified. The Grid mode will show each file as a preview of its first page. You can change the mode by clicking the buttons next to the gear icon in the upper right corner of the page.",
+            "4 Use the navigation bar on the left side to browse your files. “My Drive” is where all of your uploaded files and folders are stored. “Shared with Me” are documents and files that have been shared with you by other Drive users. “Starred” files are files that you have marked as important, and “Recent” files are the ones you have most recently edited. You can drag and drop files and folders around your Drive to organize them as you see fit. Click the check box to select multiple files and folders. You can then perform actions for these selected files by clicking the buttons at the top of the page. If you are using the large icon view, the check box appears when you hover your mouse over the document. There are more options in the “More” menu. Click the Folder icon with a “+” sign to create a new folder in your Drive. You can create folders inside of other folders to organize your files.",
+            "5 Search for files. You can search through your Google Drive documents and folders using the search bar at the top of your page. Google Drive will search through titles, content, and owners. If a file is found with the exact term in the title, it will appear under the search bar as you type so that you can quickly select it.",
+            "6 Download the app for your mobile device. You can download the Google Drive app for your Android or iOS device which allows you to access your files from your phone or tablet. The app can be downloaded for free from your app store. The app may not have all of the same editing features as the browser version.",
+            "1 Click the CREATE button. A menu will appear that allows you to choose what type of document you want to create. You have several options by default, and more can be added by clicking the “Connect more app” link at the bottom of the menu: Folder – This creates a folder in your My Drive for file organization. Document – This creates a blank word processor document. You can adjust formatting and page setup using the tools and menus at the top of the document. You can export documents into Microsoft Word, OpenOffice, PDF, and other formats. Presentation – This opens the Google Drive equivalent of Microsoft PowerPoint. Files can be exported as Microsoft PowerPoint, PDF, JPG, and other formats. Spreadsheet – This creates a blank spreadsheet. Spreadsheets can be exported as Microsoft Excel, OpenOffice, PDF, CSV, and other formats. Form – This allows you to create forms that can be filled out online. Forms can be exported to CSV files.",
+            "2 Create a new file. Once you’ve selected your document type, you will be taken to your blank document. If you chose Presentation or Form, you will be greeted by a wizard that will help you configure the feel of your document.",
+            "3 Name the file. At the top of the page, click the italic gray text that says “Untitled <file type>”. When you click it, the “Rename document” window will appear, allowing you to change the name of your file.",
+            "4 Edit your document. Begin writing your document as you would in its commercially-equivalent. You will most likely find that Google Drive has most of the basic features, but advanced features you may be used to are not available. Your document saves automatically as you work on it.",
+            "5 Export and convert the file. If you want to make your file compatible with similar programs, click File and place your cursor over “Download As”. A menu will appear with the available formats. Choose the format that best suits your needs. You will be asked to name the file and select a download location. When the file is downloaded, it will be in the format you chose.",
+            "6 Share your document. Click File and select Share, or click the blue Share button in the upper right corner to open the Sharing settings. You can specify who can see the file as well as who can edit it. Give the link at the top to the people you are sharing the file with. You can use the buttons below to quickly share via Gmail, Google+, Facebook, or Twitter. Change who has access to the document by clicking the “Change…” link. By default, the document is private and you must invite people for them to have access. You can change this to allow everyone who has the link, or to open and searchable by the entire internet. Invite people to edit your document by entering their contact information into the “Invite people” field. Invited users must sign in to Google Drive in order to access the document. Change invited people’s access by clicking the blue link next to each to their names. You can allow them to edit the document or just be able to view it.",
+            "7 Publish the document. To publish your document, spreadsheet, or presentation, click File and select “Publish to the web”. Publishing a Google Drive document creates a copy of that document that anyone can see. The copy becomes a separate webpage that is not linked to your original document. This allows you to share the document with anyone you want without changing your sharing settings. [1] A published document cannot be edited. You can still edit the original file that remains in Google Drive.",
+            "8 Print the document. If you have a printer installed or have access to a Google Cloud printer, you can print your documents. Click on the File menu and select Print from the bottom of the list. Choose your print settings. You can specify which pages to print, as well as the layout of the page. Click Print to move to the next screen. The print preview will open, and you can select your printer by clicking the Change button. This is useful if you are trying to access your Google Cloud printer at home while out at work or school.",
+            "9 Revert to an older version of a document. If you’ve made a bunch of changes to a document and realize you need to revert back to your old version, you can use the Revision History tool to browse through old copies. Open the document and click the File menu. Select “See revision history” and a frame with a list of your revisions will open on the right side of the page. [2] You can click on each revision on the list to see the document I your main window. When you’ve found the revision you want to keep, click the blue “Restore this revision link” underneath its entry on the list.",
+            "1 Download the Google Drive sync program for your computer. This is optional, but can make syncing your local files to Google Drive easier. If you want to install the program, click the link to download it on the Google Drive homepage. The link will download the correct installer for your operating system. Once you download the program, install it and sign in with your Google account. A folder will be placed on the desktop that gives you quick access to all of your Google Drive files. Drag any files that you want to add to your Google Drive storage into the folder and they will be automatically uploaded. When a file is successfully uploaded, it displays a green check mark on the icon.",
+            "2 Set your upload settings. Click the gear icon in the upper right corner of the page and hover your mouse over the “Upload settings” option. You can choose to have Google Drive automatically convert uploaded files such as Word documents or Excel files into the Drive formats, and you can have Drive convert PDF files into editable text files. You can select if you would like to be prompted every time you do this, or if you want it to happen automatically. Unconverted files will not open in Google Drive unless you convert them. Otherwise you will need to download them to a machine that has the program required to open the file.",
+            "3 Click the Upload button. A menu will appear allowing you to upload individual files or entire folders. Browse for the file or folder that you want to upload to Drive. Your conversion settings set earlier will take effect, and you can see the progress of the upload in the window that appears. Free Google Drive accounts give you 15 GB of storage for your uploaded files. This storage is shared with your Gmail account. Any documents created in Drive do not count towards your storage limit. You can see what is taking up your storage by clicking the “Manage” link in the bottom left corner of the Drive page. Files uploaded appear in your My Drive folder. You can then move them around your folder system however you’d like.",
+            "4 Download files from Google Drive to your computer. If you want to get a file or files onto your local computer, check the boxes for the files that you want to transfer. Click the More button at the top of the page and select Download. If you are downloading Google Drive files, you will be asked what format you would like to convert them too. Otherwise, your files will begin downloading automatically.",
+            "5 Delete files you don’t want. To delete files and folders, check the boxes for the items you want to delete. Click the Trash button at the top of the page. You can undo your action by clicking the Undo link, or by going to the Trash section in the left menu. Remember, documents created with Google Drive do not count towards your storage limit.",
+            "1 Edit photos you’ve uploaded to drive. You can use the free app Pixlr to edit any photos you’ve uploaded directly in Drive. To do so, click on the CREATE button and select “Connect more apps”. Search for Pixlr and install it for free. Once Pixlr is installed, right-click on a picture in your Drive and select “Open with”. Choose Pixlr from the menu and the photo will be opened in a new tab. You can then start editing with Pixlr.",
+            "2 Listen to your stored music files. If you’re using Google Drive to store your MP3s, you may have noticed that there’s no way to actually play them without downloading them first. With the Drive Music Chrome app, you can use your Google Chrome web browser to listen to your files stored in Drive. The app can be downloaded for free from the Chrome web store.",
+            "3 Draw pictures with Drive. You can add the Drawing app to Drive, which will install a basic image creation program. Use this program to draw images for your other documents, or create collaborative drawings by sharing the drawing with others."
+         ],
+         "title":[  
+            "How to Use Google Drive"
+         ],
+         "photo/_alt":[  
+            "Use Google Drive Step 1 Version 2.jpg",
+            "Use Google Drive Step 2 Version 2.jpg",
+            "Use Google Drive Step 3 Version 2.jpg",
+            "Use Google Drive Step 4 Version 2.jpg",
+            "Use Google Drive Step 5 Version 2.jpg",
+            "Use Google Drive Step 6 Version 2.jpg",
+            "Use Google Drive Step 7 Version 2.jpg",
+            "Use Google Drive Step 8 Version 2.jpg",
+            "Use Google Drive Step 9 Version 2.jpg",
+            "Use Google Drive Step 10 Version 2.jpg",
+            "Use Google Drive Step 11 Version 2.jpg",
+            "Use Google Drive Step 12 Version 2.jpg",
+            "Use Google Drive Step 13 Version 2.jpg",
+            "Use Google Drive Step 14 Version 2.jpg",
+            "Use Google Drive Step 15 Version 2.jpg",
+            "Use Google Drive Step 16 Version 2.jpg",
+            "Use Google Drive Step 17 Version 2.jpg",
+            "Use Google Drive Step 19 Version 2.jpg",
+            "Use Google Drive Step 20 Version 2.jpg",
+            "Use Google Drive Step 21.jpg",
+            "Use Google Drive Step 22.jpg",
+            "Use Google Drive Step 23.jpg"
+         ],
+         "photo":[  
+            "http://pad3.whstatic.com/images/thumb/c/cb/Use-Google-Drive-Step-1-Version-2.jpg/670px-Use-Google-Drive-Step-1-Version-2.jpg",
+            "http://pad3.whstatic.com/images/0/0f/Use-Google-Drive-Step-2-Version-2.jpg",
+            "http://pad2.whstatic.com/images/thumb/0/07/Use-Google-Drive-Step-3-Version-2.jpg/670px-Use-Google-Drive-Step-3-Version-2.jpg",
+            "http://pad3.whstatic.com/images/b/b8/Use-Google-Drive-Step-4-Version-2.jpg",
+            "http://pad2.whstatic.com/images/thumb/c/c0/Use-Google-Drive-Step-5-Version-2.jpg/670px-Use-Google-Drive-Step-5-Version-2.jpg",
+            "http://pad3.whstatic.com/images/0/08/Use-Google-Drive-Step-6-Version-2.jpg",
+            "http://pad2.whstatic.com/images/0/0f/Use-Google-Drive-Step-7-Version-2.jpg",
+            "http://pad2.whstatic.com/images/thumb/a/ad/Use-Google-Drive-Step-8-Version-2.jpg/670px-Use-Google-Drive-Step-8-Version-2.jpg",
+            "http://pad1.whstatic.com/images/b/bb/Use-Google-Drive-Step-9-Version-2.jpg",
+            "http://pad2.whstatic.com/images/thumb/e/e1/Use-Google-Drive-Step-10-Version-2.jpg/670px-Use-Google-Drive-Step-10-Version-2.jpg",
+            "http://pad3.whstatic.com/images/thumb/3/36/Use-Google-Drive-Step-11-Version-2.jpg/670px-Use-Google-Drive-Step-11-Version-2.jpg",
+            "http://pad3.whstatic.com/images/e/e1/Use-Google-Drive-Step-12-Version-2.jpg",
+            "http://pad2.whstatic.com/images/b/bc/Use-Google-Drive-Step-13-Version-2.jpg",
+            "http://pad1.whstatic.com/images/d/d7/Use-Google-Drive-Step-14-Version-2.jpg",
+            "http://pad3.whstatic.com/images/thumb/a/ac/Use-Google-Drive-Step-15-Version-2.jpg/670px-Use-Google-Drive-Step-15-Version-2.jpg",
+            "http://pad3.whstatic.com/images/0/02/Use-Google-Drive-Step-16-Version-2.jpg",
+            "http://pad3.whstatic.com/images/3/30/Use-Google-Drive-Step-17-Version-2.jpg",
+            "http://pad3.whstatic.com/images/thumb/b/b1/Use-Google-Drive-Step-19-Version-2.jpg/670px-Use-Google-Drive-Step-19-Version-2.jpg",
+            "http://pad1.whstatic.com/images/2/28/Use-Google-Drive-Step-20-Version-2.jpg",
+            "http://pad1.whstatic.com/images/6/68/Use-Google-Drive-Step-21.jpg",
+            "http://pad1.whstatic.com/images/thumb/2/29/Use-Google-Drive-Step-22.jpg/670px-Use-Google-Drive-Step-22.jpg",
+            "http://pad2.whstatic.com/images/thumb/1/13/Use-Google-Drive-Step-23.jpg/670px-Use-Google-Drive-Step-23.jpg"
+         ],
+         "_resultNumber":10,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Use-Google-Drive",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":10
+      },
+      {  
+         "text":[  
+            "1 Assess the damage and attempt a repair if possible. When you suffer a broken chain while riding, pull over to the side of the street or trail you're riding on and lay your bike on its side, sprocket-up. Look for the break in your chain - odds are that, at this point, your chain is hanging loose from the sprocket, so it should be easy to find the two separated ends of the chain. For most bike chains, each link is connected to the next by passing a metal pin through the outer \"plate\" portion of one link and through the inner \"roller\" portion of the adjacent link. Thus, if you're an experienced rider and you carry a chain tool and replacement parts with you, you may be able to repair the damage on-site and simply re-thread the chain on to the sprocket (see Method 2). Most bike chains fall in to one of three categories: [1] Chains with special replacement pins. These chains require a special type of pin from the manufacturer (usually provided when you buy the chain) to repair a break. If you don't carry these special pins with you when you go riding, you may be out of luck in terms of repair options until you can make it to a bike shop. Chains with master links. These chains have a special link with two pins that is used to join the two ends of the chain. If this link is broken, you may need to wait until you can replace it to be able to repair the chain. Chains with \"normal\" pins. Older, more traditional chains have uniform pins, any of which can be used to repair a breakage (provided you have a chain tool with you). Ad",
+            "2 Remove the damaged chain from the bike. If you've decided that your chain will be easier to replace than to repair, the first thing you'll need to do is get rid of the old chain. If the chain has completely split, simply turn the pedals until the length of the chain has passed around the sprocket and can be removed. If the chain is still holding together, you may need to introduce a break in the chain so that it's easier to remove. This can be done with a chain tool (available at nearly all bike shops). To use a standard chain tool, simply line up one chain link in the tool's internal groove, securing it on the tool's \"teeth\", then turn the chain tool's handle to drive the tool's point down and push the pin out of the chain. If you want to reuse your chain, make sure you only push the pin far enough out of the way that the two links can be separated. Don't quite push the pin all the way out, as they're quite hard to replace. Once you've introduced a break in the chain, simply turn the pedals to pass the length of the chain through the bike's gears. Ideally, you want to buy a replacement chain that's the exact same length as the chain you had before (though bikes with a rear derailleur allow a small margin of error), so now is a good time to count the links in your chain. You should also make note of the type of drivetrain you have, as this determines which chains are suitable. For example, 9-speed drivetrains require 9-speed chains, and so on.",
+            "3 Elevate the back wheel. In the next step, you'll thread the new chain through your rear derailleur. This can require you to turn the back wheel, which is much easier to do if it's not on the floor. If, for instance, you have a bike rack or hanging hook on the wall of your garage that allows you to hang the bike with its sprockets facing you, use it. If not, you may want to simply prop up the rear of the bike's frame with wood, boxes, cinder blocks, or whatever else you have lying around. Also, make note of your derailleur arrangement. If your rear derailleur has a cable connected to your shifting mechanism, shift into the highest gear. If the front derailleur has a cable connected, shift into the lowest gear. [2]",
+            "4 Thread the chain through the rear derailleur. A bike's rear derailleur is the spring-loaded system of gears hanging down below the main rear sprocket on most modern bikes with gears. Threading the chain through this derailleur properly is essential for smooth, safe riding. Take the \"female\" end (i.e., the end of the chain without a pin sticking out) of your properly-sized replacement chain and thread it around the bottom pulley, then up and around the top pulley. When done correctly, your chain should make a smooth, straight, backwards \"S-shaped\" path through the derailleur. Make sure the chain isn't catching or resting on anything besides the pulleys - if so, there will be a bump in your backwards \"S\". There may be a small metal \"tab\" between the two small pulleys in your derailleur. The chain must pass this tab without rubbing on it. Some bikes, like fixed-gear bikes (\"fixies\") and bikes with a hub gear shifting mechanism, don't have a derailleur. In these cases, simply thread the chain onto the rear sprocket as directed in the next step, turning the wheel as needed.",
+            "5 Thread the chain onto the rear cassette. On bikes with gears, the cassette is simply the array of multiple sprockets attached to the rear wheel of the bike. When the chain is properly threaded through the derailleur, pull it up and over the smallest sprocket in the cassette. Make sure the chain is tight and properly threaded through the rear derailleur and onto the sprocket, then pull it through to give yourself some slack at the lead end of the chain.",
+            "6 Thread the chain through the front derailleur cage. Most modern bikes with gears have a metal mechanism near the front sprocket that moves to shift the chain from one front gear to another. Thread the lead end of your chain through this front derailleur, turning the rear wheel to give yourself more slack as needed. Again, \"fixie\" bikes usually won't have a front derailleur, so simply thread the chain around the front sprocket as detailed in the next step.",
+            "7 Thread the chain onto the front sprocket. Align your chain with the smallest of the front sprockets. Stretch it taught so that it engages securely with the teeth on the front sprocket, then pull it around the sprocket, turning the pedals as necessary to give yourself enough slack.",
+            "8 Connect the two ends of the chain. Finally, once your chain securely passes all the way through your gear system, you can join the two ends of the chain and start riding again. Line up the \"female\" and \"male\" ends of the chain in a chain tool (again, available at all bike shops). Be sure that the two ends of the chain rest securely in the groove of the tool, hooked on to the \"teeth\" of the tool. Turn the handle to drive the pin into the chain, connecting the two links. Make sure the pin protrudes an equal distance from each side of the link, as even a minor misalignment can cause structural weakness in the chain, potentially leading to another repair. One useful tip is to use a small, thin piece of metal called a \"C-hook\" to hold the two ends of the chain near each other. This makes it much easier to work, as you won't have to worry about holding the chain in place yourself and potentially losing either end. In a pinch, a bent paperclip can substitute for a real C-hook.",
+            "1 Find the slippage. Sometimes, while riding, the chain will slip off of its intended path, but not break. Because, in this case, the chain is still routed through both the front and rear derailleurs, no special maintenance is needed - all you'll usually need to do is slip the chain back onto its sprocket. When you experience a slippage, get off the bike, lay it sprocket-up, and look for the slippage. Usually, the chain falls off of the front sprocket, but stays threaded through both derailleurs. Look for places where the chain has become jammed against the frame - these jams must be addressed before the bike can be ridden again.",
+            "2 Loosen the quick release if the chain is jammed. As noted above, sometimes, in the event of a slippage, the chain gets jammed between the rear sprocket and the frame. In this case, it's a good idea to loosen the quick release on the rear wheel and undo the wheel nut to loosen the rear wheel from the chain. When you've loosened the rear wheel enough, simply pull the chain out. The quick release is opened by first pulling the small lever at the center of the rear wheel. Then, loosen the wheel nut on the other side to loosen the \"hold\" the rear wheel has on the frame. Once loosened, the chain should come out easily. Don't forget to re-tighten the quick release before riding away. You should be able to close it completely - it should be tight, but not too tight to push all the way down. If it feels too tight, loosen the wheel nut and try again. Likewise, if it's too loose, then tighten the wheel nut.",
+            "3 For bikes with rear derailleurs, simply slacken the chain and thread it around the front sprocket. On most bikes, the rear derailleur is spring loaded so that it keeps the chain tight while riding. Take advantage of this fact by pushing the arm of the rear derailleur forward to introduce slack in the chain. Then, use this slack to thread the other end of the chain around the smallest of the front sprockets. Release the arm of the rear derailleur and ensure the chain is tight. From here, you can usually simply ride away! Your bike may shift somewhat erratically until the chain shifts into the gear it was in when the slippage occurred.",
+            "4 For bikes without a derailleur, catch the chain on the sprocket by pedaling. As noted above, many bikes, like \"fixies\", don't have derailleurs. The easiest way to repair a loose chain in this case is to hook the chain onto the rear sprocket, hook as much of the chain as you can on the bottom of the front sprocket, and carefully turn the pedal backwards. The chain should \"catch\" and begin to turn around the front sprocket. When the \"caught\" portion gets to the top of the front sprocket, the chain should begin running through the bike's gears as normal. Turning the pedals is easier if you elevate the bike's rear wheel. To do so, you can put the bike on a stand or prop up the rear of the frame with any materials on hand. Alternatively, you may get a helper to hold the rear wheel off the ground as you put the chain back on or turn the entire bike upside down.",
+            "5 Pedal forward gently until the bike is in the right gear. Get on your bike and pedal forward at a slow speed. If your bike has gears, your chain may \"jump\" back into the gear it was in when the slippage occurred. Otherwise, keep changing gear until the chain pedals smoothly. Note - on fixed-gear bikes, chain slippage can be particularly dangerous and problematic and is often the symptom of a chain that's too loose. Consider adjusting the tension in your chain before riding again."
+         ],
+         "title":[  
+            "How to Put On a Bicycle Chain"
+         ],
+         "photo/_alt":[  
+            "Put On a Bicycle Chain Step 1 Version 2.jpg",
+            "Put On a Bicycle Chain Step 2 Version 2.jpg",
+            "Put On a Bicycle Chain Step 3 Version 2.jpg",
+            "Put On a Bicycle Chain Step 4 Version 2.jpg",
+            "Put On a Bicycle Chain Step 5.jpg",
+            "Put On a Bicycle Chain Step 6.jpg",
+            "Put On a Bicycle Chain Step 7.jpg",
+            "Put On a Bicycle Chain Step 8.jpg",
+            "Put On a Bicycle Chain Step 9.jpg",
+            "Put On a Bicycle Chain Step 10.jpg",
+            "Put On a Bicycle Chain Step 11.jpg",
+            "Put On a Bicycle Chain Step 12.jpg",
+            "Put On a Bicycle Chain Step 13.jpg"
+         ],
+         "photo":[  
+            "http://pad3.whstatic.com/images/thumb/d/d3/Put-On-a-Bicycle-Chain-Step-1-Version-2.jpg/670px-Put-On-a-Bicycle-Chain-Step-1-Version-2.jpg",
+            "http://pad2.whstatic.com/images/thumb/6/63/Put-On-a-Bicycle-Chain-Step-2-Version-2.jpg/670px-Put-On-a-Bicycle-Chain-Step-2-Version-2.jpg",
+            "http://pad1.whstatic.com/images/thumb/2/29/Put-On-a-Bicycle-Chain-Step-3-Version-2.jpg/670px-Put-On-a-Bicycle-Chain-Step-3-Version-2.jpg",
+            "http://pad3.whstatic.com/images/thumb/1/10/Put-On-a-Bicycle-Chain-Step-4-Version-2.jpg/670px-Put-On-a-Bicycle-Chain-Step-4-Version-2.jpg",
+            "http://pad1.whstatic.com/images/thumb/5/5e/Put-On-a-Bicycle-Chain-Step-5.jpg/670px-Put-On-a-Bicycle-Chain-Step-5.jpg",
+            "http://pad3.whstatic.com/images/thumb/9/93/Put-On-a-Bicycle-Chain-Step-6.jpg/670px-Put-On-a-Bicycle-Chain-Step-6.jpg",
+            "http://pad1.whstatic.com/images/thumb/a/a0/Put-On-a-Bicycle-Chain-Step-7.jpg/670px-Put-On-a-Bicycle-Chain-Step-7.jpg",
+            "http://pad1.whstatic.com/images/thumb/0/0f/Put-On-a-Bicycle-Chain-Step-8.jpg/670px-Put-On-a-Bicycle-Chain-Step-8.jpg",
+            "http://pad3.whstatic.com/images/thumb/2/2c/Put-On-a-Bicycle-Chain-Step-9.jpg/670px-Put-On-a-Bicycle-Chain-Step-9.jpg",
+            "http://pad2.whstatic.com/images/thumb/8/8a/Put-On-a-Bicycle-Chain-Step-10.jpg/670px-Put-On-a-Bicycle-Chain-Step-10.jpg",
+            "http://pad2.whstatic.com/images/thumb/b/b6/Put-On-a-Bicycle-Chain-Step-11.jpg/670px-Put-On-a-Bicycle-Chain-Step-11.jpg",
+            "http://pad1.whstatic.com/images/thumb/b/b7/Put-On-a-Bicycle-Chain-Step-12.jpg/670px-Put-On-a-Bicycle-Chain-Step-12.jpg",
+            "http://pad2.whstatic.com/images/thumb/9/9d/Put-On-a-Bicycle-Chain-Step-13.jpg/670px-Put-On-a-Bicycle-Chain-Step-13.jpg"
+         ],
+         "_resultNumber":20,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Put-On-a-Bicycle-Chain",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":20
+      },
+      {  
+         "text":[  
+            "1 Locate the bend in the rim. Ad",
+            "2 Flip bike upside down.",
+            "3 Check the tension of the spokes at the bend. If one side has no tension at all, it is time to replace the wheel. If there is tension, you can adjust the tension of the spokes to adjust the rim.",
+            "4 Use the spokes on the one side to pull the rim closer to straight and loosen the other side to allow the rim to be pulled.",
+            "5 Take care. Doing this is not so easy and it should be done with caution. The spoke tension should be nearly the same on both sides of the wheel after you finish."
+         ],
+         "title":[  
+            "How to Unwobble a Bicycle Rim"
+         ],
+         "photo/_alt":[  
+            "Unwobble a Bicycle Rim Step 1.jpg",
+            "Unwobble a Bicycle Rim Step 2.jpg",
+            "Unwobble a Bicycle Rim Step 3.jpg",
+            "Unwobble a Bicycle Rim Step 4.jpg",
+            "Unwobble a Bicycle Rim Step 5.jpg"
+         ],
+         "photo":[  
+            "http://pad3.whstatic.com/images/thumb/e/e2/Unwobble-a-Bicycle-Rim-Step-1.jpg/670px-Unwobble-a-Bicycle-Rim-Step-1.jpg",
+            "http://pad3.whstatic.com/images/thumb/e/ec/Unwobble-a-Bicycle-Rim-Step-2.jpg/670px-Unwobble-a-Bicycle-Rim-Step-2.jpg",
+            "http://pad2.whstatic.com/images/thumb/7/73/Unwobble-a-Bicycle-Rim-Step-3.jpg/670px-Unwobble-a-Bicycle-Rim-Step-3.jpg",
+            "http://pad2.whstatic.com/images/thumb/a/a9/Unwobble-a-Bicycle-Rim-Step-4.jpg/670px-Unwobble-a-Bicycle-Rim-Step-4.jpg",
+            "http://pad2.whstatic.com/images/thumb/a/ae/Unwobble-a-Bicycle-Rim-Step-5.jpg/670px-Unwobble-a-Bicycle-Rim-Step-5.jpg"
+         ],
+         "_resultNumber":21,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Unwobble-a-Bicycle-Rim",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":21
+      },
+      {  
+         "text":[  
+            "1 Turn the mountain bike over onto its back. In other words, position your mountain bike in such a way that the seat and handlebars are on the ground and the 2 tires are in the air. The tires should be able to spin freely without any resistance. Ad",
+            "2 Remove the faulty tire from the mountain bike. Your tire will be kept on the axle by 2 nuts, 1 on each side, and these nuts will need to be loosened and removed. Depending on the make of your mountain bike, you may also need to undo a quick release lever on the side of the tire. Disengage the brake cable before pulling out the tire from between the brake pads.",
+            "3 Remove the tube from the rim of the wheel. Locate the valve stem for air input and choose a spot on the opposite side of the wheel. Using the beveled end of a tire iron, separate the tire from the wheel rim and latch the iron onto a spoke. Repeat with a second tire iron approximately 1 inch away from the first tire iron. Keep doing this around the wheel until you can fully remove the tube from inside.",
+            "4 Check and clean the inside of the tire for debris. Look for anything that could cause future tears or punctures. In particular, thorns, glass shards, and metal shrapnel should be removed.",
+            "5 Locate the holes or tears in the tube. To find the holes, you can submerge the tube under water and look for bubbles, or you can pump up the tube and listen for any air leaks. If a hole is located on a seam or ridge along the tube, the tire patch may not hold well and the tube will be irreparable. In that case, you'll have to purchase a brand new replacement tube.",
+            "6 Patch the holes using the bike tire patch kit. Roughen the areas of the tube around the holes using sandpaper. Apply a glueless patch to the tube firmly, covering and sealing the hole as tightly as you can.",
+            "7 Wait a few minutes for the patch to bond to the tube.",
+            "8 Test to see if the patch has held well. Pump up the tube slightly and see if there are any air leaks with the new patch. If there are, you may need to try again and apply a new patch, or the tube may be too damaged and you'll need to purchase a new one.",
+            "9 Place the tube back into the tire. Starting with the valve stem, insert the tube back into the tire. Make sure the valve stem is centered correctly or else it could end up being damaged with future use. Work the tire rubber back into the rim, removing 1 tire iron at a time.",
+            "10 Secure the tire into your bike frame. Screw the nuts back onto the axle and reconnect the brake cables. Make sure your tire is centered correctly and be sure that your brakes are working correctly."
+         ],
+         "title":[  
+            "How to Change a Bike Tire on a Mountain Bike"
+         ],
+         "_resultNumber":6,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Change-a-Bike-Tire-on-a-Mountain-Bike",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":6
+      },
+      {  
+         "text":[  
+            "http://pad3.whstatic.com/images/thumb/5/51/Lube-a-Bicycle-Chain-Step-1-preview-Version-2.jpg/550px-Lube-a-Bicycle-Chain-Step-1-preview-Version-2.jpg http://pad2.whstatic.com/images/thumb/5/51/Lube-a-Bicycle-Chain-Step-1-preview-Version-2.jpg/240px-Lube-a-Bicycle-Chain-Step-1-preview-Version-2.jpg http://d5kh2btv85w9n.cloudfront.net/8/86/Lube a Bicycle Chain Step 1 Version 2.360p.mp4 Lube a Bicycle Chain Step 1 Version 2.jpg 1 Lubricate your bicycle in the garage or outdoors. The floor is likely to get a little dirty, so thoroughly cover the floor with newspaper. Don't do this on carpet or other floors that should be protected, unless you've lined the floor with plastic. Ad",
+            "http://pad3.whstatic.com/images/thumb/a/a9/Lube-a-Bicycle-Chain-Step-2-preview-Version-2.jpg/550px-Lube-a-Bicycle-Chain-Step-2-preview-Version-2.jpg http://pad1.whstatic.com/images/thumb/a/a9/Lube-a-Bicycle-Chain-Step-2-preview-Version-2.jpg/240px-Lube-a-Bicycle-Chain-Step-2-preview-Version-2.jpg http://d5kh2btv85w9n.cloudfront.net/e/e7/Lube a Bicycle Chain Step 2 Version 2.360p.mp4 Lube a Bicycle Chain Step 2 Version 2.jpg 2 Turn the bike upside down. Place it in the middle of the newspaper-covered area.",
+            "http://pad3.whstatic.com/images/thumb/6/67/Lube-a-Bicycle-Chain-Step-3-preview-Version-2.jpg/550px-Lube-a-Bicycle-Chain-Step-3-preview-Version-2.jpg http://pad3.whstatic.com/images/thumb/6/67/Lube-a-Bicycle-Chain-Step-3-preview-Version-2.jpg/240px-Lube-a-Bicycle-Chain-Step-3-preview-Version-2.jpg http://d5kh2btv85w9n.cloudfront.net/2/29/Lube a Bicycle Chain Step 3 Version 2.360p.mp4 Lube a Bicycle Chain Step 3 Version 2.jpg 3 Familiarize yourself with the parts that touch the chain: front chain wheels possibly a front derailleur (the part that changes gears in front) rear cogs possibly a rear derailleur with two more cogs.",
+            "http://pad3.whstatic.com/images/thumb/1/19/Lube-a-Bicycle-Chain-Step-4-preview-Version-2.jpg/550px-Lube-a-Bicycle-Chain-Step-4-preview-Version-2.jpg http://pad1.whstatic.com/images/thumb/1/19/Lube-a-Bicycle-Chain-Step-4-preview-Version-2.jpg/240px-Lube-a-Bicycle-Chain-Step-4-preview-Version-2.jpg http://d5kh2btv85w9n.cloudfront.net/6/67/Lube a Bicycle Chain Step 4 Version 2.360p.mp4 Lube a Bicycle Chain Step 4 Version 2.jpg 4 Scrape off any mud and dirt from the cogs on the rear derailleur. This works best if you hold the blade of the screwdriver sideways against the outer portions of the cog and gently turn the cranks. Try to avoid allowing the scraped-off dried mud and dirt to land on the chain.",
+            "http://pad3.whstatic.com/images/thumb/4/42/Lube-a-Bicycle-Chain-Step-5-preview-Version-2.jpg/550px-Lube-a-Bicycle-Chain-Step-5-preview-Version-2.jpg http://pad3.whstatic.com/images/thumb/4/42/Lube-a-Bicycle-Chain-Step-5-preview-Version-2.jpg/240px-Lube-a-Bicycle-Chain-Step-5-preview-Version-2.jpg http://d5kh2btv85w9n.cloudfront.net/d/d6/Lube a Bicycle Chain Step 5 Version 2.360p.mp4 Lube a Bicycle Chain Step 5 Version 2.jpg 5 Prepare the rag. Dampen it. Provided that you are working in a well-ventilated area, you might like to add a degreasing cleaner, such as lighter fuel or a citrus degreaser. (See \"Tips\", however.)",
+            "http://pad2.whstatic.com/images/thumb/8/8b/Lube-a-Bicycle-Chain-Step-6-preview-Version-2.jpg/550px-Lube-a-Bicycle-Chain-Step-6-preview-Version-2.jpg http://pad1.whstatic.com/images/thumb/8/8b/Lube-a-Bicycle-Chain-Step-6-preview-Version-2.jpg/240px-Lube-a-Bicycle-Chain-Step-6-preview-Version-2.jpg http://d5kh2btv85w9n.cloudfront.net/0/0e/Lube a Bicycle Chain Step 6 Version 2.360p.mp4 Lube a Bicycle Chain Step 6 Version 2.jpg 6 Take the rag in your palm and wrap it around the chain. Hold on tightly. Turn the cranks a couple of times while holding the rag around the chain firmly. This works best if you hold the upper portion of the chain, the one that's closest to the saddle (seat). You will notice that the chain becomes much cleaner.",
+            "http://pad3.whstatic.com/images/thumb/2/23/Lube-a-Bicycle-Chain-Step-7-preview-Version-2.jpg/550px-Lube-a-Bicycle-Chain-Step-7-preview-Version-2.jpg http://pad2.whstatic.com/images/thumb/2/23/Lube-a-Bicycle-Chain-Step-7-preview-Version-2.jpg/240px-Lube-a-Bicycle-Chain-Step-7-preview-Version-2.jpg http://d5kh2btv85w9n.cloudfront.net/3/39/Lube a Bicycle Chain Step 7 Version 2.360p.mp4 Lube a Bicycle Chain Step 7 Version 2.jpg 7 Lubricate the chain. Mark one link with a magic marker, sticker or a piece of tape, so that you know where you started. Starting with the marked link, apply one drop of chain lube to each link. It's best to apply a little drop to each gap where two links overlap. Don't use too much or it will be wasted because you'll wipe off the excess lube anyway!",
+            "http://pad1.whstatic.com/images/thumb/9/95/Lube-a-Bicycle-Chain-Step-8-preview-Version-2.jpg/550px-Lube-a-Bicycle-Chain-Step-8-preview-Version-2.jpg http://pad2.whstatic.com/images/thumb/9/95/Lube-a-Bicycle-Chain-Step-8-preview-Version-2.jpg/240px-Lube-a-Bicycle-Chain-Step-8-preview-Version-2.jpg http://d5kh2btv85w9n.cloudfront.net/a/ab/Lube a Bicycle Chain Step 8 Version 2.360p.mp4 Lube a Bicycle Chain Step 8 Version 2.jpg 8 Allow the lube to settle. When you've lubed all the links, turn the cranks again for half a minute or so to make sure that the lube settles properly into the inside of the link.",
+            "http://pad3.whstatic.com/images/thumb/f/f7/Lube-a-Bicycle-Chain-Step-9-preview.jpg/550px-Lube-a-Bicycle-Chain-Step-9-preview.jpg http://pad2.whstatic.com/images/thumb/f/f7/Lube-a-Bicycle-Chain-Step-9-preview.jpg/240px-Lube-a-Bicycle-Chain-Step-9-preview.jpg http://d5kh2btv85w9n.cloudfront.net/f/f9/Lube a Bicycle Chain Step 9 Version 2.360p.mp4 Lube a Bicycle Chain Step 9 Version 2.jpg 9 Remove any excess lube on the outside of the chain using the rag."
+         ],
+         "title":[  
+            "How to Lube a Bicycle Chain"
+         ],
+         "_resultNumber":9,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Lube-a-Bicycle-Chain",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":9
+      },
+      {  
+         "text":[  
+            "1 Open the Norton anti-virus. You can find it on your task bar or in start menu. Ad",
+            "2 Click on \"Options\" on the top of the window.",
+            "3 Enable live update then click on \"Apply\"."
+         ],
+         "title":[  
+            "How to Update Norton Antivirus"
+         ],
+         "_resultNumber":25,
+         "_widgetName":"wikihow2",
+         "_source":[  
+            "326539af-4655-4c90-b9f9-a1392f6a5a32"
+         ],
+         "_connectorVersionGuid":"24c45b9d-2994-4558-8f34-42d91863db1e",
+         "_pageUrl":"http://www.wikihow.com/Update-Norton-Antivirus",
+         "_outputTypes":{  
+            "title":"STRING",
+            "photo":"IMAGE",
+            "text":"STRING"
+         },
+         "_input":{  
+
+         },
+         "_num":25
+      }
+   ]
+}
