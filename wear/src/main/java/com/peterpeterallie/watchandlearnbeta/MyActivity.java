@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.support.wearable.view.GridViewPager;
 import android.support.wearable.view.WatchViewStub;
+import android.support.wearable.view.WearableListView;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
@@ -20,7 +21,7 @@ public class MyActivity extends Activity {
 
     private static final String TAG = MyActivity.class.getSimpleName();
 
-    private GridViewPager gridViewPager;
+    private WearableListView listView;
     private GuideAdapter guideAdapter;
 
     @Override
@@ -31,16 +32,21 @@ public class MyActivity extends Activity {
         stub.setOnLayoutInflatedListener(new WatchViewStub.OnLayoutInflatedListener() {
             @Override
             public void onLayoutInflated(WatchViewStub stub) {
-                gridViewPager = (GridViewPager) stub.findViewById(R.id.gridViewPager);
-                gridViewPager.setClickable(true);
+                listView = (WearableListView) stub.findViewById(R.id.listView);
+                listView.setClickable(true);
 
                 guideAdapter = new GuideAdapter(MyActivity.this, getGuides());
-                gridViewPager.setAdapter(guideAdapter);
-                gridViewPager.setOnClickListener(new View.OnClickListener() {
+                listView.setAdapter(guideAdapter);
+                listView.setClickListener(new WearableListView.ClickListener() {
                     @Override
-                    public void onClick(View v) {
-                        Log.e(TAG, "Click: " + v);
-                        Toast.makeText(MyActivity.this, "You've selected!", Toast.LENGTH_SHORT).show();
+                    public void onClick(WearableListView.ViewHolder viewHolder) {
+                        Guide guide = guideAdapter.getItem(viewHolder.getPosition());
+                        Toast.makeText(MyActivity.this, "You selected" + guide.getTitle(), Toast.LENGTH_SHORT).show();
+                    }
+
+                    @Override
+                    public void onTopEmptyRegionClick() {
+
                     }
                 });
             }

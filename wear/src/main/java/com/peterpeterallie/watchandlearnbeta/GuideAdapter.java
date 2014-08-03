@@ -1,9 +1,8 @@
 package com.peterpeterallie.watchandlearnbeta;
 
 import android.content.Context;
-import android.support.wearable.view.GridPagerAdapter;
+import android.support.wearable.view.WearableListView;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
@@ -11,7 +10,7 @@ import com.peterpeterallie.watchandlearnbeta.model.Guide;
 
 import java.util.List;
 
-public class GuideAdapter extends GridPagerAdapter {
+public class GuideAdapter extends WearableListView.Adapter {
 
     private Context context;
     private List<Guide> guides;
@@ -22,35 +21,28 @@ public class GuideAdapter extends GridPagerAdapter {
     }
 
     @Override
-    public int getRowCount() {
-        return Math.max(guides.size(), 1);
+    public WearableListView.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
+        return new WearableListView.ViewHolder(LayoutInflater.from(context).inflate(R.layout.guide_item, null));
     }
 
     @Override
-    public int getColumnCount(int i) {
-        return 1;
+    public void onBindViewHolder(WearableListView.ViewHolder viewHolder, int i) {
+        Guide guide = guides.get(i);
+        TextView textView = (TextView) viewHolder.itemView.findViewById(R.id.textView);
+        textView.setText(guide.getTitle());
+    }
+
+    public Guide getItem(int position) {
+        return guides.get(position);
     }
 
     @Override
-    protected Object instantiateItem(ViewGroup container, int row, int col) {
-        final View view = LayoutInflater.from(context).inflate(R.layout.guide_item, container, false);
-        final TextView textView = (TextView) view.findViewById(R.id.textView);
-
-        if (guides.size() > 0) {
-            textView.setText(guides.get(row).getTitle());
-        }
-
-        container.addView(view);
-        return view;
+    public int getItemCount() {
+        return guides.size();
     }
 
     @Override
-    protected void destroyItem(ViewGroup viewGroup, int i, int i2, Object view) {
-        viewGroup.removeView((View) view);
-    }
-
-    @Override
-    public boolean isViewFromObject(View view, Object object) {
-        return view == object;
+    public long getItemId(int position) {
+        return guides.get(position).getId().hashCode();
     }
 }
