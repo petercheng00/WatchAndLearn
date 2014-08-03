@@ -1,13 +1,10 @@
 package com.peterpeterallie.watchandlearnbeta;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.wearable.view.GridViewPager;
 import android.support.wearable.view.WatchViewStub;
 import android.support.wearable.view.WearableListView;
-import android.util.Log;
-import android.view.View;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.peterpeterallie.watchandlearnbeta.model.Guide;
@@ -46,6 +43,10 @@ public class MyActivity extends Activity implements WearableListView.ClickListen
     public void onClick(WearableListView.ViewHolder viewHolder) {
         Guide guide = guideAdapter.getItem(viewHolder.getPosition());
         Toast.makeText(MyActivity.this, "You selected " + guide.getTitle(), Toast.LENGTH_SHORT).show();
+
+        Intent intent = new Intent(this, GuideActivity.class);
+        intent.putExtra(GuideActivity.FILENAME, "guide1.json");
+        startActivity(intent);
     }
 
     @Override
