@@ -23,6 +23,14 @@ public class Guide {
         return this.id;
     }
 
+    public String getTitle() {
+        return this.title;
+    }
+
+    public String getPhoto() {
+        return this.photo;
+    }
+
     public void setTitle(String title){
         this.title = title;
     }

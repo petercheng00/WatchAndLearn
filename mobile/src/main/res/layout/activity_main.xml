@@ -7,15 +7,15 @@
         android:id="@+id/btn_saved"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Saved Routines"/>
+        android:text="Saved Guides"/>
     <Button
         android:id="@+id/btn_search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Search for Routines"/>
+        android:text="Search for Guides"/>
     <Button
         android:id="@+id/btn_create"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Create a Routine"/>
+        android:text="Create a Guide"/>
 </LinearLayout>
