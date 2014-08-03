@@ -26,12 +26,15 @@ public class StepsAdapter extends GridPagerAdapter {
 
     @Override
     public int getColumnCount(int i) {
+        if (guide == null || guide.getSteps() == null || guide.getSteps().size() == 0) {
+            return 1;
+        }
         return guide.getSteps().size();
     }
 
     @Override
     protected Object instantiateItem(ViewGroup container, int row, int col) {
-        final View view = LayoutInflater.from(context).inflate(R.layout.guide_item, container, false);
+        final View view = LayoutInflater.from(context).inflate(R.layout.step_item, container, false);
         final TextView textView = (TextView) view.findViewById(R.id.textView);
 
         if (guide.getSteps().size() > 0) {

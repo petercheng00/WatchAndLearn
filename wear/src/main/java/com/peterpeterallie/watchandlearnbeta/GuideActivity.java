@@ -6,7 +6,11 @@ import android.support.wearable.view.GridViewPager;
 
 import com.peterpeterallie.watchandlearnbeta.model.Guide;
 import com.peterpeterallie.watchandlearnbeta.parser.JsonDeserializer;
-import com.peterpeterallie.watchandlearnbeta.util.AssetsProvider;
+import com.peterpeterallie.watchandlearnbeta.util.FileUtil;
+
+import org.json.JSONException;
+
+import java.io.File;
 
 public class GuideActivity extends Activity {
 
@@ -28,13 +32,17 @@ public class GuideActivity extends Activity {
     }
 
     private Guide getGuide() {
-        String filename = getIntent().getStringExtra(FILENAME);
-        String jsonGuide = AssetsProvider.openFileAsString(this, filename);
-        try {
-            return JsonDeserializer.getGuide(jsonGuide);
-        } catch (Exception ex) {
-            ex.printStackTrace();
-            return null;
+        String filename = this.getFilesDir() + "/" + getIntent().getStringExtra(FILENAME);
+
+        File file = new File(filename);
+        if (file.isFile()) {
+            try {
+                Guide guide = JsonDeserializer.getGuide(FileUtil.fileToString(file, this));
+                return guide;
+            } catch (JSONException ex) {
+                ex.printStackTrace();
+            }
         }
+        return null;
     }
 }

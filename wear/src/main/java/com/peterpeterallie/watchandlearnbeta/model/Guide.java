@@ -8,11 +8,11 @@ public class Guide {
     private String title;
     private String photo;
 
+    private List<Step> steps;
+
     public String getId() {
         return id;
     }
-
-    private List<Step> steps;
 
     public String getTitle() {
         return title;
@@ -38,7 +38,7 @@ public class Guide {
         this.photo = photo;
     }
 
-    public void setStepList(List<Step> steps) {
+    public void setSteps(List<Step> steps) {
         this.steps = steps;
     }
 }

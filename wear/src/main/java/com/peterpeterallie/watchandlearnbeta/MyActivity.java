@@ -1,25 +1,43 @@
 package com.peterpeterallie.watchandlearnbeta;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.wearable.view.WatchViewStub;
 import android.support.wearable.view.WearableListView;
+import android.text.TextUtils;
+import android.util.Log;
 import android.widget.Toast;
 
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.wearable.DataApi;
+import com.google.android.gms.wearable.DataEvent;
+import com.google.android.gms.wearable.DataEventBuffer;
+import com.google.android.gms.wearable.DataMapItem;
+import com.google.android.gms.wearable.Wearable;
 import com.peterpeterallie.watchandlearnbeta.model.Guide;
 import com.peterpeterallie.watchandlearnbeta.parser.JsonDeserializer;
-import com.peterpeterallie.watchandlearnbeta.util.AssetsProvider;
+import com.peterpeterallie.watchandlearnbeta.service.DataLayerListenerService;
+import com.peterpeterallie.watchandlearnbeta.util.FileUtil;
 
+import org.json.JSONException;
+
+import java.io.File;
+import java.io.FileOutputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-public class MyActivity extends Activity implements WearableListView.ClickListener  {
+public class MyActivity extends Activity implements WearableListView.ClickListener, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, DataApi.DataListener {
 
-    private static final String TAG = MyActivity.class.getSimpleName();
+    private static final String TAG = "MyActivity";
+    private static final String FILENAME_PREFIX = "guide_";
 
     private WearableListView listView;
     private GuideAdapter guideAdapter;
+    private GoogleApiClient mGoogleApiClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,16 +55,24 @@ public class MyActivity extends Activity implements WearableListView.ClickListen
                 listView.setClickListener(MyActivity.this);
             }
         });
+
+        mGoogleApiClient = new GoogleApiClient.Builder(this.getApplicationContext())
+                .addApi(Wearable.API)
+                .addConnectionCallbacks(this)
+                .addOnConnectionFailedListener(this)
+                .build();
+
     }
 
     @Override
     public void onClick(WearableListView.ViewHolder viewHolder) {
         Guide guide = guideAdapter.getItem(viewHolder.getPosition());
-        Toast.makeText(MyActivity.this, "You selected " + guide.getTitle(), Toast.LENGTH_SHORT).show();
 
-        Intent intent = new Intent(this, GuideActivity.class);
-        intent.putExtra(GuideActivity.FILENAME, "guide1.json");
-        startActivity(intent);
+        if (guide != null) {
+            Intent intent = new Intent(this, GuideActivity.class);
+            intent.putExtra(GuideActivity.FILENAME, FILENAME_PREFIX + guide.getId());
+            startActivity(intent);
+        }
     }
 
     @Override
@@ -54,29 +80,95 @@ public class MyActivity extends Activity implements WearableListView.ClickListen
 
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        if (!mGoogleApiClient.isConnected() && !mGoogleApiClient.isConnecting()) {
+            mGoogleApiClient.connect();
+        }
+    }
+
+    @Override
+    public void onConnected(Bundle connectionHint) {
+        Log.e(TAG, "Connected to Google Api Service");
+        Wearable.DataApi.addListener(mGoogleApiClient, this);
+    }
+
+    @Override
+    protected void onStop() {
+        if (null != mGoogleApiClient && mGoogleApiClient.isConnected()) {
+            Wearable.DataApi.removeListener(mGoogleApiClient, this);
+            mGoogleApiClient.disconnect();
+        }
+        super.onStop();
+    }
+
+    @Override
+    public void onDataChanged(DataEventBuffer dataEvents) {
+        for (DataEvent event : dataEvents) {
+            if (event.getType() == DataEvent.TYPE_DELETED) {
+                Log.e(TAG, "DataItem deleted: " + event.getDataItem().getUri());
+            } else if (event.getType() == DataEvent.TYPE_CHANGED) {
+                Log.e(TAG, "DataItem changed: " + event.getDataItem().getUri());
+                String path = event.getDataItem().getUri().getPath();
+                if (!TextUtils.isEmpty(path) && path.startsWith(DataLayerListenerService.GUIDE_PATH)) {
+                    DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
+                    String filename = dataMapItem.getDataMap().getString(DataLayerListenerService.FILENAME_KEY);
+                    String jsonGuide = dataMapItem.getDataMap().getString(DataLayerListenerService.JSON_GUIDE_KEY);
+                    Log.e(TAG, "Guide updated: " + filename + " : " + jsonGuide);
+                    saveJsonGuide(filename, jsonGuide);
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            refresh();
+                        }
+                    });
+                }
+            }
+        }
+    }
+
+    @Override
+    public void onConnectionSuspended(int i) {
+        Log.e(TAG, "onConnectionSuspended(): Connection to Google API client was suspended");
+    }
+
+    @Override
+    public void onConnectionFailed(ConnectionResult connectionResult) {
+        Log.e(TAG, "onConnectionFailed(): Failed to connect, with result: " + connectionResult);
+    }
+
+    private void saveJsonGuide(String filename, String jsonGuide) {
+        FileOutputStream outputStream;
+        try {
+            outputStream = openFileOutput(filename, Context.MODE_PRIVATE);
+            outputStream.write(jsonGuide.getBytes());
+            outputStream.close();
+            finish();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void refresh() {
+        guideAdapter.refresh(getGuides());
+    }
+
     private List<Guide> getGuides() {
-        List<Guide> guides = new ArrayList<Guide>();
-        String jsonGuide = AssetsProvider.openFileAsString(this, "guide1.json");
-        try {
-            guides.add(JsonDeserializer.getGuide(jsonGuide));
-        } catch (Exception ex) {
-            ex.printStackTrace();
+        List<File> guideFiles = Arrays.asList(this.getFilesDir().listFiles());
+        List<Guide> guides = new ArrayList<Guide>(guideFiles.size());
+        for (File file : guideFiles) {
+            if (file.isFile()) {
+                try {
+                    Guide guide = JsonDeserializer.getGuide(FileUtil.fileToString(file, this));
+                    if (guide.getSteps().size() > 0) {
+                        guides.add(guide);
+                    }
+                } catch (JSONException ex) {
+                    ex.printStackTrace();
+                }
+            }
         }
-
-        jsonGuide = AssetsProvider.openFileAsString(this, "guide2.json");
-        try {
-            guides.add(JsonDeserializer.getGuide(jsonGuide));
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
-
-        jsonGuide = AssetsProvider.openFileAsString(this, "guide3.json");
-        try {
-            guides.add(JsonDeserializer.getGuide(jsonGuide));
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
-
         return guides;
     }
 }
