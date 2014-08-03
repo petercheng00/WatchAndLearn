@@ -3,16 +3,21 @@ package com.peterpeterallie.watchandlearnbeta;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageView;
+
+import static com.peterpeterallie.watchandlearnbeta.R.drawable.ic_launcher;
 
 /**
  * Created by chepeter on 8/3/14.
  */
 public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
     ImageView bmImage;
+    View loading;
 
-    public DownloadImageTask(ImageView bmImage) {
+    public DownloadImageTask(ImageView bmImage, View loading) {
         this.bmImage = bmImage;
+        this.loading = loading;
     }
 
     @Override
@@ -33,6 +38,7 @@ public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
     }
 
     protected void onPostExecute(Bitmap result) {
+        loading.setVisibility(View.INVISIBLE);
         bmImage.setImageBitmap(result);
     }
 }

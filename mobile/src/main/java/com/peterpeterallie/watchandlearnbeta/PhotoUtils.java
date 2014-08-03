@@ -109,10 +109,21 @@ public class PhotoUtils {
         options.inJustDecodeBounds = true;
         BitmapFactory.decodeStream(is, null, options);
         try {
-            is.reset();
+            is.close();
         } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        is = null;
+        try {
+            URL url = new URL(urlString);
+            is = new BufferedInputStream(url.openConnection().getInputStream());
+        } catch (IOException e) {
+            e.printStackTrace();
             return null;
         }
+
+
 
         // Calculate inSampleSize
         options.inSampleSize = calculateInSampleSize(options, reqWidth, reqHeight);
