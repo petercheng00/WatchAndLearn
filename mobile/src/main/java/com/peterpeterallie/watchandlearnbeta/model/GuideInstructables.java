@@ -70,8 +70,11 @@ public class GuideInstructables {
             if (step.get("photo") instanceof JSONObject) {
                 photo = step.getJSONObject("photo").getString("src");
             } else if (step.get("photo") instanceof JSONArray) {
-                // TODO grab each photo as a separate step
+                // TODO show multiple photos or make each one a separate step
                 photo = step.getJSONArray("photo").getJSONObject(0).getString("src");
+            }
+            if ((stepTitle == null || stepTitle.isEmpty()) && (stepText == null || stepText.isEmpty()) && (photo == null || photo.isEmpty())) {
+                continue;
             }
             newStep.setText(stepTitle + "\n" + stepText);
             newStep.setPhoto(photo);
