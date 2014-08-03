@@ -2,7 +2,8 @@
 <resources>
 
     <string name="app_name">Watch And Learn Beta</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="add_photo">Add a photo</string>
+    <string name="change_photo">Retake photo</string>
     <string name="action_settings">Settings</string>
 
 </resources>

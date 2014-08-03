@@ -5,8 +5,8 @@ package com.peterpeterallie.watchandlearnbeta.model;
  */
 public class Step {
     private String text;
-    private int time;
-    private boolean stopwatch;
+    private int countdown;
+    private boolean countup;
     private String photo;
 
     public void setText(String text){
@@ -17,17 +17,17 @@ public class Step {
         return this.text;
     }
 
-    public void setTime(int time){
-        this.time = time;
+    public void setCountdown(int countdown){
+        this.countdown = countdown;
     }
-    public int getTime(){
-        return this.time;
+    public int getCountdown(){
+        return this.countdown;
     }
-    public void setStopwatch(boolean stopwatch) {
-        this.stopwatch = stopwatch;
+    public void setCountup(boolean countup) {
+        this.countup = countup;
     }
-    public boolean getStopwatch(){
-        return this.stopwatch;
+    public boolean getCountup(){
+        return this.countup;
     }
 
     public void setPhoto(String photo){

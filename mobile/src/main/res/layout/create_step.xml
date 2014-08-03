@@ -1,42 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_height="300dp"
     android:layout_gravity="center"
-    android:layout_margin="20dp"
+    android:layout_margin="10dp"
     android:padding="5dp"
-    android:orientation="vertical"
     android:background="@drawable/border">
-    <TextView
-        android:id="@+id/step_index"
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="10dp"
-        android:textSize="20sp"
-        android:text="Editing Step X/Y"/>
-    <EditText
-        android:id="@+id/step_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:hint="Enter step description here"/>
-    <Button
-        android:id="@+id/btn_photo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textSize="20sp"
-        android:text="Add a photo"/>
-    <CheckBox
-        android:id="@+id/step_stopwatch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Add a stopwatch to this step?"/>
-    <TextView
-        android:id="@+id/step_timer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="something something timer"/>
-</LinearLayout>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/step_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/step_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Enter step description here"/>
+        <ImageView
+            android:id="@+id/image_thumb"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/btn_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="@string/add_photo"/>
+        <CheckBox
+            android:id="@+id/step_stopwatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Display countup during this step?"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Time Limit for Step:"/>
+        <EditText
+            android:id="@+id/step_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="number"/>
+    </LinearLayout>
+</ScrollView>
