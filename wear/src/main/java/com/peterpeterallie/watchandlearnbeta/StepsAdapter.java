@@ -26,6 +26,9 @@ public class StepsAdapter extends GridPagerAdapter {
 
     @Override
     public int getColumnCount(int i) {
+        if (guide == null || guide.getSteps() == null || guide.getSteps().size() == 0) {
+            return 1;
+        }
         return guide.getSteps().size();
     }
 

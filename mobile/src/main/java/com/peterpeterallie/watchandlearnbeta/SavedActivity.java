@@ -13,11 +13,13 @@ import android.widget.ListView;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.PendingResult;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.data.FreezableUtils;
 import com.google.android.gms.wearable.DataApi;
 import com.google.android.gms.wearable.DataEvent;
 import com.google.android.gms.wearable.DataEventBuffer;
+import com.google.android.gms.wearable.DataItem;
 import com.google.android.gms.wearable.MessageApi;
 import com.google.android.gms.wearable.MessageEvent;
 import com.google.android.gms.wearable.Node;
@@ -36,6 +38,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 import java.util.concurrent.ScheduledExecutorService;
@@ -64,7 +67,7 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
     private boolean mResolvingError = false;
 
     private Handler mHandler;
-    private ScheduledExecutorService mGeneratorExecutor;
+    //private ScheduledExecutorService mGeneratorExecutor;
 
     private ListView savedList;
     private GuideAdapter guideAdapter;
@@ -81,7 +84,7 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
         displayGuides(savedGuides);
 
         mHandler = new Handler();
-        mGeneratorExecutor = new ScheduledThreadPoolExecutor(1);
+        //mGeneratorExecutor = new ScheduledThreadPoolExecutor(1);
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .addApi(Wearable.API)
                 .addConnectionCallbacks(this)
@@ -325,24 +328,17 @@ public class SavedActivity extends Activity implements DataApi.DataListener,
     }
 
     private void sendGuide(String filename, String jsonGuide) {
-        PutDataMapRequest putDataMapRequest = PutDataMapRequest.create(GUIDE_PATH);
-        putDataMapRequest.getDataMap().putString(FILENAME_KEY, filename);
-        putDataMapRequest.getDataMap().putString(JSON_GUIDE_KEY, jsonGuide);
-        PutDataRequest request = putDataMapRequest.asPutDataRequest();
-
-        Log.e(TAG, "Generating DataItem: " + request);
-        if (!mGoogleApiClient.isConnected()) {
-            Log.e(TAG, "Not connected to Google Api Client");
-            return;
-        }
-
-        Wearable.DataApi.putDataItem(mGoogleApiClient, request)
-                .setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
+        PutDataMapRequest dataMap = PutDataMapRequest.create(GUIDE_PATH + "/" + filename);
+        dataMap.getDataMap().putString(FILENAME_KEY, filename);
+        dataMap.getDataMap().putString(JSON_GUIDE_KEY, jsonGuide);
+        PutDataRequest request = dataMap.asPutDataRequest();
+        Log.e(TAG, "Generating guide request: " + request);
+        PendingResult<DataApi.DataItemResult> pendingResult = Wearable.DataApi.putDataItem(mGoogleApiClient, request);
+        pendingResult.setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
                     @Override
                     public void onResult(DataApi.DataItemResult dataItemResult) {
-                        dataItemResult.getStatus();
-                        Log.e(TAG, "putDataItem, status code: "
-                                + dataItemResult.getStatus().getStatusCode());
+                        Log.e(TAG, "Sending guide was successful: " + dataItemResult.getStatus()
+                                .isSuccess());
                     }
                 });
     }

@@ -20,6 +20,11 @@ public class GuideAdapter extends WearableListView.Adapter {
         this.guides = guides;
     }
 
+    public void refresh(List<Guide> guides) {
+        this.guides = guides;
+        notifyDataSetChanged();
+    }
+
     @Override
     public WearableListView.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         return new WearableListView.ViewHolder(LayoutInflater.from(context).inflate(R.layout.guide_item, null));
@@ -27,9 +32,13 @@ public class GuideAdapter extends WearableListView.Adapter {
 
     @Override
     public void onBindViewHolder(WearableListView.ViewHolder viewHolder, int i) {
-        Guide guide = guides.get(i);
         TextView textView = (TextView) viewHolder.itemView.findViewById(R.id.textView);
-        textView.setText(guide.getTitle());
+        if (guides.size() != 0) {
+            Guide guide = guides.get(i);
+            textView.setText(guide.getTitle());
+        } else {
+            textView.setText("No Guides");
+        }
     }
 
     public Guide getItem(int position) {
@@ -38,11 +47,14 @@ public class GuideAdapter extends WearableListView.Adapter {
 
     @Override
     public int getItemCount() {
-        return guides.size();
+        return Math.max(guides.size(), 1);
     }
 
     @Override
     public long getItemId(int position) {
+        if (guides.get(position) == null) {
+            return 0;
+        }
         return guides.get(position).getId().hashCode();
     }
 }
