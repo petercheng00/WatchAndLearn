@@ -17,7 +17,7 @@ import com.peterpeterallie.watchandlearnbeta.util.AssetsProvider;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyActivity extends Activity {
+public class MyActivity extends Activity implements WearableListView.ClickListener  {
 
     private static final String TAG = MyActivity.class.getSimpleName();
 
@@ -37,20 +37,20 @@ public class MyActivity extends Activity {
 
                 guideAdapter = new GuideAdapter(MyActivity.this, getGuides());
                 listView.setAdapter(guideAdapter);
-                listView.setClickListener(new WearableListView.ClickListener() {
-                    @Override
-                    public void onClick(WearableListView.ViewHolder viewHolder) {
-                        Guide guide = guideAdapter.getItem(viewHolder.getPosition());
-                        Toast.makeText(MyActivity.this, "You selected" + guide.getTitle(), Toast.LENGTH_SHORT).show();
-                    }
-
-                    @Override
-                    public void onTopEmptyRegionClick() {
-
-                    }
-                });
+                listView.setClickListener(MyActivity.this);
             }
         });
+    }
+
+    @Override
+    public void onClick(WearableListView.ViewHolder viewHolder) {
+        Guide guide = guideAdapter.getItem(viewHolder.getPosition());
+        Toast.makeText(MyActivity.this, "You selected " + guide.getTitle(), Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onTopEmptyRegionClick() {
+
     }
 
     private List<Guide> getGuides() {
