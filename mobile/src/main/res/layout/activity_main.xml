@@ -7,15 +7,18 @@
         android:id="@+id/btn_saved"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="Saved Guides"/>
     <Button
         android:id="@+id/btn_search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="Search for Guides"/>
     <Button
         android:id="@+id/btn_create"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="Create a Guide"/>
 </LinearLayout>

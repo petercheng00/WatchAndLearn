@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -12,14 +11,11 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.wearable.Wearable;
-import com.google.gson.Gson;
 import com.peterpeterallie.watchandlearnbeta.model.Guide;
 import com.peterpeterallie.watchandlearnbeta.model.GuideAdapter;
 import com.peterpeterallie.watchandlearnbeta.model.GuideInstructables;
+import com.peterpeterallie.watchandlearnbeta.model.GuideWikiHowImport;
 
-import java.io.File;
 import java.io.FileOutputStream;
 import java.util.List;
 
@@ -34,9 +30,6 @@ public class SearchActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_saved);
 
         ((TextView)this.findViewById(R.id.saved_title)).setText("Search for Guides");
@@ -51,6 +44,7 @@ public class SearchActivity extends Activity {
         });
 
         List<Guide> remoteGuides = GuideInstructables.parseInstructablesGuides(this);
+        remoteGuides.addAll(GuideWikiHowImport.parseWikiHowGuides(this));
         displayGuides(remoteGuides);
     }
 

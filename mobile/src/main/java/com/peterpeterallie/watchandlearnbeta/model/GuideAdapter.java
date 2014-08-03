@@ -43,10 +43,10 @@ public class GuideAdapter extends ArrayAdapter<Guide> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View row;
+        View row = convertView;
         GuideHolder holder;
 
-        //TODO: threading is making funny things happen with image loading and view reuse
+        //TODO: view recycling is hard
         //if(row == null)
         //{
             LayoutInflater inflater = ((Activity)context).getLayoutInflater();
@@ -59,10 +59,10 @@ public class GuideAdapter extends ArrayAdapter<Guide> {
 
             row.setTag(holder);
         //}
-//        else
-//        {
-//            holder = (GuideHolder)row.getTag();
-//        }
+        //else
+        //{
+            holder = (GuideHolder)row.getTag();
+        //}
 
         Guide guide = guides.get(position);
         holder.title.setText(guide.getTitle());
