@@ -20,7 +20,9 @@ import com.peterpeterallie.watchandlearnbeta.R;
 
 import java.io.File;
 import java.io.InputStream;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by chepeter on 8/2/14.
@@ -33,12 +35,14 @@ public class GuideAdapter extends ArrayAdapter<Guide> {
 
     List<Guide> guides;
 
+    Map<String, Bitmap> cachedBitmaps;
     public GuideAdapter(Context context, int resource, List<Guide> objects) {
         super(context, resource, objects);
 
         this.context = context;
         this.layoutResourceId = resource;
         this.guides = objects;
+        cachedBitmaps = new HashMap<String, Bitmap>();
     }
 
     @Override
@@ -73,7 +77,13 @@ public class GuideAdapter extends ArrayAdapter<Guide> {
             photoFileName = guide.getStep(index++).getPhoto();
         }
         if (photoFileName != null && photoFileName.contains("http")) {
-            new DownloadImageTask(holder.icon, row.findViewById(R.id.loading_icon)).execute(photoFileName);
+            Bitmap bitmap = cachedBitmaps.get(photoFileName);
+            if (bitmap == null) {
+                new DownloadImageTask(holder.icon, row.findViewById(R.id.loading_icon), cachedBitmaps).execute(photoFileName);
+            }
+            else {
+                holder.icon.setImageBitmap(bitmap);
+            }
         }
         else if (photoFileName != null && new File(photoFileName).isFile()) {
             Bitmap bitmap = PhotoUtils.decodeSampledBitmapFromFile(photoFileName, 100, 100);
