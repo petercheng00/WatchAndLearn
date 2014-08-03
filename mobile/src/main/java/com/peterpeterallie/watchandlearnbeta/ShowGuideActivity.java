@@ -88,7 +88,7 @@ public class ShowGuideActivity extends Activity {
         stepText.setText(step.getText());
 
         if (step.getPhoto() != null && step.getPhoto().contains("http")) {
-            new DownloadImageTask(stepImage).execute(step.getPhoto());
+            new DownloadImageTask(stepImage, this.findViewById(R.id.loading_icon)).execute(step.getPhoto());
         }
         else if (step.getPhoto() != null && new File(step.getPhoto()).isFile()) {
             Bitmap bitmap = PhotoUtils.decodeSampledBitmapFromFile(step.getPhoto(), 100, 100);

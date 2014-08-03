@@ -73,7 +73,7 @@ public class GuideAdapter extends ArrayAdapter<Guide> {
             photoFileName = guide.getStep(index++).getPhoto();
         }
         if (photoFileName != null && photoFileName.contains("http")) {
-            new DownloadImageTask(holder.icon).execute(photoFileName);
+            new DownloadImageTask(holder.icon, row.findViewById(R.id.loading_icon)).execute(photoFileName);
         }
         else if (photoFileName != null && new File(photoFileName).isFile()) {
             Bitmap bitmap = PhotoUtils.decodeSampledBitmapFromFile(photoFileName, 100, 100);
